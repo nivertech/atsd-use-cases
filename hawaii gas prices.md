@@ -28,8 +28,9 @@ This dataset can be found here: [http://catalog.data.gov/dataset/aaa-fuel-prices
 
 On the data.gov website, datasets can be downloaded as a CSV, RDF, JSON, or a XML file. To help interpret this data, the user is given the option of opening the CSV file with either [CartoDB](https://carto.com/) 
 or [plotly](https://plot.ly/). CartoDB is primarily a mapping software and does not allow the user to plot the data set (in this case gas prices of Hawaii) over time. plotly fairly easily allows
-the user to display the relationship of gas prices over time; however, without extensively manipulating the raw data set, each location is allowed to be compared with only one fuel type at a time. We
-will quickly run through plotting this dataset in plotly.
+the user to display the relationship of gas prices over time; however, without extensively manipulating the raw data set, each location is allowed to be compared with only one fuel type at a time. 
+
+We will quickly run through plotting this dataset in plotly.
 
 Once the raw data is opened via plotly, the user must select **Filter** from Data Tools, as shown below. 
 
