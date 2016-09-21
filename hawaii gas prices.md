@@ -8,7 +8,7 @@ Hawaii has some of the most expensive consumer products in the nation. According
 in comparision to New York City, Honolulu is more expensive by the percentages for the following items:
 
 * 1 liter of whole fat milk: 41%	
-* 1 kg(2 lbs) of apples: 68%		
+* 1 kg (2 lbs) of apples: 68%		
 * Bread for 2 people for 1 day: 67%
 
 In addition to exorbitant food prices, Hawaii currently holds the crown of having the highest fuel prices in the entire United States, according to [gasbuddy.com](https://www.gasbuddy.com/USA). The Aloha state has long held the 
