@@ -6,16 +6,16 @@ Pain at the Pump - a Closer Look at Hawaii's High Fuel Prices
 ###Introduction###
 ------------------
 
-Hawaii. Sunshine. Beautiful beaches. Mai tais. These are a few of the great motivators for moving to one of America's favorite vacation destinations. However,
+Hawaii. Sunshine. Beautiful beaches. Mai Tais. These are a few of the great motivators for moving to one of America's favorite vacation destinations. However,
 Hawaii has some of the most expensive consumer products in the nation. According to [expastistan.com](https://www.expatistan.com/cost-of-living/comparison/new-york-city/honolulu), 
-in comparision to New York City, Honolulu is more expensive by the percentages for the following items:
+in comparison to New York City, Honolulu is more expensive by the percentages for the following items:
 
 * 1 liter of whole fat milk: 41%	
 * 1 kg (2 lbs) of apples: 68%		
 * Bread for 2 people for 1 day: 67%
 
 In addition to exorbitant food prices, Hawaii currently holds the crown of having the highest fuel prices in the entire United States, according to [gasbuddy.com](https://www.gasbuddy.com/USA). The Aloha state has long held the 
-repuation of having the most expensive fuel in the land. However, until recently, such trends have been difficult to quantify.  In order to better analyze datasets such as Hawaiian fuel prices,
+reputation of having the most expensive fuel in the land. However, until recently, such trends have been difficult to quantify.  In order to better analyze datasets such as Hawaiian fuel prices,
 the US government in 2009 established a data collection website, [data.gov](https://www.data.gov/). Datasets are available online to conduct research, develop web applications, and design data visualizations, 
 on a variety of topics ranging from agriculture, to manufacturing, to health, among many other.  
 
@@ -57,7 +57,7 @@ Next, choose **Filter** by, in our case for example, Gasoline - Regular. You mus
 
 ![Figure 2](Figure2.png)
 
-Finally, to output the data, the user must select **Group By** and choose **Month_of_Price** as the x axis, **County** as G (this will seperate the prices of fuel for each 
+Finally, to output the data, the user must select **Group By** and choose **Month_of_Price** as the x axis, **County** as G (this will separate the prices of fuel for each 
 location), and the **Price** as the y axis.
 
 ![Figure 3](Figure3.png) 
@@ -65,7 +65,7 @@ location), and the **Price** as the y axis.
 The ouput will look as is shown below. The graph is relatively easy to interpret. The user can see that Gasoline - Regular fuel prices in Hawaii have for the last 6
 years steadily remained more expensive than US average prices. The main drawback of using plotly to process datasets from data.gov seems to be the extensive
 time and effort it would take to create outputs for each of the following fuel types. The same time consuming steps would have to be taken for analyzing Diesel,
-Gasoline - Migrade, and Gasoline - Premium between all 5 locations. The same cubersome process would have to be followed for comparing fuel types for each particular location. Additionally,
+Gasoline - Migrade, and Gasoline - Premium between all 5 locations. The same cumbersome process would have to be followed for comparing fuel types for each particular location. Additionally,
 data in plotly is static, that is every time the data is updated, everything will need to be replotted.
 
 ![Figure 4](Figure4.png)
@@ -75,8 +75,8 @@ data in plotly is static, that is every time the data is updated, everything wil
 
 The processing of datasets using Axibase's Time Series Database (ATSD) is much less cumbersome.  Processing the same data with ATSD is less time consuming 
 because its collection tool has built-in heuristics to handle the format in which data.gov datasets are published, namely the Socrata Open Data Format. 
-When loading data for a particular dataset the collector uses Socrata metadata to understand the meaning of columns and automaticall extract dates, times, 
-and catagories from the data files. Besides, ATSD stores the data in the user's own database so that this public data can be combined with internal data 
+When loading data for a particular dataset the collector uses Socrata metadata to understand the meaning of columns and automatically extract dates, times, 
+and categories from the data files. Besides, ATSD stores the data in the user's own database so that this public data can be combined with internal data 
 sources as well as mixed and matched across different datasets. Once you install ATSD, you **don't** have to:
 
 * Add additional datasets from data.gov
@@ -84,7 +84,7 @@ sources as well as mixed and matched across different datasets. Once you install
 * Provision an application server
 * Write programs to parse and digest these types of files. 
 
-Rather, you can configure a scheduled job to retrieve the file from the specfied endpoint and have ATSD parse it according to pre-defined rules. Once you
+Rather, you can configure a scheduled job to retrieve the file from the specified endpoint and have ATSD parse it according to pre-defined rules. Once you
 have raw data in ATSD, creating and sharing reports with built-in widgets is fairly trivial. The reports will be continuously updated as new data comes in.
 
 With ATSD, the user is able display the dataset in an easily understandable manner. The below figure shows each fuel type for each of the 5 locations.
