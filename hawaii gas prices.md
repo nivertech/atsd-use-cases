@@ -1,27 +1,28 @@
 ![Title Phot](Title Photo.png)
 
-Pain at the Pump - a Closer Look at Hawaii's High Gas Prices
+Pain at the Pump - a Closer Look at Hawaii's High Fuel Prices
 ============================================================
 
 Hawaii. Sunshine. Beautiful beaches. Piñas coladas. These are a few of the great motivators for moving to one of America's favorite vacation destinations. However,
 Hawaii has some of the most expensive consumer products in the nation. According to [expastistan.com](https://www.expatistan.com/cost-of-living/comparison/new-york-city/honolulu), 
 in comparision to New York City, considered one of the most expensive cities in the world, Honolulu is more expensive by the percentages for the following items:
 
-* 1 liter of whole fat milk: 41%	* Bread for 2 people for 1 day: 67%
-* 1 kg(2 lbs) of apples: 68%		* 1 liter (1/4 gallon) gasoline: 12%
+* 1 liter of whole fat milk: 41%	
+* 1 kg(2 lbs) of apples: 68%		
+* Bread for 2 people for 1 day: 67%
 
-According to [gasbuddy.com](https://www.gasbuddy.com/USA), Hawaii currently holds the crown of having the highest fuel prices in the entire United States. The Aloha state has long held the 
+In addition to exorbitant food prices, Hawaii currently holds the crown of having the highest fuel prices in the entire United States according to [gasbuddy.com](https://www.gasbuddy.com/USA). The Aloha state has long held the 
 repuation of having the most expensive fuel in the land. However, until recently, such trends have been difficult to quantify.  In order to better analyze datasets such as Hawaiian fuel prices,
 the US government in 2009 established a data collection website, [data.gov](https://www.data.gov/). Datasets are available online to conduct research, develop web applications, and design data visualizations, 
 on a variety of topics ranging from agriculture, to manufacturing, to health, among many other.  
 
-From 2006 to 2012, the State of Hawaii compiled AAA gas prices for each of the following locations and fuel types:
+From 2006 to 2012, the State of Hawaii compiled AAA fuel prices for each of the following fuel types:
 
-* Hilo					* Diesel
-* Honolulu				* Gasoline - Regular
-* Wailuku				* Gasoline - Midgrade
-* US					* Gasoline - Premium
-* State of Hawaii
+**Diesel**, **Gasoline - Regular**, **Gasoline - Midgrade**, **Gasoline - Premium**
+
+In turn, each of these fuel prices were recorded for the following locations:
+
+**Hilo**, **Honolulu**, **Wailuku**, **US**, **State of Hawaii**
 
 This dataset can be found here: [http://catalog.data.gov/dataset/aaa-fuel-prices-52bf0](http://catalog.data.gov/dataset/aaa-fuel-prices-52bf0)
 
@@ -32,12 +33,12 @@ Once the raw data is pulled into plotly, the user must select Filter from Data T
 
 ![Figure 1](Figure1.png)
 
-Next, the user must sort by Fuel.
+Next, the user must sort by **Fuel**.
 
 ![Figure 2](Figure2.png)
 
-Finally, to output the data, the user must select Group By and choose Month_of_Price as the x axis, County as G (this will seperate the prices of fuel for each 
-location), and the Price as the y axis.
+Finally, to output the data, the user must select **Group By** and choose **Month_of_Price** as the x axis, **County** as G (this will seperate the prices of fuel for each 
+location), and the **Price** as the y axis.
 
 ![Figure 3](Figure3.png) 
 
@@ -45,23 +46,23 @@ The ouput will look as is shown below.
 
 ![Figure 4](Figure4.png)
 
-The processing of data with Axibase's Time Series Database (ATSD) is much less cubersome. With ATSD you don't have to stage a database, manipulate and design
+The processing of datasets using Axibase's Time Series Database (ATSD) is much less cubersome. With ATSD you don't have to stage a database, manipulate and design
 table schema, provision an application server, and write programs to parse and digest these types of files. Rather, you can configure a scheduled job to retrieve
 the file from the specfied endpoint and have ATSD parse it according to pre-defined rules. Once you have raw data in ATSD, creating and sharing reports with
 built-in widgets is fairly trivial. The reports will be continuously updated as new data comes in.
 
-With ATSD, the user is able display the data in an easily understandable manner. The below figure shows each fuel type for each of the 5 locations.
+With ATSD, the user is able display the dataset in an easily understandable manner. The below figure shows each fuel type for each of the 5 locations.
 
 ![Figure 5](Figure5.png) 
 
-The Dataset can be sorted by location and/or fuel type, and the user can easily toggle through comparing different scenarios. The next 2 figures show outputs
+The dataset can be sorted by location and/or fuel type, and the user can easily toggle through comparing different scenarios. The next 2 figures show outputs
 comparing fuel types on Hilo and Diesel prices by location, respectively.
 
 ![Figure 6](Figure6.png)
 
 ![Figure 7](Figure7.png)
 
-The Dataset can also be manipulated to show price differences for different fuel types, for example for diesel between Hawaii and the US (Figure 8)
+The dataset can also be manipulated to show price differences for different fuel types, for example for diesel between Hawaii and the US (Figure 8)
 
 ![Figure 8](Figure8.png)
 
