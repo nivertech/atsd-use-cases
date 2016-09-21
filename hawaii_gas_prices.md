@@ -4,6 +4,7 @@ Pain at the Pump - a Closer Look at Hawaii's High Fuel Prices
 =============================================================
 
 ###Introduction###
+------------------
 
 Hawaii. Sunshine. Beautiful beaches. Mai tais. These are a few of the great motivators for moving to one of America's favorite vacation destinations. However,
 Hawaii has some of the most expensive consumer products in the nation. According to [expastistan.com](https://www.expatistan.com/cost-of-living/comparison/new-york-city/honolulu), 
@@ -26,23 +27,25 @@ In turn, each of these fuel prices were recorded for the following locations:
 
 **Hilo**, **Honolulu**, **Wailuku**, **US**, **State of Hawaii**
 
-This dataset can be found here: [http://catalog.data.gov/dataset/aaa-fuel-prices-52bf0](http://catalog.data.gov/dataset/aaa-fuel-prices-52bf0)
+The dataset from data.gov can be found here: [http://catalog.data.gov/dataset/aaa-fuel-prices-52bf0](http://catalog.data.gov/dataset/aaa-fuel-prices-52bf0)
 
 On the data.gov website, datasets can be downloaded as a CSV, RDF, JSON, or a XML file. To help interpret this data, the user is given the option of opening the CSV file with either [CartoDB](https://carto.com/) 
 or [plotly](https://plot.ly/). 
 
 ###CartoDB###
+-------------
 
 CartoDB is primarily a mapping software and does not allow the user to plot the data set (in this case gas prices of Hawaii) over time. 
 
 ###plotly###
+------------
 
 plotly fairly easily allows the user to display the relationship of gas prices over time; however, without extensively manipulating the raw data set, each 
 location is allowed to be compared with only one fuel type at a time. 
 
 We will quickly run through plotting this dataset in plotly.
 
-Once you click on the above dataset, you are given the option of choosing Data.gov preview, plotly, or CartoDB. Choose **plotly**.
+Once you click on the above dataset, you are given the option of choosing data.gov preview, plotly, or CartoDB. Choose **plotly**.
 
 ![Plotly](Plotly.png)
 
@@ -50,7 +53,7 @@ Once the raw data is opened via plotly, the user must select **Filter** from Dat
 
 ![Figure 1](Figure1.png)
 
-Next, choose **Filter** by, in our case, Gasoline - Regular. You must click **choose as x** for **Fuel** so that plotly know which column to filter.
+Next, choose **Filter** by, in our case for example, Gasoline - Regular. You must click **choose as x** for **Fuel** so that plotly knows which column to filter.
 
 ![Figure 2](Figure2.png)
 
@@ -62,18 +65,19 @@ location), and the **Price** as the y axis.
 The ouput will look as is shown below. The graph is relatively easy to interpret. The user can see that Gasoline - Regular fuel prices in Hawaii have for the last 6
 years steadily remained more expensive than US average prices. The main drawback of using plotly to process datasets from data.gov seems to be the extensive
 time and effort it would take to create outputs for each of the following fuel types. The same time consuming steps would have to be taken for analyzing Diesel,
-Gasoline - Migrade, and Gasoline - Premium. The same cubersome process would have to be followed for comparing fuel types for each particular location. Additionally,
+Gasoline - Migrade, and Gasoline - Premium between all 5 locations. The same cubersome process would have to be followed for comparing fuel types for each particular location. Additionally,
 data in plotly is static, that is every time the data is updated, everything will need to be replotted.
 
 ![Figure 4](Figure4.png)
 
 ###Axibase's Time Series Database (ATSD)###
+-------------------------------------------
 
 The processing of datasets using Axibase's Time Series Database (ATSD) is much less cubersome.  Processing the same data with ATSD is less time consuming 
 because its collection tool has built-in heuristics to handle the format in which data.gov datasets are published, namely the Socrata Open Data Format. 
 When loading data for a particular dataset the collector uses Socrata metadata to understand the meaning of columns and automaticall extract dates, times, 
 and catagories from the data files. Besides, ATSD stores the data in the user's own database so that this public data can be combined with internal data 
-sources as well as mixed and matched across different datasets.Once you install ATSD, you **don't** have to:
+sources as well as mixed and matched across different datasets. Once you install ATSD, you **don't** have to:
 
 * Add additional datasets from data.gov
 * Manipulate and design table schema
@@ -98,9 +102,10 @@ The dataset can also be manipulated to show price differences for different fuel
 
 ![Figure 8](Figure8.png)
 
-Here, you can explore the dataset for Hawaiian fuel prices: [https://apps.axibase.com/chartlab/ee379926](https://apps.axibase.com/chartlab/ee379926)
+Here, you can explore the complete dataset for Hawaiian fuel prices using our methodology: [https://apps.axibase.com/chartlab/ee379926](https://apps.axibase.com/chartlab/ee379926)
 
 ###Additional Examples###
+-------------------------
 
 Here is a table of additional datasets from data.gov that you can explore:
 
@@ -125,6 +130,7 @@ Here is a table of additional datasets from data.gov that you can explore:
 
 
 ###Action Items###
+------------------
 
 1. [Install the database](https://github.com/axibase/atsd-docs/tree/master/installation#installation) on a virtual machine or in a Linux container.
 2. [Install Axibase Collector](https://github.com/axibase/axibase-collector-docs/blob/master/installation.md#axibase-collector-installation) and configure it to write data into your ATSD instance.
