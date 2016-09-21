@@ -32,6 +32,10 @@ the user to display the relationship of gas prices over time; however, without e
 
 We will quickly run through plotting this dataset in plotly.
 
+Once you click on the above dataset, 
+
+![Plotly](Plotly.png)
+
 Once the raw data is opened via plotly, the user must select **Filter** from Data Tools, as shown below. 
 
 ![Figure 1](Figure1.png)
