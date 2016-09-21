@@ -73,7 +73,7 @@ data in plotly is static, that is every time the data is updated, everything wil
 ###Axibase's Time Series Database (ATSD)###
 -------------------------------------------
 
-The processing of datasets using Axibase's Time Series Database (ATSD) is much less cubersome.  Processing the same data with ATSD is less time consuming 
+The processing of datasets using Axibase's Time Series Database (ATSD) is much less cumbersome.  Processing the same data with ATSD is less time consuming 
 because its collection tool has built-in heuristics to handle the format in which data.gov datasets are published, namely the Socrata Open Data Format. 
 When loading data for a particular dataset the collector uses Socrata metadata to understand the meaning of columns and automaticall extract dates, times, 
 and catagories from the data files. Besides, ATSD stores the data in the user's own database so that this public data can be combined with internal data 
@@ -102,7 +102,9 @@ The dataset can also be manipulated to show price differences for different fuel
 
 ![Figure 8](Figure8.png)
 
-Here, you can explore the complete dataset for Hawaiian fuel prices using our methodology: [https://apps.axibase.com/chartlab/ee379926](https://apps.axibase.com/chartlab/ee379926)
+Here, you can explore the complete dataset for Hawaiian fuel prices using our methodology: 
+
+[![](button.png)](https://apps.axibase.com/chartlab/ee379926)
 
 ###Additional Examples###
 -------------------------
