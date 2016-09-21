@@ -1,0 +1,51 @@
+<list>
+  <com.axibase.collector.model.job.json.JsonJobConfig>
+    <name>socrata</name>
+    <cronExpression>0 0 8 * * ?</cronExpression>
+    <enabled>true</enabled>
+    <jobType>JSON</jobType>
+    <defaultTags/>
+    <checkLastTime>false</checkLastTime>
+    <commitInterval>10</commitInterval>
+    <errorThreshold>0</errorThreshold>
+    <configurations>
+      <com.axibase.collector.model.job.json.JsonConfiguration>
+        <name>Hawaii AAA Fuel Prices: dqp6-3idi : http://catalog.data.gov/dataset/aaa-fuel-prices-52bf0</name>
+        <protocol>HTTP</protocol>
+        <path>https://data.hawaii.gov/api/views/dqp6-3idi/rows.json?accessType=DOWNLOAD</path>
+        <format>SOCRATA</format>
+        <payloadMethod>GET</payloadMethod>
+        <httpHeaders/>
+        <enableWebDriver>false</enableWebDriver>
+        <driverTimeout>0</driverTimeout>
+        <deleteFileOnUpload>false</deleteFileOnUpload>
+        <ignoreDuplicates>true</ignoreDuplicates>
+        <settings>
+          <com.axibase.collector.model.job.json.JsonConfigurationSetting>
+            <jsonPath>$.data.*</jsonPath>
+            <depth>1</depth>
+            <entityField>$.meta.view.id</entityField>
+            <customTags/>
+            <renamedFields/>
+            <timeEnabled>true</timeEnabled>
+            <timeField>month_of_price</timeField>
+            <timeFormat>yyyy-MM-dd&apos;T&apos;HH:mm:ss</timeFormat>
+            <timeZone>UTC</timeZone>
+            <seriesEnabled>true</seriesEnabled>
+            <includedFields>
+              <string>*</string>
+            </includedFields>
+            <excludedFields/>
+            <propertyEnabled>false</propertyEnabled>
+            <propertyTypeField>$.meta.view.name</propertyTypeField>
+            <propertyKeyFields/>
+            <propertyValueFields/>
+            <messageEnabled>false</messageEnabled>
+            <messageTagFields/>
+          </com.axibase.collector.model.job.json.JsonConfigurationSetting>
+        </settings>
+        <testMode>false</testMode>
+      </com.axibase.collector.model.job.json.JsonConfiguration>
+    </configurations>
+  </com.axibase.collector.model.job.json.JsonJobConfig>
+</list>
