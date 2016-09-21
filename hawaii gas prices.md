@@ -61,7 +61,7 @@ With ATSD, the user is able display the dataset in an easily understandable mann
 ![Figure 5](Figure5.png) 
 
 The dataset can be sorted by location and/or fuel type, and the user can easily toggle through comparing different scenarios. The next 2 figures show outputs
-comparing fuel types on Hilo and Diesel prices by location, respectively.
+comparing fuel types at Hilo and diesel prices by location, respectively.
 
 ![Figure 6](Figure6.png)
 
