@@ -1,5 +1,7 @@
-Pain at the Pump - a Closer Look at Hawaii's High Gas Prices yyyyyyyy
-=============================================================
+(Title Photo.png)
+
+Pain at the Pump - a Closer Look at Hawaii's High Gas Prices
+============================================================
 
 Hawaii. Sunshine. Beautiful beaches. Piñas coladas. These are a few of the great motivators for moving to one of America's favorite vacation destinations. However,
 Hawaii has some of the most expensive consumer products in the nation. According to [expastistan.com](https://www.expatistan.com/cost-of-living/comparison/new-york-city/honolulu), 
@@ -27,16 +29,16 @@ not allow the user to plot the data set (in this case gas prices of Hawaii) over
 time; however, without manipulating the raw data set, each location is allowed to be compared with only one fuel type at a time. Once the raw data is pulled
 into plotly, the user must select Filter from Data Tools (as shown in Figure 1). Next, the user must sort by Fuel (as shown in Figure 2). 
 
-![Figure 1](Filter.png)  ![Figure 2](Filter 2.png)
+![Figure 1](Figure1.png)  ![Figure 2](Figure2.png)
 
 Finally, to output the data, the user must select Group By and choose Month_of_Price as the x axis, County as G (this will seperate the prices of fuel for each 
 location), and the Price as the y axis (Figure 3).
 
-![Figure 3](Filter 3.png) 
+![Figure 3](Figure3.png) 
 
 The ouput will look as is shown in Figure 4.
 
-![Figure 4](Gasoline Regular.png)
+![Figure 4](Figure4.png)
 
 The processing of data with Axibase's Time Series Database (ATSD) is much less cubersome. With ATSD you don't have to stage a database, manipulate and design
 table schema, provision an application server, and write programs to parse and digest these types of files. Rather, you can configure a scheduled job to retrieve
@@ -45,22 +47,18 @@ built-in widgets is fairly trivial. The reports will be continuously updated as 
 
 With ATSD, the user is able display the data in an easily understandable manner. Figure 5 shows each fuel type for each of the 5 locations.
 
-![Figure 5](.png) 
+![Figure 5](Figure5.png) 
 
 The Dataset can be sorted by location and/or fuel type, and the user can easily toggle through comparing different scenarios. Figure 6 and 7 show outputs
 comparing fuel types on Hilo and Diesel prices by location, respectively.
 
-![Figure 6](.png)
+![Figure 6](Figure6.png)
 
-![Figure 7](.png)
+![Figure 7](Figure7.png)
 
 The Dataset can also be manipulated to show price differences for different fuel types, for example for diesel between Hawaii and the US (Figure 8)
 
-![Figure 8](.png)
-
-
-
-  
+![Figure 8](Figure8.png)
 
 
 
