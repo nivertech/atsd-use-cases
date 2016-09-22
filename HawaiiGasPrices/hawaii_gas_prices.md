@@ -91,16 +91,16 @@ With ATSD, the user is able display the dataset in an easily understandable mann
 
 ![Figure 5](Figure5.png) 
 
-Here, you can explore the complete dataset for Hawaiian fuel prices using our portal: 
-
-[![](button.png)](https://apps.axibase.com/chartlab/ee379926)
-
 The dataset can be sorted by location and/or fuel type, and the user can easily toggle through comparing different scenarios. The next 2 figures show outputs
 comparing fuel types at Hilo and Diesel prices by location, respectively.
 
 ![Figure 6](Figure6.png)
 
 ![Figure 7](Figure7.png)
+
+Here, you can explore the complete dataset for Hawaiian fuel prices using our portal: 
+
+[![](button.png)](https://apps.axibase.com/chartlab/ee379926)
 
 In addition to simply plotting datasets from data.gov, custom graphs can be created using one or multiple series from the dataset. For example, creating a histogram to display the fuel price difference between multiple locations is possible in our portal. Various settings may be applied to create outputs that fit your needs. Below is a link to settings that may be applied to create custom data.gov charts: 
 
