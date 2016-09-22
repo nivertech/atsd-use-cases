@@ -102,10 +102,7 @@ comparing fuel types at Hilo and Diesel prices by location, respectively.
 
 ![Figure 7](Figure7.png)
 
-In addition to simply plotting datasets from data.gov, custom graphs can be created can be using one or multiple series from the dataset. For example, creating 
-a histogram to display the fuel price difference between multiple locations is possible in our portal. 
-
-Various settings may be applied to create outputs that fit your needs. Below is a link to settings that may be applied to create custom data.gov charts: 
+In addition to simply plotting datasets from data.gov, custom graphs can be created using one or multiple series from the dataset. For example, creating a histogram to display the fuel price difference between multiple locations is possible in our portal. Various settings may be applied to create outputs that fit your needs. Below is a link to settings that may be applied to create custom data.gov charts: 
 
 [https://axibase.com/products/axibase-time-series-database/visualization/widgets/time-chart/](https://axibase.com/products/axibase-time-series-database/visualization/widgets/time-chart/)
 
