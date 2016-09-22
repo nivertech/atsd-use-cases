@@ -111,8 +111,6 @@ example, the user may change graph styling, such as color, graph type, and other
 Likewise, by customizing the data the way you want, you can filter out any unnessecary information. If, for example, you are interested only in fuel prices
 at Hilo, you can customize your portal to only show that information without the effort to toggle through for it.
 
-[DEFAULT](https://apps.axibase.com/chartlab/ee379926)
-
 A blank, customizeable portal for your use can be found here: [BLANK](https://apps.axibase.com/chartlab/)
 
 The default portal, from which you can customize the dataset results, again can be found here: [DEFAULT](https://apps.axibase.com/chartlab/ee379926)
@@ -120,11 +118,11 @@ The default portal, from which you can customize the dataset results, again can 
 We will walk through a brief example on how to customize the default dataset to only display fuel prices at Hilo:
 
 1. Open the blank portal and copy **configuration** section from the default portal. Delete the **entity** line.
-2. Change the Source from **Random** to **ATSD**.
+2. In the blank portal change the Source from **Random** to **ATSD**.
 
 ![Figure 11](Figure11.png)
 
-3. Copy 
+3. Copy the following code into the blank portal. Paste directly under **group**.
 
 ~~~python
 [widget]
@@ -138,9 +136,12 @@ We will walk through a brief example on how to customize the default dataset to 
       fuel = 
 ~~~
 	 
-4. Copy the entity name from the default portal into the 
-5. Copy the first drop down (in this case **price**) into metric.
-6. Copy the county and fuel (* means all)
+4. Copy the entity name from the default portal into the blank portal (in this case **dqp6-3idi**).
+5. In the blank portal eEnter **price** into metric. This will display the price of fuel as the y column.
+6. In the blank portal copy the county and fuel. In this case, enter Hilo for county and * for fuel (* means is shorthand for all).
+7. Your blank portal should now look as is shown below. Hit run to output your customized graph.
+
+![Figure 12](Figure12.png)
 
 In addition to simply plotting datasets from data.gov, custom graphs can be created using one or multiple series from the dataset. For example, creating a 
 histogram to display the fuel price difference between multiple locations is possible in our portal. Various settings may be applied to create outputs that 
