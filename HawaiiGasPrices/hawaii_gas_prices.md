@@ -154,7 +154,7 @@ respective corresponding islands (Oahu, Maui, Hawaii).
 Again, guidelines for creating the various settings to create outputs can be found [here](https://axibase.com/products/axibase-time-series-database/visualization/widgets/time-chart/)
     
 This graph is a standard distribution of the datasets plotted side by side. As was stated previously, Wailuku was found to generally have the most expensive fuel,
-which is shown here graphically. When looking at the electricity rates, we can see that the most location is Hawaii island. So, based off our quick example,
+which is shown here graphically. When looking at the electricity rates, we can see that the most expensive location is Hawaii island. So, based off our quick example,
 we cannot say that there is a trend of consumer products being more expensive in Wailuku (or Maui island) than others. However, this quickly shows the user
 the possibilities of combining and comparing multiple datasets. 
 
