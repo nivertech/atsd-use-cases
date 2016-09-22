@@ -10,14 +10,14 @@ Hawaii. Sunshine. Beautiful beaches. Mai Tais. These are a few of the great moti
 Hawaii has some of the most expensive consumer products in the nation. According to [expastistan.com](https://www.expatistan.com/cost-of-living/comparison/new-york-city/honolulu), 
 in comparison to New York City, Honolulu is more expensive by the percentages for the following items:
 
-* 1 liter of whole fat milk: 41%	
+* 1 liter of whole fat milk: 41%
 * 1 kg (2 lbs) of apples: 68%		
 * Bread for 2 people for 1 day: 67%
 
 In addition to exorbitant food prices, Hawaii currently holds the crown of having the highest fuel prices in the entire United States, according to [gasbuddy.com](https://www.gasbuddy.com/USA). The Aloha state has long held the 
 reputation of having the most expensive fuel in the land. However, until recently, such trends have been difficult to quantify.  In order to better analyze datasets such as Hawaiian fuel prices,
 the US government in 2009 established a data collection website, [data.gov](https://www.data.gov/). Datasets are available online to conduct research, develop web applications, and design data visualizations, 
-on a variety of topics ranging from agriculture, to manufacturing, to health, among many other.  
+on a variety of topics ranging from agriculture, to manufacturing, to health, among many other.
 
 From 2006 to 2012, the State of Hawaii compiled AAA fuel prices for each of the following fuel types:
 
@@ -65,7 +65,7 @@ location), and the **Price** as the y axis.
 The ouput will look as is shown below. The graph is relatively easy to interpret. The user can see that Gasoline - Regular fuel prices in Hawaii have for the last 6
 years steadily remained more expensive than US average prices. The main drawback of using plotly to process datasets from data.gov seems to be the extensive
 time and effort it would take to create outputs for each of the following fuel types. The same time consuming steps would have to be taken for analyzing Diesel,
-Gasoline - Migrade, and Gasoline - Premium between all 5 locations. The same cumbersome process would have to be followed for comparing fuel types for each particular location. Additionally,
+Gasoline - Midgrade, and Gasoline - Premium between all 5 locations. The same cumbersome process would have to be followed for comparing fuel types for each particular location. Additionally,
 data in plotly is static, that is every time the data is updated, everything will need to be replotted.
 
 ![Figure 4](Figure4.png)
@@ -91,6 +91,10 @@ With ATSD, the user is able display the dataset in an easily understandable mann
 
 ![Figure 5](Figure5.png) 
 
+Here, you can explore the complete dataset for Hawaiian fuel prices using our portal: 
+
+[![](button.png)](https://apps.axibase.com/chartlab/ee379926)
+
 The dataset can be sorted by location and/or fuel type, and the user can easily toggle through comparing different scenarios. The next 2 figures show outputs
 comparing fuel types at Hilo and Diesel prices by location, respectively.
 
@@ -98,18 +102,73 @@ comparing fuel types at Hilo and Diesel prices by location, respectively.
 
 ![Figure 7](Figure7.png)
 
-The dataset can also be manipulated to show price differences for different fuel types, for example for diesel between Hawaii and the US.
+In addition to simply plotting datasets from data.gov, custom graphs can be created can be using one or multiple series from the dataset. For example, creating 
+a histogram to display the fuel price difference between multiple locations is possible in our portal. 
+
+Various settings may be applied to create outputs that fit your needs. Below is a link to settings that may be applied to create custom data.gov charts: 
+
+[https://axibase.com/products/axibase-time-series-database/visualization/widgets/time-chart/](https://axibase.com/products/axibase-time-series-database/visualization/widgets/time-chart/)
+
+The dataset can also be manipulated to show price differences for different fuel types, for example for Diesel between Hawaii and the US. 
 
 ![Figure 8](Figure8.png)
 
-Here, you can explore the complete dataset for Hawaiian fuel prices using our methodology: 
+This portal has 2 defined series, 1 for the US and 1 for State of Hawaii Diesel fuel prices. These values are not displayed in the portal. A final derivative
+series was created by subtracting US from the State of Hawaii prices. The graph shows the price difference of Diesel fuel in the State of Hawaii over the US.  
 
-[![](button.png)](https://apps.axibase.com/chartlab/ee379926)
+Here, you can explore the this graph:
+
+[![](button.png)](https://apps.axibase.com/chartlab/eb6a53f1/2/)
+
+###Adding/Combining a Second Dataset###
+-----------------------------
+
+Exploring the complete dataset for fuel prices, we can see that, generally speaking, Wailuku is more expensive for any fuel type than Hilo and Honolulu. Are products generally
+more expensive in Wailuku than the other islands, or is this simply an anomaly? One way we can investigate further is to incorporate a second dataset with another
+consumer product in Hawaii. If the price of this second consumer item is also more expensive in Wailuku than in Hali and Honolulu, then we may not be dealing with
+an anomaly, but rather quite possibly a trend.
+
+From the data.gov website, let us choose [Hawaii electricity prices](https://catalog.data.gov/dataset/hi-electricity-prices-815fa) as our second dataset.
+
+From 2008 to 2012, the State of Hawaii collected electricity prices (in cents/KWh) for each of the following Hawaiian islands:
+
+**Hawaii**, **Kauai**, **Lanai**, **Maui**, **Molokai**, **Oahu**
+
+In turn, each island had it's electricity broken into the following  sectors:
+
+**All Sectors**, **Commercial**, **Residential**, **Street Lights**
+
+Here, you can explore the portal for this dataset:
+
+[![](button.png)](https://apps.axibase.com/chartlab/9e548f6b)
+
+Next, let us look at which areas we can compare.
+
+The specified locations for the 2 datasets are different: one compared cities, while the other compared islands. Areas for which we have both datasets
+are marked in red in the figure below. 
+
+![HawaiiIslands](HawaiiIslands.png)
+
+To briefly demonstrate our capabilities, let us compare Diesel prices at Honolulu, Wailuku, and Hilo with the Residental electricty rates with their
+respective corresponding islands (Oahu, Maui, Hawaii).
+
+![Figure 10](Figure10.png)
+
+Again, guidelines for creating the various settings to create outputs can be found [here](https://axibase.com/products/axibase-time-series-database/visualization/widgets/time-chart/)
+    
+This graph is a standard distribution of the datasets plotted side by side. As was stated previously, Wailuku was found to generally have the most expensive fuel,
+which is shown here graphically. When looking at the electricity rates, we can see that the most location is Hawaii island. So, based off our quick example,
+we cannot say that there is a trend of consumer products being more expensive in Wailuku (or Maui island) than others. However, this quickly shows the user
+the possibilities of combining and comparing multiple datasets. 
+
+Here you can explore the portal of this comparison:
+	
+[![](button.png)](http://apps.axibase.com/chartlab/b1046948)
 
 ###Additional Examples###
 -------------------------
 
-Here is a table of additional datasets from data.gov that you can explore:
+Here is a table of additional datasets from data.gov that you can explore using Axibase's portal:
 
 |State		|data.gov dataset		|Axibase Portal			|		  
 |-----------|-----------------------|-----------------------|
@@ -130,7 +189,6 @@ Here is a table of additional datasets from data.gov that you can explore:
 |Maryland 	|[Trips Taken on Public Transit by Transit Type - Monthly Total Trips](http://catalog.data.gov/dataset/trips-taken-on-public-transit-by-transit-type-4abd1)|[Portal](https://apps.axibase.com/chartlab/fd596ed9)|
 |Iowa 		|[Employee Compensation by Industry in Iowa](http://catalog.data.gov/dataset/employee-compensation-by-industry-in-iowa)|[Portal](https://apps.axibase.com/chartlab/f5eae012)|
 
-
 ###Action Items###
 ------------------
 
@@ -142,4 +200,5 @@ Below are the steps to follow to install ATSD:
 4. Add your desired data.gov dataset to the job to enable data collection. Click on [Run] to collect data for the first time.
 5. Login into ATSD and open a sample Socrata portal to explore the data.
 
+If you are an inexperienced in downloading and/or using this type of software to analyze your data.gov datasets, please [contact us](https://axibase.com/feedback/) and we would be happy to be of assistance!
      
