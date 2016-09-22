@@ -102,11 +102,53 @@ Here, you can explore the complete dataset for Hawaiian fuel prices using our po
 
 [![](button.png)](https://apps.axibase.com/chartlab/ee379926)
 
-In addition to simply plotting datasets from data.gov, custom graphs can be created using one or multiple series from the dataset. For example, creating a histogram to display the fuel price difference between multiple locations is possible in our portal. Various settings may be applied to create outputs that fit your needs. Below is a link to settings that may be applied to create custom data.gov charts: 
+###Creating Custom Portals###
+-----------------------------
+
+Custom portals can be created from the default portal. The user has the capability to change or display certain aspects of the dataset to their liking. For
+example, the user may change graph styling, such as color, graph type, and other display options. 
+
+Likewise, by customizing the data the way you want, you can filter out any unnessecary information. If, for example, you are interested only in fuel prices
+at Hilo, you can customize your portal to only show that information without the effort to toggle through for it.
+
+[DEFAULT](https://apps.axibase.com/chartlab/ee379926)
+
+A blank, customizeable portal for your use can be found here: [BLANK](https://apps.axibase.com/chartlab/)
+
+The default portal, from which you can customize the dataset results, again can be found here: [DEFAULT]((https://apps.axibase.com/chartlab/ee379926))
+
+We will walk through a brief example on how to customize the default dataset to only display fuel prices at Hilo:
+
+1. Open the blank portal and copy **configuration** section from the default portal. Delete the **entity** line.
+2. Change the Source from **Random** to **ATSD**.
+
+![Figure 11](Figure11.png)
+
+3. Copy 
+
+'''javascript
+[widget]
+    type = chart
+    legend-position = top
+    [series]
+      entity =
+      metric =
+      [tags]
+      county = 
+      fuel = 
+'''
+	 
+4. Copy the entity name from the default portal into the 
+5. Copy the first drop down (in this case **price**) into metric.
+6. Copy the county and fuel (* means all)
+
+In addition to simply plotting datasets from data.gov, custom graphs can be created using one or multiple series from the dataset. For example, creating a 
+histogram to display the fuel price difference between multiple locations is possible in our portal. Various settings may be applied to create outputs that 
+fit your needs. Below is a link to settings that may be applied to create custom data.gov charts: 
 
 [https://axibase.com/products/axibase-time-series-database/visualization/widgets/time-chart/](https://axibase.com/products/axibase-time-series-database/visualization/widgets/time-chart/)
 
-In this instance, the dataset has been manipulated to show price differences Diesel fuel between Hawaii and the US. 
+In this instance, the dataset has been manipulated to show price differences for Diesel fuel between Hawaii and the US. 
 
 ![Figure 8](Figure8.png)
 
@@ -197,5 +239,5 @@ Below are the steps to follow to install ATSD:
 4. Add your desired data.gov dataset to the job to enable data collection. Click on [Run] to collect data for the first time.
 5. Login into ATSD and open a sample Socrata portal to explore the data.
 
-If you are an inexperienced in downloading and/or using this type of software to analyze your data.gov datasets, please [contact us](https://axibase.com/feedback/) and we would be happy to be of assistance!
+If you are an inexperienced in downloading and/or using this type of software to analyze your data.gov datasets, please feel free to [contact us](https://axibase.com/feedback/) and we would be happy to be of assistance!
      
