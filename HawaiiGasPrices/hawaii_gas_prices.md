@@ -115,7 +115,7 @@ at Hilo, you can customize your portal to only show that information without the
 
 A blank, customizeable portal for your use can be found here: [BLANK](https://apps.axibase.com/chartlab/)
 
-The default portal, from which you can customize the dataset results, again can be found here: [DEFAULT]((https://apps.axibase.com/chartlab/ee379926))
+The default portal, from which you can customize the dataset results, again can be found here: [DEFAULT](https://apps.axibase.com/chartlab/ee379926)
 
 We will walk through a brief example on how to customize the default dataset to only display fuel prices at Hilo:
 
@@ -126,7 +126,7 @@ We will walk through a brief example on how to customize the default dataset to 
 
 3. Copy 
 
-'''javascript
+~~~python
 [widget]
     type = chart
     legend-position = top
@@ -136,7 +136,7 @@ We will walk through a brief example on how to customize the default dataset to 
       [tags]
       county = 
       fuel = 
-'''
+~~~
 	 
 4. Copy the entity name from the default portal into the 
 5. Copy the first drop down (in this case **price**) into metric.
