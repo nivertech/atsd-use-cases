@@ -106,7 +106,7 @@ In addition to simply plotting datasets from data.gov, custom graphs can be crea
 
 [https://axibase.com/products/axibase-time-series-database/visualization/widgets/time-chart/](https://axibase.com/products/axibase-time-series-database/visualization/widgets/time-chart/)
 
-The dataset can also be manipulated to show price differences for different fuel types, for example for Diesel between Hawaii and the US. 
+In this instance, the dataset has been manipulated to show price differences Diesel fuel between Hawaii and the US. 
 
 ![Figure 8](Figure8.png)
 
