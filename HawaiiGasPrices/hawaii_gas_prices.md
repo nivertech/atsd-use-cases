@@ -122,7 +122,7 @@ We will walk through a brief example on how to customize the default dataset to 
 
   ![Figure 11](Figure11.png)
 
-3.		Copy the following code into the blank portal. Paste directly under **group**.
+3.	Copy the following code into the blank portal. Paste directly under **group**.
 
   ```python
   [widget]
@@ -136,10 +136,10 @@ We will walk through a brief example on how to customize the default dataset to 
         fuel = 
   ```
 
-4.		Copy the entity name from the default portal into the blank portal (in this case **dqp6-3idi**).
-5.		In the blank portal enter **price** into metric. This will display the price of fuel as the y column.
-6.		In the blank portal copy the county and fuel. In this case, enter Hilo for county and *for fuel (* is shorthand for all).
-7.		Your blank portal should now look as is shown below. Hit run to output your customized graph.
+4.	Copy the entity name from the default portal into the blank portal (in this case **dqp6-3idi**).
+5.	In the blank portal enter **price** into metric. This will display the price of fuel as the y column.
+6.	In the blank portal copy the county and fuel. In this case, enter Hilo for county and *for fuel (* is shorthand for all).
+7.	Your blank portal should now look as is shown below. Hit run to output your customized graph.
 
 ![Figure 12](Figure12.png)
 
@@ -182,7 +182,7 @@ Now, you have the options of customizing your output further, by editing feature
 10.		Change the minimum price to 0. Enter **min-range = 0**.
 11.		Change the graph type to columns. Enter **mode = column**.
 12.		To showcase the exorbitant gas prices at Hilo, enter **color = red**.
-13.		Under configuration (at the very top) enter **heigh-units = 2** to increase the size of your graph.
+13.		Under configuration (at the very top) enter **height-units = 2** to increase the size of your graph.
 14.		Run!
 
 Your customized outputted graph should look something like this:
@@ -193,7 +193,7 @@ Here, you can explore the this graph:
 
 [![](button.png)](https://apps.axibase.com/chartlab/aff8779b)
 
-Various settings may be applied to create outputs that fit your needs. Below is a link to settings that may be applied to create custom data.gov charts: 
+Various additional settings may be applied to create outputs that fit your needs. Below is a link to settings that may be applied to create custom data.gov charts: 
 
 [https://axibase.com/products/axibase-time-series-database/visualization/widgets/time-chart/](https://axibase.com/products/axibase-time-series-database/visualization/widgets/time-chart/)
 
