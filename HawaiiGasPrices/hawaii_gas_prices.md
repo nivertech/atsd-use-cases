@@ -166,8 +166,8 @@ change the name of the county to US. At this point your portal should look somet
 
 Next, we need to make a new series to find the difference between US and Hilo Diesel prices.
 
-8.		In the Hilo series, enter in **alias = s1**. In the US series, enter in **alias = s2**. For both series enter **display = false**.
-9.		Create a new series. Enter **label = Hilo over US Diesel Surchages** and **value = value(s1) - value(s2)**.
+8.	In the Hilo series, enter in **alias = s1**. In the US series, enter in **alias = s2**. For both series enter **display = false**.
+9.	Create a new series. Enter **label = Hilo over US Diesel Surchages** and **value = value(s1) - value(s2)**.
 
 At this point your portal should look something like this:
 
@@ -179,11 +179,11 @@ Your custom graph should look like this:
 
 Now, you have the options of customizing your output further, by editing features such as color, graph type, and graph extents. 
 
-10.		Change the minimum price to 0. Enter **min-range = 0**.
-11.		Change the graph type to columns. Enter **mode = column**.
-12.		To showcase the exorbitant gas prices at Hilo, enter **color = red**.
-13.		Under configuration (at the very top) enter **height-units = 2** to increase the size of your graph.
-14.		Run!
+10.	Change the minimum price to 0. Enter **min-range = 0**.
+11.	Change the graph type to columns. Enter **mode = column**.
+12.	To showcase the exorbitant gas prices at Hilo, enter **color = red**.
+13.	Under configuration (at the very top) enter **height-units = 2** to increase the size of your graph.
+14.	Run!
 
 Your customized outputted graph should look something like this:
 
