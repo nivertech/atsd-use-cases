@@ -164,20 +164,20 @@ change the name of the county to US. At this point your portal should look somet
 
   ![Figure 14](Figure14.png)
 
-Next, we need to make a new series to find the difference between US and Hilo Diesel prices.
+	Next, we need to make a new series to find the difference between US and Hilo Diesel prices.
 
 8.	In the Hilo series, enter in **alias = s1**. In the US series, enter in **alias = s2**. For both series enter **display = false**.
 9.	Create a new series. Enter **label = Hilo over US Diesel Surchages** and **value = value(s1) - value(s2)**.
 
-At this point your portal should look something like this:
+	At this point your portal should look something like this:
 
-![Figure 15](Figure15.png)
+	![Figure 15](Figure15.png)
  
-Your custom graph should look like this:
+	Your custom graph should look like this:
 
-![Figure 16](Figure16.png)
+	![Figure 16](Figure16.png)
 
-Now, you have the options of customizing your output further, by editing features such as color, graph type, and graph extents. 
+	Now, you have the options of customizing your output further, by editing features such as color, graph type, and graph extents. 
 
 10.	Change the minimum price to 0. Enter **min-range = 0**.
 11.	Change the graph type to columns. Enter **mode = column**.
