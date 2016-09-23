@@ -21,7 +21,7 @@ on a variety of topics ranging from agriculture, to manufacturing, to health, am
 
 These datasets are published using the Socrata Open Data Format. [Socrata](https://socrata.com/) is a Seattle based company that provides cloud-based data visualization and analysis of US government
 data. According to socrata.com, their cloud based software enables government organizations to store their data online and make data driven decisions. According to their website, the Socrata
-Open Data Format is used by the US Federal government, 25 US states, 300 US cities, and contains 4,000 datasets for numerous US counties.
+Open Data Format is used by the US Federal government, 25 US states, 300+ US cities, and contains 4,000 datasets for numerous US counties.
 
 ###Hawaiian Fuel Prices Dataset###
 ------------------------------------
