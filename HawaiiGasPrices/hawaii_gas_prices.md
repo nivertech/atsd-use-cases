@@ -8,7 +8,7 @@ Pain at the Pump - a Closer Look at Hawaii's High Fuel Prices
 
 Hawaii. Sunshine. Beautiful beaches. Mai Tais. These are a few of the great motivators for moving to one of America's favorite vacation destinations. However,
 Hawaii has some of the most expensive consumer products in the nation. According to [expastistan.com](https://www.expatistan.com/cost-of-living/comparison/new-york-city/honolulu), 
-in comparison to New York City, Honolulu is more expensive by the percentages for the following items:
+in comparison to New York City, Honolulu is more expensive by the following percentages for each of the following items:
 
 * 1 liter of whole fat milk: 41%
 * 1 kg (2 lbs) of apples: 68%
