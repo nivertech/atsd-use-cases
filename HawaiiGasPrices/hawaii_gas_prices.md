@@ -19,6 +19,15 @@ reputation of having the most expensive fuel in the land. However, until recentl
 the US government in 2009 established a data collection website, [data.gov](https://www.data.gov/). Datasets are available online to conduct research, develop web applications, and design data visualizations, 
 on a variety of topics ranging from agriculture, to manufacturing, to health, among many other.
 
+These datasets are published using the Socrata Open Data Format. [Socrata](https://socrata.com/) is a Seattle based company that provides cloud-based data visualization and analysis of US government
+data. According to socrata.com, their cloud based software enables government organizations to store their data online and make data driven decisions. According to their website, the Socrata
+Open Data Format is used by the US Federal government, 25 US states, 300 US cities, and contains 4,000 datasets for numerous US counties.
+
+####Hawaiian Fuel Prices Datasets###
+------------------------------------
+
+Let us take a look at a dataset from [data.gov](https://www.data.gov/) which looks at Hawaiian fuel prices.
+
 From 2006 to 2012, the State of Hawaii compiled AAA fuel prices for each of the following fuel types:
 
 **Diesel**, **Gasoline - Regular**, **Gasoline - Midgrade**, **Gasoline - Premium**
