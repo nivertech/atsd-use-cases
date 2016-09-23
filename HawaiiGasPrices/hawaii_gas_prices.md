@@ -23,7 +23,7 @@ These datasets are published using the Socrata Open Data Format. [Socrata](https
 data. According to socrata.com, their cloud based software enables government organizations to store their data online and make data driven decisions. According to their website, the Socrata
 Open Data Format is used by the US Federal government, 25 US states, 300 US cities, and contains 4,000 datasets for numerous US counties.
 
-###Hawaiian Fuel Prices Datasets###
+###Hawaiian Fuel Prices Dataset###
 ------------------------------------
 
 Let us take a look at a dataset from [data.gov](https://www.data.gov/) which looks at Hawaiian fuel prices.
