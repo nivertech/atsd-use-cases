@@ -117,14 +117,12 @@ The default portal, from which you can customize the dataset results, again can 
 
 We will walk through a brief example on how to customize the default dataset to only display fuel prices at Hilo:
 
-1. Open the blank portal and copy **configuration** section from the default portal. Delete the **entity** line.
-2. In the blank portal change the Source from **Random** to **ATSD**.
+1.	Open the blank portal and copy **configuration** section from the default portal. Delete the **entity** line.
+2.	In the blank portal change the Source from **Random** to **ATSD**.
 
 ![Figure 11](Figure11.png)
 
-[1.]:<>(comment)
-[2.]:<>(comment)
-3. Copy the following code into the blank portal. Paste directly under **group**.
+3.	Copy the following code into the blank portal. Paste directly under **group**.
 
 ~~~python
 [widget]
@@ -137,13 +135,11 @@ We will walk through a brief example on how to customize the default dataset to 
       county = 
       fuel = 
 ~~~
-[1.]:<>(comment)
-[2.]:<>(comment)
-[3.]:<>(comment)
-4. Copy the entity name from the default portal into the blank portal (in this case **dqp6-3idi**).
-5. In the blank portal enter **price** into metric. This will display the price of fuel as the y column.
-6. In the blank portal copy the county and fuel. In this case, enter Hilo for county and * for fuel (* is shorthand for all).
-7. Your blank portal should now look as is shown below. Hit run to output your customized graph.
+
+4.	Copy the entity name from the default portal into the blank portal (in this case **dqp6-3idi**).
+5.	In the blank portal enter **price** into metric. This will display the price of fuel as the y column.
+6.	In the blank portal copy the county and fuel. In this case, enter Hilo for county and * for fuel (* is shorthand for all).
+7.	Your blank portal should now look as is shown below. Hit run to output your customized graph.
 
 ![Figure 12](Figure12.png)
 
