@@ -126,6 +126,9 @@ The default portal, from which you can customize the dataset results, again can 
 
 We will walk through a brief example on how to customize the default dataset to only display fuel prices at Hilo:
 
+##Example 1##
+-------------
+
 1.	Open the blank portal and copy **configuration** section from the default portal. Delete the **entity** line.
 2.	In the blank portal change the Source from **Random** to **ATSD**.
 
@@ -147,7 +150,7 @@ We will walk through a brief example on how to customize the default dataset to 
 
 4.	Copy the entity name from the default portal into the blank portal (in this case **dqp6-3idi**).
 5.	In the blank portal enter **price** into metric. This will display the price of fuel as the y column.
-6.	In the blank portal copy the county and fuel. In this case, enter **Hilo** for county and * for fuel (* is shorthand for all).
+6.	In the blank portal enter in the county and fuel. In this case, enter **Hilo** for county and * for fuel (* is shorthand for all).
 7.	Your blank portal should now look as is shown below. Hit run to output your customized graph.
 
 ![Figure 12](Figure12.png)
@@ -160,13 +163,16 @@ Here, you can explore the this graph:
 
 [![](button.png)](https://apps.axibase.com/chartlab/06a95d7c)
 
-Now, we will quickly walk through creating a histogram to display the fuel price differences for Diesel fuel between Hilo and the US. 
+Now, we will quickly walk through creating a histogram to display the fuel price differences for Diesel fuel between Hilo and the US.
 
-1.	See previous example.
-2.	See previous example.
-3.	See previous example.
-4.	See previous example.
-5.	See previous example.
+##Example 2##
+------------- 
+
+1.	See Example 1.
+2.	See Example 1.
+3.	See Example 1.
+4.	See Example 1.
+5.	See Example 1.
 6.	In the blank portal copy the county and fuel. In this case, enter **Hilo** for county and **Diesel** for fuel.
 7.	Since we will be finding the difference between Hilo and US Diesel prices, we will need to make a second series. Copy and paste the existing series and
 change the name of the county to **US**. At this point your portal should look something like this:
