@@ -122,6 +122,8 @@ We will walk through a brief example on how to customize the default dataset to 
 
 ![Figure 11](Figure11.png)
 
+[1.]:<>
+[2.]:<>
 3. Copy the following code into the blank portal. Paste directly under **group**.
 
 ~~~python
@@ -135,7 +137,9 @@ We will walk through a brief example on how to customize the default dataset to 
       county = 
       fuel = 
 ~~~
-	 
+[1.]:<>
+[2.]:<>	 
+[3.]:<>
 4. Copy the entity name from the default portal into the blank portal (in this case **dqp6-3idi**).
 5. In the blank portal enter **price** into metric. This will display the price of fuel as the y column.
 6. In the blank portal copy the county and fuel. In this case, enter Hilo for county and * for fuel (* is shorthand for all).
