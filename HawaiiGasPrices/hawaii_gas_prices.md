@@ -267,6 +267,8 @@ Here is a table of additional datasets from data.gov that you can explore using 
 |Maryland 	|[Trips Taken on Public Transit by Transit Type - Monthly Total Trips](http://catalog.data.gov/dataset/trips-taken-on-public-transit-by-transit-type-4abd1)|[Portal](https://apps.axibase.com/chartlab/fd596ed9)|
 |Iowa 		|[Employee Compensation by Industry in Iowa](http://catalog.data.gov/dataset/employee-compensation-by-industry-in-iowa)|[Portal](https://apps.axibase.com/chartlab/f5eae012)|
 
+If you would like to view a data.gov dataset with installing the ATSD software, please [contact us](https://axibase.com/feedback/) and we would be happy to add it to this table! 
+
 ###Action Items###
 ------------------
 
@@ -278,5 +280,5 @@ Below are the steps to follow to install ATSD:
 4. Add your desired data.gov dataset to the job to enable data collection. Click on [Run] to collect data for the first time.
 5. Login into ATSD and open a sample Socrata portal to explore the data.
 
-If you are an inexperienced in downloading and/or using this type of software to analyze your data.gov datasets, please feel free to [contact us](https://axibase.com/feedback/) and we would be happy to be of assistance!
+If you require assistance in installing this software or have any questions, please feel free to [contact us](https://axibase.com/feedback/) and we would be happy to be of assistance!
      
