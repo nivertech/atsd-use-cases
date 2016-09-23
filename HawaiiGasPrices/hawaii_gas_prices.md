@@ -124,9 +124,9 @@ A blank, customizeable portal for your use can be found here: [BLANK](https://ap
 
 The default portal, from which you can customize the dataset results, again can be found here: [DEFAULT](https://apps.axibase.com/chartlab/ee379926)
 
-We will walk through a brief example on how to customize the default dataset to only display fuel prices at Hilo:
+We will walk through a brief example on how to customize the default dataset to only display fuel prices at Hilo.
 
-#Example 1#
+###Example 1###
 -------------
 
 1.	Open the blank portal and copy **configuration** section from the default portal. Delete the **entity** line.
@@ -165,7 +165,7 @@ Here, you can explore the this graph:
 
 Now, we will quickly walk through creating a histogram to display the fuel price differences for Diesel fuel between Hilo and the US.
 
-#Example 2#
+###Example 2###
 ------------- 
 
 1.	See Example 1.
