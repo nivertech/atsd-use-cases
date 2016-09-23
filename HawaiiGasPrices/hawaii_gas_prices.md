@@ -120,9 +120,9 @@ We will walk through a brief example on how to customize the default dataset to 
 1.	Open the blank portal and copy **configuration** section from the default portal. Delete the **entity** line.
 2.	In the blank portal change the Source from **Random** to **ATSD**.
 
-![Figure 11](Figure11.png)
+  ![Figure 11](Figure11.png)
 
-3\.	Copy the following code into the blank portal. Paste directly under **group**.
+3.		Copy the following code into the blank portal. Paste directly under **group**.
 
 ~~~python
 [widget]
@@ -136,29 +136,67 @@ We will walk through a brief example on how to customize the default dataset to 
       fuel = 
 ~~~
 
-4\.	Copy the entity name from the default portal into the blank portal (in this case **dqp6-3idi**).
-5\.	In the blank portal enter **price** into metric. This will display the price of fuel as the y column.
-6\.	In the blank portal copy the county and fuel. In this case, enter Hilo for county and * for fuel (* is shorthand for all).
-7\.	Your blank portal should now look as is shown below. Hit run to output your customized graph.
+4.		Copy the entity name from the default portal into the blank portal (in this case **dqp6-3idi**).
+5.		In the blank portal enter **price** into metric. This will display the price of fuel as the y column.
+6.		In the blank portal copy the county and fuel. In this case, enter Hilo for county and * for fuel (* is shorthand for all).
+7.		Your blank portal should now look as is shown below. Hit run to output your customized graph.
 
 ![Figure 12](Figure12.png)
 
-In addition to simply plotting datasets from data.gov, custom graphs can be created using one or multiple series from the dataset. For example, creating a 
-histogram to display the fuel price difference between multiple locations is possible in our portal. Various settings may be applied to create outputs that 
-fit your needs. Below is a link to settings that may be applied to create custom data.gov charts: 
+Your customized outputted graph should look something like this:
 
-[https://axibase.com/products/axibase-time-series-database/visualization/widgets/time-chart/](https://axibase.com/products/axibase-time-series-database/visualization/widgets/time-chart/)
-
-In this instance, the dataset has been manipulated to show price differences for Diesel fuel between Hawaii and the US. 
-
-![Figure 8](Figure8.png)
-
-This portal has 2 defined series, 1 for the US and 1 for State of Hawaii Diesel fuel prices. These values are not displayed in the portal. A final derivative
-series was created by subtracting US from the State of Hawaii prices. The graph shows the price difference of Diesel fuel in the State of Hawaii over the US.  
+![Figure 13](Figure13.png)
 
 Here, you can explore the this graph:
 
-[![](button.png)](https://apps.axibase.com/chartlab/eb6a53f1/2/)
+[![](button.png)](https://apps.axibase.com/chartlab/06a95d7c)
+
+Now, we will quickly walk through creating a histogram to display the fuel price differences for Diesel fuel between Hilo and the US. 
+
+1. See previous example.
+2. See previous example.
+3. See previous example.
+4. See previous example.
+5. See previous example.
+6. In the blank portal copy the county and fuel. In this case, enter Hilo for county and Diesel for fuel.
+7. Since we will be finding the difference between Hilo and US Diesel prices, we will need to make a second series. Copy and paste the existing series and
+change the name of the county to US. At this point your portal should look something like this:
+
+![Figure 14](Figure14.png)
+
+Next, we need to make a new series to find the difference between US and Hilo Diesel prices.
+
+8.		In the Hilo series, enter in **alias = s1**. In the US series, enter in **alias = s2**. For both series enter **display = false**.
+9.		Create a new series. Enter **label = Hilo over US Diesel Surchages** and **value = value(s1) - value(s2)**.
+
+At this point your portal should look something like this:
+
+![Figure 15](Figure15.png)
+ 
+Your custom graph should look like this:
+
+![Figure 16](Figure16.png)
+
+Now, you have the options of customizing your output further, by editing features such as color, graph type, and graph extents. 
+
+10.			Change the minimum price to 0. Enter **min-range = 0**.
+11.			Change the graph type to columns. Enter **mode = column**.
+12.			To showcase the exorbitant gas prices at Hilo, enter **color = red**.
+13.			Under configuration (at the very top) enter **heigh-units = 2** to increase the size of your graph.
+14.			Run!
+
+Your customized outputted graph should look something like this:
+
+![Figure 17](Figure17.png)
+
+Here, you can explore the this graph:
+
+[![](button.png)](https://apps.axibase.com/chartlab/aff8779b)
+
+Various settings may be applied to create outputs that fit your needs. Below is a link to settings that may be applied to create custom data.gov charts: 
+
+[https://axibase.com/products/axibase-time-series-database/visualization/widgets/time-chart/](https://axibase.com/products/axibase-time-series-database/visualization/widgets/time-chart/)
+
 
 ###Adding/Combining a Second Dataset###
 -----------------------------
