@@ -267,7 +267,7 @@ Here is a table of additional datasets from data.gov that you can explore using 
 |Maryland 	|[Trips Taken on Public Transit by Transit Type - Monthly Total Trips](http://catalog.data.gov/dataset/trips-taken-on-public-transit-by-transit-type-4abd1)|[Portal](https://apps.axibase.com/chartlab/fd596ed9)|
 |Iowa 		|[Employee Compensation by Industry in Iowa](http://catalog.data.gov/dataset/employee-compensation-by-industry-in-iowa)|[Portal](https://apps.axibase.com/chartlab/f5eae012)|
 
-If you would like to view a data.gov dataset with installing the ATSD software, please [contact us](https://axibase.com/feedback/) and we would be happy to add it to this table! 
+If you would like to view a data.gov dataset without installing the ATSD software, please [contact us](https://axibase.com/feedback/) and we would be happy to add it to this table! 
 
 ###Action Items###
 ------------------
