@@ -117,13 +117,12 @@ The default portal, from which you can customize the dataset results, again can 
 
 We will walk through a brief example on how to customize the default dataset to only display fuel prices at Hilo:
 
-1.  Open the blank portal and copy **configuration** section from the default portal. Delete the **entity** line.
-2.  In the blank portal change the Source from **Random** to **ATSD**.
+1.	Open the blank portal and copy **configuration** section from the default portal. Delete the **entity** line.
+2.	In the blank portal change the Source from **Random** to **ATSD**.
 
   ![Figure 11](Figure11.png)
 
 3.		Copy the following code into the blank portal. Paste directly under **group**.
-
 
   ```python
   [widget]
@@ -137,7 +136,6 @@ We will walk through a brief example on how to customize the default dataset to 
         fuel = 
   ```
 
-  
 4.		Copy the entity name from the default portal into the blank portal (in this case **dqp6-3idi**).
 5.		In the blank portal enter **price** into metric. This will display the price of fuel as the y column.
 6.		In the blank portal copy the county and fuel. In this case, enter Hilo for county and *for fuel (* is shorthand for all).
@@ -155,13 +153,13 @@ Here, you can explore the this graph:
 
 Now, we will quickly walk through creating a histogram to display the fuel price differences for Diesel fuel between Hilo and the US. 
 
-1.  See previous example.
-2.  See previous example.
-3.  See previous example.
-4.  See previous example.
-5.  See previous example.
-6.  In the blank portal copy the county and fuel. In this case, enter Hilo for county and Diesel for fuel.
-7.  Since we will be finding the difference between Hilo and US Diesel prices, we will need to make a second series. Copy and paste the existing series and
+1.	See previous example.
+2.	See previous example.
+3.	See previous example.
+4.	See previous example.
+5.	See previous example.
+6.	In the blank portal copy the county and fuel. In this case, enter Hilo for county and Diesel for fuel.
+7.	Since we will be finding the difference between Hilo and US Diesel prices, we will need to make a second series. Copy and paste the existing series and
 change the name of the county to US. At this point your portal should look something like this:
 
   ![Figure 14](Figure14.png)
