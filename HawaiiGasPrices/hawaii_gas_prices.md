@@ -173,7 +173,7 @@ Now, we will quickly walk through creating a histogram to display the fuel price
 3.	See Example 1.
 4.	See Example 1.
 5.	See Example 1.
-6.	In the blank portal copy the county and fuel. In this case, enter **Hilo** for county and **Diesel** for fuel.
+6.	In the blank portal enter in the county and fuel. In this case, enter **Hilo** for county and **Diesel** for fuel.
 7.	Since we will be finding the difference between Hilo and US Diesel prices, we will need to make a second series. Copy and paste the existing series and
 change the name of the county to **US**. At this point your portal should look something like this:
 
