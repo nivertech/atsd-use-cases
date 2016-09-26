@@ -164,7 +164,7 @@ By clicking **Theme**, a black background will appear behind your visualization.
 ![Figure 11](Figure11.png)
 
 By clicking **Full Screen**, the user is allowed to display their output in fullscreen. Unlike using the **Editor**, a unique URL will not be created
-after selecting this option.
+after selecting this option. In addition, Full Screen hides all of the Chart Lab features. To return to the standard Chart Lab view, select **Esc**.
 
 Clicking the information icon takes you **[Portal Settings](https://axibase.com/products/axibase-time-series-database/visualization/widgets/portal-settings/)**. 
 This tab contains configuration settings and examples.
