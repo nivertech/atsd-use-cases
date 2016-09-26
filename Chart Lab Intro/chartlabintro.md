@@ -24,9 +24,9 @@ A blank, customizeable Chart Lab portal for your use can be found here: [![](but
 
 Within Chart Lab each of the following items are included:
 
-* Source – switch between data sources: random and ATSD
-* Widget – append a sample widget to the current configuration
-* Run - apply and view a portal based on current configuration
+* Source – switch between data sources: Random and ATSD
+* Widget – append a sample widget to the current desired configuration
+* Run - apply and view a portal based on current desired configuration
 * Save – save current configuration under a new revision in the current directory
 * Clone – save current configuration in a new directory
 * Editor - toggle configuration editor
@@ -42,7 +42,7 @@ We will run through each of the features of Chart Lab, starting with **Source**.
 
 Chart Lab supports two data sources:
 
-1. Random data generator
+1. Random Data Generator
 2. ATSD with real, continuously updated data
 
 ![Figure 2](Figure2.png)
@@ -52,13 +52,13 @@ this function returns a floating-point, pseudo-random number in the range [0,1],
 be scaled to fit any desired dataset. These numbers have no meaning or value; every 60 seconds new random numbers are generated with the goal of merely
 providing different ranges for visualization purposes. 
   
-The ATSD data is real life data. Using Chart Lab the user is able to draw upon Axibase datasets. Once the user installs ATSD, they will be able to pull in 
+The ATSD data is real life data. Using Chart Lab, the user is able to draw upon Axibase datasets. Once the user installs ATSD, they will be able to pull in 
 their own data, which will be updated in real time as data is added to their datasets.
 
 ###Widget###
 ------------
 
-Chart Lab contains each of the following Widgets, as shown in the image below. 
+Chart Lab contains each of the following **Widgets**, as shown in the image below. 
 
 ![Figure 3](Figure3.png)
 
@@ -66,19 +66,19 @@ Visualizations for each of these Widgets are displayed in the following link:
      
 [https://axibase.com/products/axibase-time-series-database/visualization/widgets/](https://axibase.com/products/axibase-time-series-database/visualization/widgets/)
 
-In Chart Lab Widgets are composed of both data and visual inputs. Data inputs determine the how datasets will be processed and visual inputs determine how
+In Chart Lab Widgets, are composed of both data and visual inputs. Data inputs determine the how datasets will be processed and visual inputs determine how
 they will be presented.   
 
 ###Run###
 ---------
 
-Once a **Source** and **Widget** have been selected, the user may then select **Run** to output a visualization. This will apply and view a portal based on 
-Wiget current configuration. 
+Once a **Source** and **Widget** have been selected, the user may then select **Run** to output a visualization. This will display a portal based on 
+Widget current configuration. 
 
 ###Save###
 ----------
 
-After a visualization has been output, the user has the option of selecting **Save** to save the current configuration under a new revision in the current 
+After a visualization has been output, the user has the option of selecting **Save** to save the current configuration as a new revision in the current 
 directory. After pressing **Save**, the current configuration will be assigned a unique URL and a revision number. We will run through a quick example to
 demonstrate this process.
 
@@ -87,25 +87,25 @@ demonstrate this process.
 3.	Select **Run** to output a visualization.
 4.	At this point, we have the option to save our current configuration. Select **Save**.
 
-	![Figure 4](Figure4.png)
-
 	After saving, our configuration has been assigned a unique URL and revision number, in this case: 
 	
 	**[https://apps.axibase.com/chartlab/a9977177](https://apps.axibase.com/chartlab/a9977177)** and **1**.
+
+	![Figure 4](Figure4.png)
 	
 	It is worth noting that for a Random Source, because of the math.random() javascipt, unique values will not end up being saved. The configuration
-	has been saved, but regardless random values will continue to be output afer every 60 seconds.
+	has been saved, but regardless random values will continue to be output after every 60 seconds.
 	
 	Let us continue with saving a second revision.
 
 5.	Change Source to **ATSD**.
 6.	Select **Save**.
 
-	![Figure 5](Figure5.png)
-	
 	After saving for a second time, this second configuration has been assigned a totally unique URL and revision number, in this case:
 	
 	**[https://apps.axibase.com/chartlab/a9977177/2/](https://apps.axibase.com/chartlab/a9977177/2/)** and **2**.
+
+	![Figure 5](Figure5.png)
 	
 	Since **ATSD**, which contains real data, was selected as the Source, both the configuration and the data values will be saved.
 
@@ -117,15 +117,16 @@ demonstrate this process.
 
 8.	Select **Save**.
 
-	![Figure 7](Figure7.png)
-
 	After saving for a third time, this third configuration has been assigned a totally unique URL and revision number, in this case:
 	
 	**[https://apps.axibase.com/chartlab/a9977177/3/](https://apps.axibase.com/chartlab/a9977177/3/)** and **3**.
-	
+
+	![Figure 7](Figure7.png)
+
 	Since **ATSD**, which contains real data, was selected as the Source, both the configuration and the data values will be saved. The only change was altering the maximum range from 100 to 80.
 
-	Now the user has the options of toggling between each of the three saved revisions. 
+	Now the user has the options of toggling between each of the three saved revisions. These three unique URLs will be stored permanetly within Axibase's system.
+	The user has the option of coming back to these examples at any time.
 	
 	![Figure 8](Figure8.png)
 
@@ -134,6 +135,8 @@ demonstrate this process.
 
 By selecting **Clone**, the user is allowed to save the current configuration in a new directory. For example, if we clone the third revision from the previous section,
 an entirely new unique URL will be created, seperate from the previous nested example.
+
+![Figure 12](Figure12.png)
 
 In this unique case, the URL that was generated is listed below:
 
@@ -144,7 +147,8 @@ All the features of the cloned output are the same as the original, with the not
 ###Editor###
 ------------
 
-By selecting **Editor**, the user is allowed to display their output in fullscreen. A unique URL will be applied to the full sized output.
+By selecting **Editor**, the user is allowed to display their output in fullscreen. A unique URL will be applied to the full sized output. To revert back 
+to the standard view, click the **Editor** button once more. 
 
 ![Figure 9](Figure9.png)
 
