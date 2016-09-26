@@ -6,7 +6,9 @@ Data Visualization with Chart Lab
 ###Introduction###
 ------------------
 
-Are you looking for clear and concise graphical presentations for your datasets? Are wanting to explore different graphical outputs **all in one place**?
+Are you looking for clear and concise graphical presentations for your datasets? 
+
+Are wanting to explore different graphical outputs **all in one place**?
 
 Chart Lab is just the thing you have been looking for!
 
@@ -18,7 +20,7 @@ The purpose of this article is to walk through and showcase all of the different
 ###Chart Lab Features###
 ------------------------
 
-A blank, customizeable Chart Lab portal for your use can be found here: **[BLANK](https://apps.axibase.com/chartlab/)**
+A blank, customizeable Chart Lab portal for your use can be found here: [![](button.png)](https://apps.axibase.com/chartlab/)
 
 Within Chart Lab each of the following items are included:
 
@@ -29,9 +31,11 @@ Within Chart Lab each of the following items are included:
 * Clone – save current configuration in a new directory
 * Editor - toggle configuration editor
 
-Below is an image of the standard Chart Lab configuraton.
+Below is an image of the standard default Chart Lab configuraton.
 
 ![Figure 1](Figure1.png) 
+
+We will run through each of the features of Chart Lab, starting with **Source**.
 
 ###Source###
 ------------
