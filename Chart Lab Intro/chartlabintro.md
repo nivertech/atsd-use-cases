@@ -89,7 +89,10 @@ demonstrate this process.
 
 	![Figure 4](Figure4.png)
 
-	After saving, our configuration has been assigned a unique URL and revision number, in this case **https://apps.axibase.com/chartlab/a9977177** and **1**.
+	After saving, our configuration has been assigned a unique URL and revision number, in this case: 
+	
+	**[https://apps.axibase.com/chartlab/a9977177](https://apps.axibase.com/chartlab/a9977177)** and **1**.
+	
 	It is worth noting that for a Random Source, because of the math.random() javascipt, unique values will not end up being saved. The configuration
 	has been saved, but regardless random values will continue to be output afer every 60 seconds.
 	
@@ -100,7 +103,10 @@ demonstrate this process.
 
 	![Figure 5](Figure5.png)
 	
-	After saving for a second time, this second configuration has been assigned a totally unique URL and revision number, in this case **https://apps.axibase.com/chartlab/a9977177/2/** and **2**.
+	After saving for a second time, this second configuration has been assigned a totally unique URL and revision number, in this case:
+	
+	**[https://apps.axibase.com/chartlab/a9977177/2/](https://apps.axibase.com/chartlab/a9977177/2/)** and **2**.
+	
 	Since **ATSD**, which contains real data, was selected as the Source, both the configuration and the data values will be saved.
 
 	Let us continue with saving a third revision.
@@ -113,7 +119,10 @@ demonstrate this process.
 
 	![Figure 7](Figure7.png)
 
-	After saving for a third time, this third configuration has been assigned a totally unique URL and revision number, in this case **https://apps.axibase.com/chartlab/a9977177/3/** and **3**.
+	After saving for a third time, this third configuration has been assigned a totally unique URL and revision number, in this case:
+	
+	**[https://apps.axibase.com/chartlab/a9977177/3/](https://apps.axibase.com/chartlab/a9977177/3/)** and **3**.
+	
 	Since **ATSD**, which contains real data, was selected as the Source, both the configuration and the data values will be saved. The only change was altering the maximum range from 100 to 80.
 
 	Now the user has the options of toggling between each of the three saved revisions. 
@@ -124,8 +133,36 @@ demonstrate this process.
 -----------
 
 By selecting **Clone**, the user is allowed to save the current configuration in a new directory. For example, if we clone the third revision from the previous section,
-an entirely new unique URL will be created, seperate from the nested previous example. 
+an entirely new unique URL will be created, seperate from the previous nested example.
 
+In this unique case, the URL that was generated is listed below:
 
+[https://apps.axibase.com/chartlab/3fa686a5](https://apps.axibase.com/chartlab/3fa686a5)
+
+All the features of the cloned output are the same as the original, with the noteworthy point being that an entirely new directory was created as a result.
+
+###Editor###
+------------
+
+By selecting **Editor**, the user is allowed to display their output in fullscreen. A unique URL will be applied to the full sized output.
+
+![Figure 9](Figure9.png)
+
+###Miscellaneous Remaining Features###
+--------------------------------------
+
+In the upper right hand corner of the portal are three additional features that may be used to edit your visualization.
+
+![Figure 10](Figure10.png)
+
+By clicking **Theme**, a black background will appear behind your visualization. Click **Theme** once more to remove the background.
+
+![Figure 11](Figure11.png)
+
+By clicking **Full Screen**, the user is allowed to display their output in fullscreen. Unlike using the **Editor**, a unique URL will not be created
+after selecting this option.
+
+Clicking the information icon takes you **[Portal Settings](https://axibase.com/products/axibase-time-series-database/visualization/widgets/portal-settings/)**. 
+This tab contains configuration settings and examples.
 
 
