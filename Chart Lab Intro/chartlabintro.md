@@ -90,7 +90,7 @@ demonstrate this process.
 	![Figure 4](Figure4.png)
 
 	After saving, our configuration has been assigned a unique URL and revision number, in this case **https://apps.axibase.com/chartlab/a9977177** and **1**.
-	It is worth noting that for a Random Source, that, because of the math.random() javascipt, unique values will not end up being saved. The configuration
+	It is worth noting that for a Random Source, because of the math.random() javascipt, unique values will not end up being saved. The configuration
 	has been saved, but regardless random values will continue to be output afer every 60 seconds.
 	
 	Let us continue with saving a second revision.
@@ -120,7 +120,11 @@ demonstrate this process.
 	
 	![Figure 8](Figure8.png)
 
+###Clone###
+-----------
 
+By selecting **Clone**, the user is allowed to save the current configuration in a new directory. For example, if we clone the third revision from the previous section,
+an entirely new unique URL will be created, seperate from the nested previous example. 
 
 
 
