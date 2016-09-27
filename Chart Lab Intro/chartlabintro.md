@@ -87,7 +87,7 @@ Widgets are always added to the bottom of the configuration. In the figure below
 ![Figure 13](Figure13.png)
 
 As the default setting, Widgets are arranged in a single horizontal line. In order to split the Widgets up into several different lines, you must add
-a new **group** to the configuration. In the image below, we cannot see the third Widget (Pie chart) that was added.
+a new **group** to the configuration. In the image below, a third pie chart Widget was added in the Chart Lab configuration; however, we cannot see the graphic of this Widget.
 
 ![Figure 14](Figure14.png)
 
@@ -100,7 +100,7 @@ of these values from 2 to 4, we will have the configuration as shown below.
 
 ![Figure 16](Figure16.png)
 
-Single line comment starts with **#**. Text after **#** will be ignored.
+Single line comment start with **#**. Text after **#** will be ignored.
 
 Multi-line comments start with / * and end with * /. Any text between / * and * / will be ignored. 
 
@@ -156,8 +156,6 @@ demonstrate this process.
 
 	![Figure 7](Figure7.png)
 
-	Since **ATSD**, which contains real data, was selected as the Source, both the configuration and the data values will be saved. The only change was altering the maximum range from 100 to 80.
-
 	Now the user has the options of toggling between each of the three saved revisions. These three unique URLs will be stored permanently within the Chart Lab application.
 	The user has the option of coming back to these examples at any time.
 	
@@ -180,8 +178,8 @@ All the features of the cloned output are the same as the original, with the not
 ###Editor###
 ------------
 
-By selecting **Editor**, the user is allowed to display their configuration in fullscreen. A URL will be applied to the full sized output. To revert back 
-to the standard view, click the **Editor** button once more. 
+By selecting **Editor**, the user is allowed to display their configuration in fullscreen. By appending #fullscreen at the end of the Chart Lab URL 
+you can open the configuration in full-screen mode. To revert back to the standard view, click the **Editor** button once more. 
 
 ![Figure 9](Figure9.png)
 
@@ -196,8 +194,7 @@ By clicking **Theme**, a black background will appear behind your visualization.
 
 ![Figure 11](Figure11.png)
 
-By clicking **Full Screen**, the user is allowed to display their output in fullscreen. By appending #fullscreen at the end of the Chart Lab URL 
-you can open the  configuration in full-screen mode. In addition, Full Screen hides the Chart Lab features. To return to the standard Chart Lab view, press **Esc**.
+By clicking **Full Screen**, the user is allowed to display their visualization in fullscreen. Full Screen hides the Chart Lab features. To return to the standard Chart Lab view, press **Esc**.
 
 Clicking the information icon takes you to **[Portal Settings](https://axibase.com/products/axibase-time-series-database/visualization/widgets/portal-settings/)** documentation. 
 This tab contains configuration settings and examples.
