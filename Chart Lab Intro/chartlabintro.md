@@ -29,10 +29,10 @@ Within Chart Lab each of the following items are included:
 
 * Source – switch between data sources: Random and ATSD
 * Widget – append a sample widget to the current desired configuration
-* Run - apply and view a portal based on current desired configuration
+* Run – apply and view a portal based on current desired configuration
 * Save – save current configuration under a new revision in the current directory
 * Clone – save current configuration in a new directory
-* Editor - toggle configuration editor
+* Editor – toggle configuration editor
 
 Below is an image of the standard default Chart Lab configuraton.
 
