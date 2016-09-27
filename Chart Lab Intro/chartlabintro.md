@@ -12,7 +12,7 @@ Are wanting to explore different graphical outputs **all in one place**?
 
 Chart Lab is just the thing you have been looking for!
 
-Chart Lab is a versatile online tool which allows users to try out Axibase Time Series Database (ATSD) visualization capabilites. Chart Lab doesn't require any
+Chart Lab is a versatile online tool which allows users to try out Axibase Time Series Database (ATSD) visualization capabilities. Chart Lab doesn't require any
 registration and allows you to experiment with different layouts and widget settings prior to deploying it in your own ATSD instance. For users familiar with
 [jsfiddle.net](http://jsfiddle.net/da1rosy8/), Chart Lab shares many of the same properties and characteristics.
 
@@ -21,7 +21,7 @@ The purpose of this article is to walk through and showcase all of the different
 ###Chart Lab Features###
 ------------------------
 
-A blank, customizeable Chart Lab portal for your use can be found here: 
+A blank, customizable Chart Lab portal for your use can be found here: 
 
 [![](button.png)](https://apps.axibase.com/chartlab/)
 
@@ -34,7 +34,7 @@ Within Chart Lab each of the following items are included:
 * Clone – save current configuration in a new directory
 * Editor – toggle configuration editor
 
-Below is an image of the standard default Chart Lab configuraton.
+Below is an image of the standard default Chart Lab configuration.
 
 ![Figure 1](Figure1.png) 
 
@@ -76,8 +76,8 @@ To add a Widget, click the Widget drop down and select your desired Widget.
 ###Run###
 ---------
 
-Once a **Source** and **Widget** have been selected, the user may then select **Run** to output a visualization. This will display a portal based on 
-Widget current configuration. 
+Once a **Source** and **Widget** have been selected, the user may then select **Run** to output a visualization. This will display a portal based on the current 
+Widget configuration. 
 
 ###Widget Settings###
 ------------
@@ -88,7 +88,7 @@ Widgets are always added to the bottom of the configuration. In the figure below
 
 ![Figure 13](Figure13.png)
 
-As the default settings, Widgets are arranged in a single horizontal line. In order to split the Widgets up into several different lines, you must add
+As the default setting, Widgets are arranged in a single horizontal line. In order to split the Widgets up into several different lines, you must add
 a new **group** to the configuration. In the image below, we cannot see the third Widget (Pie chart) that was added.
 
 ![Figure 14](Figure14.png)
@@ -104,7 +104,7 @@ of these values from 2 to 4, we will have the configuration as shown below.
 
 Single line comment starts with **#**. Text after **#** will be ignored.
 
-Multi-line comments start with /* and end with */. Any text between /* and */ will be ignored. 
+Multi-line comments start with / * and end with * /. Any text between / * and * / will be ignored. 
 
 The below figures showcase the comment features. 
 
@@ -162,7 +162,7 @@ demonstrate this process.
 
 	Since **ATSD**, which contains real data, was selected as the Source, both the configuration and the data values will be saved. The only change was altering the maximum range from 100 to 80.
 
-	Now the user has the options of toggling between each of the three saved revisions. These three unique URLs will be stored permanetly within Axibase's system.
+	Now the user has the options of toggling between each of the three saved revisions. These three unique URLs will be stored permanently within Axibase's system.
 	The user has the option of coming back to these examples at any time.
 	
 	![Figure 8](Figure8.png)
@@ -171,7 +171,7 @@ demonstrate this process.
 -----------
 
 By selecting **Clone**, the user is allowed to save the current configuration in a new directory. For example, if we clone the third revision from the previous section,
-an entirely new unique URL will be created, seperate from the previous nested example.
+an entirely new unique URL will be created, separate from the previous nested example.
 
 ![Figure 12](Figure12.png)
 
@@ -209,7 +209,7 @@ This tab contains configuration settings and examples.
 ###Action Items###
 ------------------
 
-If this guid has been interesting to, create an example and send it over to us. If you have any comments, questions, or concerns please do not hesitate
+If this guide has been interesting to you, create an example and send it over to us. If you have any comments, questions, or concerns please do not hesitate
 to [contact us](https://axibase.com/feedback/)!
 
 
