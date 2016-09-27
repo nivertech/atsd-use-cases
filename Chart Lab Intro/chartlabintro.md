@@ -21,7 +21,9 @@ The purpose of this article is to walk through and showcase all of the different
 ###Chart Lab Features###
 ------------------------
 
-A blank, customizeable Chart Lab portal for your use can be found here: [![](button.png)](https://apps.axibase.com/chartlab/)
+A blank, customizeable Chart Lab portal for your use can be found here: 
+
+[![](button.png)](https://apps.axibase.com/chartlab/)
 
 Within Chart Lab each of the following items are included:
 
