@@ -87,9 +87,9 @@ of these values from 2 to 4, we will have the configuration as shown below.
 
 ![Figure 16](Figure16.png)
 
-Single line comment starts with #. Text after # will be ignored.
+Single line comment starts with **#**. Text after **#** will be ignored.
 
-Multi-line comments start with /* and end with */. Any text between /* and */ will be ignored. 
+Multi-line comments start with **[/*]** and end with **[*/]**. Any text between [/*] and [*/] will be ignored. 
 
 The below figures showcase the comment features. 
 
