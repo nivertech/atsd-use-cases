@@ -69,6 +69,19 @@ These visualizations can be found at the following link:
      
 [https://axibase.com/products/axibase-time-series-database/visualization/widgets/](https://axibase.com/products/axibase-time-series-database/visualization/widgets/)
 
+To add a Widget, click the Widget drop down and select your desired Widget.
+
+![Figure 19](Figure19.png)
+
+###Run###
+---------
+
+Once a **Source** and **Widget** have been selected, the user may then select **Run** to output a visualization. This will display a portal based on 
+Widget current configuration. 
+
+###Widget Settings###
+------------
+
 We will now run through several settings for Widgets in Chart Lab.
 
 Widgets are always added to the bottom of the configuration. In the figure below, a chart Widget was initially added, followed by a histogram Widget. 
@@ -98,12 +111,6 @@ The below figures showcase the comment features.
 ![Figure 17](Figure17.png)
 
 ![Figure 18](Figure18.png)
-
-###Run###
----------
-
-Once a **Source** and **Widget** have been selected, the user may then select **Run** to output a visualization. This will display a portal based on 
-Widget current configuration. 
 
 ###Save###
 ----------
