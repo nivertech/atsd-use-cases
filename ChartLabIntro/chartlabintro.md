@@ -108,6 +108,19 @@ The figure below shows two histogram Widgets. The histogram on the left has the 
 
 ![Figure 17](Figure17.png)
 
+By selecting Ctrl + Space in the Chart Lab portal, a drop-down menu will appear. This drop-down contains the key parts of the configuration. Press to 
+select your desired attribute.
+
+![Figure 20](Figure20.png)
+
+If you have a configuration that looks like the image below, there is a quick fix for this.
+
+![Figure 21](Figure21.png)
+
+Press Ctrl + A to select all the text, then Shift + Tab to align the text.
+
+![Figure 22](Figure22.png)
+
 ###Save###
 ----------
 
