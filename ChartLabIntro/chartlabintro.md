@@ -25,12 +25,12 @@ A blank, customizable Chart Lab portal for your use can be found here:
 
 The Chart Lab menu contains the following items:
 
-* Editor � toggle configuration editor
-* Run � apply and view a portal based on current desired configuration
-* Save � save current configuration under a new revision in the current directory
-* Clone � save current configuration in a new directory
-* Widget � append a sample widget to the current desired configuration
-* Source � switch between data sources: Random and ATSD
+* Editor - toggle configuration editor
+* Run - apply and view a portal based on current desired configuration
+* Save - save current configuration under a new revision in the current directory
+* Clone - save current configuration in a new directory
+* Widget - append a sample widget to the current desired configuration
+* Source - switch between data sources: Random and ATSD
 
 Below is an image of the standard default Chart Lab configuration.
 
