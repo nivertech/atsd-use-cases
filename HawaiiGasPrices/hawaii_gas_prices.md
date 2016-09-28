@@ -117,7 +117,7 @@ Here, you can explore the complete dataset for Hawaiian fuel prices using our po
 Custom portals can be created from the default portal. The user has the capability to change or display certain aspects of the dataset to their liking. For
 example, the user may change graph styling, such as color, graph type, and other display options. 
 
-Likewise, by customizing the data the way you want, you can filter out any unnessecary information. If, for example, you are interested only in fuel prices
+Likewise, by customizing the data the way you want, you can filter out any unnecessary information. If, for example, you are interested only in fuel prices
 at Hilo, you can customize your portal to only show that information without the effort to toggle through for it.
 
 A blank, customizeable portal for your use can be found here: **[BLANK](https://apps.axibase.com/chartlab/)**
