@@ -1,4 +1,4 @@
-![Titlephoto](Titlephoto.png)
+![Titlephoto](Images/Titlephoto.png)
 
 Data Visualization with Chart Lab
 ==================================
@@ -46,7 +46,7 @@ Chart Lab supports two data sources:
 1. Random Data Generator
 2. ATSD with real, continuously updated data
 
-![Figure 2](Figure2.png)
+![Figure 2](Images/Figure2.png)
 
 The Random data generator is a non-existent data set which invokes the math.random() javascript function. As defined by the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random),
 this function returns a floating-point, pseudo-random number in the range [0,1], which is inclusive from 0 up to but not including 1. This range can
@@ -61,7 +61,7 @@ their own data, which will be updated in real time as data is added to their dat
 
 Chart Lab contains each of the following **Widgets**, as shown in the image below.
 
-![Figure 3](Figure3.png)
+![Figure 3](Images/Figure3.png)
 
 These visualizations can be found at the following link:
 
@@ -69,7 +69,7 @@ These visualizations can be found at the following link:
 
 To add a Widget, click the Widget drop-down and select your desired Widget.
 
-![Figure 19](Figure19.png)
+![Figure 19](Images/Figure19.png)
 
 ### Run
 ---------
@@ -84,21 +84,21 @@ We will now run through several settings for Widgets in Chart Lab.
 
 Widgets are always added to the bottom of the configuration. In the figure below, a chart Widget was initially added, followed by a histogram Widget.
 
-![Figure 13](Figure13.png)
+![Figure 13](Images/Figure13.png)
 
 As the default setting, Widgets are arranged in a single horizontal line. In order to split the Widgets up into several different lines, you must add
 a new **group** to the configuration. In the image below, a third pie chart Widget was added in the Chart Lab configuration; however, we cannot see the graphic of this Widget.
 
-![Figure 14](Figure14.png)
+![Figure 14](Images/Figure14.png)
 
 If we add a second group (as shown in the below image) and hit Run, we will have a configuration as shown below.
 
-![Figure 15](Figure15.png)
+![Figure 15](Images/Figure15.png)
 
 In order to fit more Widgets in a single view, you may change the **height-units** and **width-units** in the configuration. For example, if we change both
 of these values from 2 to 4, we will have the configuration as shown below.
 
-![Figure 16](Figure16.png)
+![Figure 16](Images/Figure16.png)
 
 Single line comment start with **#**. Text after **#** will be ignored.
 
@@ -106,20 +106,20 @@ Multi-line comments start with / * and end with * /. Any text between / * and * 
 
 The figure below shows two histogram Widgets. The histogram on the left has the right and top axis commented out.  
 
-![Figure 17](Figure17.png)
+![Figure 17](Images/Figure17.png)
 
 By selecting Ctrl + Space in the Chart Lab portal, a drop-down menu will appear. This drop-down contains the key sections of the configuration. Press
 to select one of the sections.
 
-![Figure 20](Figure20.png)
+![Figure 20](Images/Figure20.png)
 
 If you have a configuration that looks like the image below, there is a quick fix for this.
 
-![Figure 21](Figure21.png)
+![Figure 21](Images/Figure21.png)
 
 Press Ctrl + A to select all the text, then Shift + Tab to align the text.
 
-![Figure 22](Figure22.png)
+![Figure 22](Images/Figure22.png)
 
 ### Save
 ----------
@@ -137,7 +137,7 @@ demonstrate this process.
 
 	**[https://apps.axibase.com/chartlab/a9977177](https://apps.axibase.com/chartlab/a9977177)** and **1**.
 
-	![Figure 4](Figure4.png)
+	![Figure 4](Images/Figure4.png)
 
 	It is worth noting that for a Random Source, because of the math.random() javascipt function, unique values will not end up being saved. The configuration
 	has been saved, but regardless random values will continue to be output after every 60 seconds.
@@ -151,7 +151,7 @@ demonstrate this process.
 
 	**[https://apps.axibase.com/chartlab/a9977177/2/](https://apps.axibase.com/chartlab/a9977177/2/)** and **2**.
 
-	![Figure 5](Figure5.png)
+	![Figure 5](Images/Figure5.png)
 
 	Since ATSD, which contains real data, was selected as the Source, the saved configuration will query the same data.
 
@@ -159,7 +159,7 @@ demonstrate this process.
 
 7.	Change the **max-range** from 100 to 80.
 
-	![Figure 6](Figure6.png)
+	![Figure 6](Images/Figure6.png)
 
 8.	Select **Save**.
 
@@ -167,12 +167,12 @@ demonstrate this process.
 
 	**[https://apps.axibase.com/chartlab/a9977177/3/](https://apps.axibase.com/chartlab/a9977177/3/)** and **3**.
 
-	![Figure 7](Figure7.png)
+	![Figure 7](Images/Figure7.png)
 
 	Now the user has the options of toggling between each of the three saved revisions. These three unique URLs will be stored permanently within the Chart Lab application.
 	The user has the option of coming back to these examples at any time.
 
-	![Figure 8](Figure8.png)
+	![Figure 8](Images/Figure8.png)
 
 ### Clone
 -----------
@@ -180,7 +180,7 @@ demonstrate this process.
 By selecting **Clone**, the user is allowed to save the current configuration in a new directory. For example, if we clone the third revision from the previous section,
 a new unique URL will be created, separate from the previous nested example.
 
-![Figure 12](Figure12.png)
+![Figure 12](Images/Figure12.png)
 
 In this unique case, the URL that was generated is listed below:
 
@@ -194,18 +194,18 @@ All the features of the cloned output are the same as the original, with the not
 By selecting **Editor**, the user is allowed to display their configuration in fullscreen. By appending #fullscreen at the end of the Chart Lab URL
 you can open the configuration in full-screen mode. To revert back to the standard view, click the **Editor** button once more.
 
-![Figure 9](Figure9.png)
+![Figure 9](Images/Figure9.png)
 
 ### Miscellaneous Features
 --------------------------------------
 
 In the upper right hand corner of the portal are three additional features that may be used to edit your visualization.
 
-![Figure 10](Figure10.png)
+![Figure 10](Images/Figure10.png)
 
 By clicking **Theme**, a black background will appear behind your visualization. Click **Theme** once more to remove the background.
 
-![Figure 11](Figure11.png)
+![Figure 11](Images/Figure11.png)
 
 By clicking **Full Screen**, the user is allowed to display their visualization in fullscreen. Full Screen hides the Chart Lab features. To return to the standard Chart Lab view, press **Esc**.
 
