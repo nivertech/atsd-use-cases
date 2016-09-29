@@ -34,7 +34,7 @@ The Chart Lab menu contains the following items:
 
 Below is an image of the standard default Chart Lab configuration.
 
-![Figure 1](Figure1.png)
+![Figure 1](Images/Figure1.png)
 
 We will run through each of the features of Chart Lab, starting with **Source**.
 
