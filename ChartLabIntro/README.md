@@ -21,7 +21,7 @@ The purpose of this article is to walk through and showcase all of the different
 
 A blank, customizable Chart Lab portal for your use can be found here:
 
-[![](button.png)](https://apps.axibase.com/chartlab/)
+[![](Images/button.png)](https://apps.axibase.com/chartlab/)
 
 The Chart Lab menu contains the following items:
 
