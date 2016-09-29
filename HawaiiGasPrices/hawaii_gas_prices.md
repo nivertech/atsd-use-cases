@@ -1,4 +1,4 @@
-![Title Phot](Title Photo.png)
+![Title Phot](Images/Title Photo.png)
 
 Pain at the Pump - a Closer Look at Hawaii's High Fuel Prices
 =============================================================
@@ -56,20 +56,20 @@ We will quickly run through plotting this dataset in plotly.
 
 Once you click on the above dataset, you are given the option of choosing data.gov preview, plotly, or CartoDB. Choose **plotly**.
 
-![ZZZ](ZZZ.png)
+![ZZZ](Images/ZZZ.png)
 
 Once the raw data is opened via plotly, the user must select **Filter** from Data Tools, as shown below.
 
-![Figure 1](Figure1.png)
+![Figure 1](Images/Figure1.png)
 
 Next, choose **Filter** by, in our case for example, Gasoline - Regular. You must click **choose as x** for **Fuel** so that plotly knows which column to filter.
 
-![Figure 2](Figure2.png)
+![Figure 2](Images/Figure2.png)
 
 Finally, to output the data, the user must select **Group By** and choose **Month_of_Price** as the x axis, **County** as G (this will separate the prices of fuel for each
 location), and the **Price** as the y axis.
 
-![Figure 3](Figure3.png)
+![Figure 3](Images/Figure3.png)
 
 The ouput will look as is shown below. The graph is relatively easy to interpret. The user can see that Gasoline - Regular fuel prices in Hawaii have for the last 6
 years steadily remained more expensive than US average prices. The main drawback of using plotly to process datasets from data.gov seems to be the extensive
@@ -77,7 +77,7 @@ time and effort it would take to create outputs for each of the following fuel t
 Gasoline - Midgrade, and Gasoline - Premium between all 5 locations. The same cumbersome process would have to be followed for comparing fuel types for each particular location. Additionally,
 data in plotly is static, that is every time the data is updated, everything will need to be re-plotted.
 
-![Figure 4](Figure4.png)
+![Figure 4](Images/Figure4.png)
 
 ### Axibase's Time Series Database (ATSD)
 -----------------------------------------
@@ -98,18 +98,18 @@ have raw data in ATSD, creating and sharing reports with built-in widgets is fai
 
 With ATSD, the user is able display the dataset in an easily understandable manner. The below figure shows each fuel type for each of the 5 locations.
 
-![Figure 5](Figure5.png)
+![Figure 5](Images/Figure5.png)
 
 The dataset can be sorted by location and/or fuel type, and the user can easily toggle through comparing different scenarios. The next 2 figures show outputs
 comparing fuel types at Hilo and Diesel prices by location, respectively.
 
-![Figure 6](Figure6.png)
+![Figure 6](Images/Figure6.png)
 
-![Figure 7](Figure7.png)
+![Figure 7](Images/Figure7.png)
 
 Here, you can explore the complete dataset for Hawaiian fuel prices using our portal:
 
-[![](button.png)](https://apps.axibase.com/chartlab/ee379926)
+[![](Images/button.png)](https://apps.axibase.com/chartlab/ee379926)
 
 ### Creating Custom Portals
 ---------------------------
@@ -132,7 +132,7 @@ We will walk through a brief example on how to customize the default dataset to 
 1.	Open the blank portal and copy **configuration** section from the default portal. Delete the **entity** line.
 2.	In the blank portal change the Source from **Random** to **ATSD**.
 
-  ![Figure 11](Figure11.png)
+  ![Figure 11](Images/Figure11.png)
 
 3.	Copy the following code into the blank portal. Paste directly under **group**.
 
@@ -153,15 +153,15 @@ We will walk through a brief example on how to customize the default dataset to 
 6.	In the blank portal enter in the county and fuel. In this case, enter **Hilo** for county and * for fuel (* is shorthand for all).
 7.	Your blank portal should now look as is shown below. Hit run to output your customized graph.
 
-![Figure 12](Figure12.png)
+![Figure 12](Images/Figure12.png)
 
 Your customized outputted graph should look something like this:
 
-![Figure 13](Figure13.png)
+![Figure 13](Images/Figure13.png)
 
 Here, you can explore the this graph:
 
-[![](button.png)](https://apps.axibase.com/chartlab/06a95d7c)
+[![](Images/button.png)](https://apps.axibase.com/chartlab/06a95d7c)
 
 Now, we will quickly walk through creating a histogram to display the fuel price differences for Diesel fuel between Hilo and the US.
 
@@ -177,7 +177,7 @@ Now, we will quickly walk through creating a histogram to display the fuel price
 7.	Since we will be finding the difference between Hilo and US Diesel prices, we will need to make a second series. Copy and paste the existing series and
 change the name of the county to **US**. At this point your portal should look something like this:
 
-  ![Figure 14](Figure14.png)
+  ![Figure 14](Images/Figure14.png)
 
 	Next, we need to make a new series to find the difference between US and Hilo Diesel prices.
 
@@ -186,11 +186,11 @@ change the name of the county to **US**. At this point your portal should look s
 
 	At this point your portal should look something like this:
 
-	![Figure 15](Figure15.png)
+	![Figure 15](Images/Figure15.png)
 
 	Your custom graph should look like this:
 
-	![Figure 16](Figure16.png)
+	![Figure 16](Images/Figure16.png)
 
 	Now, you have the options of customizing your output further, by editing features such as color, graph type, and graph extents.
 
@@ -202,11 +202,11 @@ change the name of the county to **US**. At this point your portal should look s
 
 Your customized outputted graph should look something like this:
 
-![Figure 17](Figure17.png)
+![Figure 17](Images/Figure17.png)
 
 Here, you can explore the this graph:
 
-[![](button.png)](https://apps.axibase.com/chartlab/aff8779b)
+[![](Images/button.png)](https://apps.axibase.com/chartlab/aff8779b)
 
 Various additional settings may be applied to create outputs that fit your needs. Below is a link to settings that may be applied to create custom data.gov charts:
 
@@ -233,19 +233,19 @@ In turn, each island had it's electricity broken into the following  sectors:
 
 Here, you can explore the portal for this dataset:
 
-[![](button.png)](https://apps.axibase.com/chartlab/9e548f6b)
+[![](Images/button.png)](https://apps.axibase.com/chartlab/9e548f6b)
 
 Next, let us look at which areas we can compare.
 
 The specified locations for the 2 datasets are different: one compared cities, while the other compared islands. Areas for which we have both datasets
 are marked in red in the figure below.
 
-![HawaiiIslands](HawaiiIslands.png)
+![HawaiiIslands](Images/HawaiiIslands.png)
 
 To briefly demonstrate our capabilities, let us compare Diesel prices at Honolulu, Wailuku, and Hilo with the Residental electricty rates at their
 respective corresponding islands (Oahu, Maui, Hawaii).
 
-![Figure 10](Figure10.png)
+![Figure 10](Images/Figure10.png)
 
 Again, guidelines for setting up the various settings to create outputs can be found [here](https://axibase.com/products/axibase-time-series-database/visualization/widgets/time-chart/).
 
@@ -256,7 +256,7 @@ the possibilities of combining and comparing multiple datasets.
 
 Here you can explore the portal of this comparison:
 
-[![](button.png)](http://apps.axibase.com/chartlab/b1046948)
+[![](Images/button.png)](http://apps.axibase.com/chartlab/b1046948)
 
 ### Additional Examples
 -----------------------
