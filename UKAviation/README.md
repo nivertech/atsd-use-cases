@@ -1,7 +1,7 @@
 ![TitlePhoto](Images/TitlePhoto.png)
 
-Up, Up, and Away - Analyzing UK Aviation Statistics using CAA datasets
-======================================================================
+Analyzing UK Aviation Statistics using CAA datasets
+===================================================
 
 ### Introduction
 ----------------
