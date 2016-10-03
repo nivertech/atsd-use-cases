@@ -8,7 +8,7 @@ Analyzing UK Aviation Statistics using CAA datasets
 
 Are airports getting more and more crowded every year?
 
-What are the most popular travel destinations for a given airport? 
+What are the most popular travel destinations for a given airport?
 
 Do aviation trends follow the general course of a nation's economy?
 
@@ -72,7 +72,38 @@ Likewise, by customizing the data the way you want, you can filter out any unnec
 
 The default portal, from which you can customize the dataset results, again can be found here: **[DEFAULT](https://apps.axibase.com/chartlab/972babb9)**
 
-We will walk through a brief example on how to customize the default portal to compare UK Domestic terminal traffic for scheduled flights between 2015 and 2016.
+We will walk through a brief example on how to customize the default portal to compare UK Domestic terminal traffic for scheduled flights between 2015 and 2016. But before we walk through this example, the user must first install ATSD:
+
+1. [Install the database](https://github.com/axibase/atsd-docs/tree/master/installation#installation) on a virtual machine or in a Linux container.
+2. [Install Axibase Collector](https://github.com/axibase/axibase-collector-docs/blob/master/installation.md#axibase-collector-installation) and configure it to write data into your ATSD instance.
+3. Login into your ATSD account.
 
 ### Example 1
 -------------
+
+1.  Open the default portal and delete the configuration sections as shown in the image below. We are only wanting to show one series, so there is no need for **multiple-series**, **series-limit**, **tags-dropdown**, **label-format**, **tags-dropdown-style**, or the **dropdown** control.
+
+    ![Figure 5](Images/Figure5.png)
+
+2.  Next, we want to select the **metric** which we would like to filter for. Once you have installed ATSD, you will want to navigate to the metric list to see the corresponding names. The first dropdown in Chart Lab contains the shortened version of the **metric** names, so you will need to log into your [https://nur.axibase.com](https://nur.axibase.com) account. The image below contains the standard view after you have logged in. Press **Entities**. 
+
+    ![Figure 6](Images/Figure6.png)
+    
+3.  Enter **uk-caa** into Name Mask. Press Apply.
+
+    ![Figure 7](Images/Figure7.png)
+    
+4.  Select **uk-caa**.  
+
+    ![Figure 8](Images/Figure8.png)
+
+5.  On the following page select **Metrics**.
+
+    ![Figure 9](Images/Figure9.png)
+
+6.  On the following page you will have a list of metrics, which are available for the CAA entity. In our case, we are looking for UK Domestic terminal traffic for scheduled flights. Copy the seventh entry from the top of the page, **uk-caa.air-pax-by-type-and-nat-of-op.pax_terminal_scheduled_uk**.
+
+    ![Figure 10](Images/Figure10.png)
+    
+7.  Navigate back to the portal. Type in **metric=** and paste the copied metric name.  
+     
