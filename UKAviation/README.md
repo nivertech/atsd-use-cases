@@ -39,7 +39,7 @@ Below is an image from the same report showing terminal passengers at UK airport
 
 ![Figure 3](Images/Figure3.png)
 
-The data is presented for scheduled and chartered flights for passengers from within the UK, Europe, North America, and the Rest of the World. Again, quantities of travelers and growth percentages are presented comparing Q4 of 2008 to 2007, and the entire "rolling" years of Q1 through Q4 of 2007 and 2008, respectively. To summarize the graph, the following sentence is used: "passenger numbers to all destination groups fell in quarter 4 2008, by around 8%, except for passengers numbers to the Rest of the World destination group, which fell by considerably less."
+The data is presented for scheduled and chartered flights for passengers from within the UK, Europe, North America, and the Rest of the World. Again, quantities of travelers and growth percentages are presented comparing Q4 of 2008 to 2007, and the entire "rolling" years of Q1 through Q4 of 2007 and 2008, respectively. To summarize the graph, the following sentence is used: "Passenger numbers to all destination groups fell in quarter 4 2008, by around 8%, except for passengers numbers to the Rest of the World destination group, which fell by considerably less."
 
 While the aviation trend PDF files can be helpful, they tend to have a very limited scope. Typically, between only 3 and 4 graphs are presented to summarize the entire quarter. To gain a meaningful understanding of the data and trends, you will need to open multiple files at a time and compare trends, which can be difficult and time consuming to work though. 
 
@@ -55,6 +55,6 @@ The processing of CAA datasets using Axibase's Time Series Database (ATSD) is mu
 
 Rather, you can configure a scheduled job to retrieve the file from the specified endpoint and have ATSD parse it according to pre-defined rules. Once you have raw data in ATSD, creating and sharing reports with built-in widgets is fairly trivial. The reports will be continuously updated as new data comes in.
 
-With ATSD, the user is able display the dataset in an easily understandable manner. The below figure shows each fuel type for each of the 5 locations.
+With ATSD, the user is able display the dataset in an easily understandable manner. Here, you can explore the complete dataset for CAA aviation statistics using our portal
 
 [![](Images/button.png)](https://apps.axibase.com/chartlab/972babb9)
