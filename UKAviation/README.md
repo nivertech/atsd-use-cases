@@ -6,15 +6,53 @@ Analyzing UK Aviation Statistics using CAA datasets
 ### Introduction
 ----------------
 
-Established in 1972, the Civil Aviation Authority (CAA) serves as an independent specialist for the UK government. Every quarter, the CAA collects and reports on key aviation metrics which summarize the level of activity at UK airports. According to their website, [caa.co.uk](https://www.caa.co.uk/Data-and-analysis/UK-aviation-market/Airports/Datasets/UK-Airport-data/Airport-data-2016-06/), the CAA collects statistics from more than 60 UK airports. The three main collected metrics are:
+Are airports getting more and more crowded every year?
 
-* Terminal passengers at UK airports
-* Passenger flights to and from UK airports
-* Air cargo tonnage carried to and from UK airports
+What are the most popular travel destinations for a given airport? 
 
-These reports show the raw volumes of each metric and year over year (y-o-y) quarterly growth rates.
+Do aviation trends follow the general course of a nation's economy?
+
+To answer such questions, the Civil Aviation Authority (CAA) serves as an independent specialist for the UK government. Established in 1972, the CAA collects and reports on key aviation metrics which summarize the level of activity at UK airports. According to their website, [caa.co.uk](https://www.caa.co.uk/Data-and-analysis/UK-aviation-market/Airports/Datasets/UK-Airport-data/Airport-data-2016-06/), the CAA collects statistics from more than 60 UK airports. Specific metrics are measured for items such as international and domestic mail shipped from UK airports (tons), international passenger traffic to UK airports, and terminal passengers at different UK airports. These reports may show the raw volumes of each metric and/or year over year (y-o-y) quarterly growth rates. 
 
 ### CAA Dataset Formats
 ------------------------
 
-Reports are published in CSV and PDF format. Multitudes of data are continuously added to these CAA datasets. It can be difficult to work though all the different files and revisions on CAA's website. Using Axibase's Time Series Database (ATSD), this process becomes much less cumbersome. Once you have raw data in ATSD, creating and sharing reports with built-in widgets is fairly trivial. The reports will be continuously updated as new data comes in.
+The datasets are available in two separate formats: raw datasets and aviation trends.
+
+Raw datasets are published every month, and are available ranging back to 1973. From 1990 to present day these reports are available in CSV and PDF format. Datasets published before 1990 are available only in PDF format. These datasets merely contain raw data; that is they do not contain any information on analytics or trends, and do not contain any graphs or figures. These may be found at the below link:
+
+[https://www.caa.co.uk/Data-and-analysis/UK-aviation-market/Airports/Datasets/UK-airport-data/](https://www.caa.co.uk/Data-and-analysis/UK-aviation-market/Airports/Datasets/UK-airport-data/)
+
+Below is a dataset for "International Passenger Traffic to and from Reporting Airports (in Thousands) by Country 2005-2015," which was [published in January 2016](https://www.caa.co.uk/uploadedFiles/CAA/Content/Standard_Content/Data_and_analysis/Datasets/Airport_stats/Airport_data_2016_01/Table_11_International_Air_Pax_Traffic_to_from_UK_by_Country.pdf)
+
+![Figure 1](Images/Figure1.png)
+
+Aviation trends are published per quarter (four times per year). These reports date back to 2008 and are published only in PDF format. Language is used in these reports attempt to put the datasets into context. Graphs and tables showing volumes and year over year (y-o-y) growth rates of datasets are published. These may be found at the below link:
+
+[https://www.caa.co.uk/Data-and-analysis/UK-aviation-market/Airports/Aviation-Trends/](https://www.caa.co.uk/Data-and-analysis/UK-aviation-market/Airports/Aviation-Trends/)
+
+Below is an image of terminal passengers at UK airports from [AviationTrends_2008_Q4](https://www.caa.co.uk/uploadedFiles/CAA/Content/Standard_Content/Data_and_analysis/Analysis_reports/Aviation_trends/AviationTrends_2008_Q4.pdf). In the associated text, terminal passengers are described as "those travelers who board or disembark an aircraft on a commercial flight at a reporting UK airport." The data is presented for scheduled and chartered flights for London and Regional airports. Quantities of travelers and growth percentages are presented comparing, in this case, Q4 of 2008 to 2007, and the entire "rolling" years of Q1 through Q4 of 2007 and 2008, respectively.    
+
+![Figure 2](Images/Figure2.png)
+
+Below is an image from the same report showing terminal passengers at UK airports by origin / destination.
+
+![Figure 3](Images/Figure3.png)
+
+The data is presented for scheduled and chartered flights for passengers from within the UK, Europe, North America, and the Rest of the World. Again, quantities of travelers and growth percentages are presented comparing Q4 of 2008 to 2007, and the entire "rolling" years of Q1 through Q4 of 2007 and 2008, respectively. To summarize the graph, the following sentence is used: "passenger numbers to all destination groups fell in quarter 4 2008, by around 8%, except for passengers numbers to the Rest of the World destination group, which fell by considerably less."
+
+While the aviation trend PDF files can be helpful, they tend to have a very limited scope. Typically, between only 3 and 4 graphs are presented to summarize the entire quarter. To gain a meaningful understanding of the data and trends, you will need to open multiple files at a time and compare trends, which can be difficult and time consuming to work though. 
+
+### Axibase's Time Series Database
+----------------------------------
+
+The processing of datasets using Axibase's Time Series Database (ATSD) is much less cumbersome and time consuming. Processing the same data with ATSD is less time consuming because its collection tool has built-in heuristics to handle the format in which CAA datasets are published. When loading data for a particular dataset the collector uses metadata to understand the meaning of columns and automatically extract dates, times, and categories from the data files. Besides, ATSD stores the data in the user's own database so that this public data can be combined with internal data sources as well as mixed and matched across different datasets. Once you install ATSD, you don't have to:
+
+* Add additional datasets from data.gov
+* Manipulate and design table schema
+* Provision an application server
+* Write programs to parse and digest these types of files.
+
+Rather, you can configure a scheduled job to retrieve the file from the specified endpoint and have ATSD parse it according to pre-defined rules. Once you have raw data in ATSD, creating and sharing reports with built-in widgets is fairly trivial. The reports will be continuously updated as new data comes in.
+
+With ATSD, the user is able display the dataset in an easily understandable manner. The below figure shows each fuel type for each of the 5 locations.
