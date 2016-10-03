@@ -59,7 +59,7 @@ With ATSD, the user is able display the dataset in an easily understandable mann
 
 [![](Images/button.png)](https://apps.axibase.com/chartlab/972babb9)
 
-Here, the user has the ability to filter betweeen 228 different CAA airport aviation metrics. Additionally, the user can filter between 55 different UK airports and filter by airport groups (London area, other UK, or no UK reporting airports). The figure below shows air passangers totals for 2015 for all 55 airports from January 2015 to February 2016.
+Here, the user has the ability to filter betweeen 228 different CAA airport aviation metrics. Additionally, the user can filter between 55 different UK airports and filter by airport groups (London area, other UK, or no UK reporting airports). The figure below shows air passengers totals for 2015 for all 55 airports from January 2015 to February 2016.
 
 ![Figure 4](Images/Figure4.png)
 
@@ -85,7 +85,7 @@ We will walk through a brief example on how to customize the default portal to c
 
     ![Figure 5](Images/Figure5.png)
 
-2.  Next, we want to select the **metric** which we would like to filter for. Once you have installed ATSD, you will want to navigate to the metric list to see the corresponding names. The first dropdown in Chart Lab contains the shortened version of the **metric** names, so you will need to log into your [https://nur.axibase.com](https://nur.axibase.com) account. The image below contains the standard view after you have logged in. Press **Entities**. 
+2.  Next, we want to select the one **metric** which we would like to filter for. Once you have installed ATSD, you will want to navigate to the metric list to see the corresponding names. The first dropdown in Chart Lab contains the shortened version of the **metric** names, so you will need to log into your [https://nur.axibase.com](https://nur.axibase.com) account. The image below contains the standard view after you have logged in. Press **Entities**. 
 
     ![Figure 6](Images/Figure6.png)
     
@@ -105,5 +105,34 @@ We will walk through a brief example on how to customize the default portal to c
 
     ![Figure 10](Images/Figure10.png)
     
-7.  Navigate back to the portal. Type in **metric=** and paste the copied metric name.  
+7.  Navigate back to the portal. Type in **metric=** and paste the copied metric name.
+8.  Since we are comparing 2015 and 2016 values, enter **starttime = current_year** and **endtime = next_year**.
+9.  Since we will be looking at total domestic travel, enter **group-statistic = sum** and change moe from **column-stack** to **column**.
+
+    Your configuration should now look something like the image below.
+    
+    ![Figure 11](Images/Figure11.png)
+
+10. Next, again since we are looking at total domestic value, we need to select all airport and group names.  Create a new heading **[tags]** and enter **airport_name** = * and **group_name** = * (* is shorthand for all).
+11. To display data for 2016, create a new **[series]** and enter **label = current year**.
+12. To display data for 2015, create a new **[series]** and enter **label = previous year**. Enter **time-offset = 1 year** and **color = orange**. 
+
+    Your configuration should now look like the image below.
+    
+    ![Figure 12](Images/Figure12.png)
+    
+13. Press **Run**! Your figure should now look like the image below. 
+
+    ![Figure 13](Images/Figure13.png)
+    
+    Now, we can take a few more steps to clean up our figure.
+    
+14. Change the title to **UK Domestic Terminal Traffic on Scheduled Flights**.
+15. Under **metric** enter **format = numeric** to shorten the length of the outputted numbers.
+16. Press **Run**!
+
+Here you can explore this configuration in Chart Lab: [![](Images/button.png)](https://apps.axibase.com/chartlab/cca64be9)
+
+
+    
      
