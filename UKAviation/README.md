@@ -131,7 +131,14 @@ We will walk through a brief example on how to customize the default portal to c
 15. Under **metric** enter **format = numeric** to shorten the length of the outputted numbers.
 16. Press **Run**!
 
-Here you can explore this configuration in Chart Lab: [![](Images/button.png)](https://apps.axibase.com/chartlab/cca64be9)
+Here you can explore this configuration in Chart Lab: 
+
+[![](Images/button.png)](https://apps.axibase.com/chartlab/cca64be9)
+
+### Example 2
+-------------
+
+
 
 
     
