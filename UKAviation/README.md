@@ -43,8 +43,8 @@ The data is presented for scheduled and chartered flights for passengers from wi
 
 While the aviation trend PDF files can be helpful, they tend to have a very limited scope. Typically, between only 3 and 4 graphs are presented to summarize the entire quarter. To gain a meaningful understanding of the data and trends, you will need to open multiple files at a time and compare trends, which can be difficult and time consuming to work though. 
 
-### Axibase's Time Series Database
-----------------------------------
+### Axibase's Time Series Database (ATSD)
+-----------------------------------------
 
 The processing of CAA datasets using Axibase's Time Series Database (ATSD) is much less cumbersome. Processing the same data with ATSD is less time consuming because the user has the ability to easily toggle between different datasets and years, and filter out for a specific airport location or metric. When loading data for a particular dataset the collector uses metadata to understand the meaning of columns and automatically extract dates, times, and categories from the data files. Besides, ATSD stores the data in the user's own database so that this public data can be combined with internal data sources as well as mixed and matched across different datasets. Once you install ATSD, you don't have to:
 
@@ -55,6 +55,24 @@ The processing of CAA datasets using Axibase's Time Series Database (ATSD) is mu
 
 Rather, you can configure a scheduled job to retrieve the file from the specified endpoint and have ATSD parse it according to pre-defined rules. Once you have raw data in ATSD, creating and sharing reports with built-in widgets is fairly trivial. The reports will be continuously updated as new data comes in.
 
-With ATSD, the user is able display the dataset in an easily understandable manner. Here, you can explore the complete dataset for CAA aviation statistics using our portal
+With ATSD, the user is able display the dataset in an easily understandable manner. Here, you can explore the complete dataset for CAA aviation statistics using our portal:
 
 [![](Images/button.png)](https://apps.axibase.com/chartlab/972babb9)
+
+Here, the user has the ability to filter betweeen 228 different CAA airport aviation metrics. Additionally, the user can filter between 55 different UK airports and filter by airport groups (London area, other UK, or no UK reporting airports). The figure below shows air passangers totals for 2015 for all 55 airports from January 2015 to February 2016.
+
+![Figure 4](Images/Figure4.png)
+
+### Creating Custom Portals
+---------------------------
+
+Custom portals can be created from the default portal. The user has the capability to change or display certain aspects of the dataset to their liking. For example, the user may change graph styling, such as color, graph type, and other display options.
+
+Likewise, by customizing the data the way you want, you can filter out any unnecessary information. If, for example, you are interested in comparing UK Domestic terminal traffic for scheduled flights for different years, you can customize your portal from the default portal to only show that information.
+
+The default portal, from which you can customize the dataset results, again can be found here: **[DEFAULT](https://apps.axibase.com/chartlab/972babb9)**
+
+We will walk through a brief example on how to customize the default portal to compare UK Domestic terminal traffic for scheduled flights between 2015 and 2016.
+
+### Example 1
+-------------
