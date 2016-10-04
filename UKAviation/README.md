@@ -12,7 +12,7 @@ What are the most popular travel destinations for a given airport?
 
 Do aviation trends follow the general course of a nation's economy?
 
-To answer such questions, the Civil Aviation Authority (CAA) serves as an independent specialist for the UK government. Established in 1972, the CAA collects and reports on key aviation metrics which summarize the level of activity at UK airports. According to their website, [caa.co.uk](https://www.caa.co.uk/Data-and-analysis/UK-aviation-market/Airports/Datasets/UK-Airport-data/Airport-data-2016-06/), the CAA collects statistics from more than 60 UK airports. Specific metrics are measured for items such as international and domestic mail shipped from UK airports (tons), international passenger traffic to UK airports, and terminal passengers at different UK airports. These reports may show the raw volumes of each metric and/or year over year (y-o-y) quarterly growth rates. 
+To answer such questions, the Civil Aviation Authority (CAA) serves as an independent specialist for the UK government. Established in 1972, the CAA collects and reports on key aviation metrics which summarize the level of activity at UK airports. According to their website, [caa.co.uk](https://www.caa.co.uk/Data-and-analysis/UK-aviation-market/Airports/Datasets/UK-Airport-data/Airport-data-2016-06/), the CAA collects statistics from more than 60 UK airports. Specific metrics are measured for items such as international and domestic mail shipped from UK airports (tons), international passenger traffic to UK airports, and terminal passengers at different UK airports among many others.
 
 ### CAA Dataset Formats
 ------------------------
@@ -184,8 +184,33 @@ The default Chart Lab portal can be found here:
     
     [![](Images/button.png)](https://apps.axibase.com/chartlab/8dc941e3)
     
-    
+    We can quickly change this widget to output a different figure type. For instance, we can change our widget from calendar to pie to see total international passenger figures from January 2015 to June 2016.
+  
+15. Under the **[widget]** heading, change type from calender to pie.
+16. Delete the lines **summarize-period = 1 month** and **color-range = blue**.
+17. Change the title to **UK International Terminal Passenger Traffic: Passenger Totals from January 2015 to June 2016**.
+18. Press Run!
 
+    Your new figure should look like the image below.
+    
+    ![Figure 18](Images/Figure18.png)
+    
+    You can explore this portal by clicking on the link below.
+    
+    [![](Images/button.png)](https://apps.axibase.com/chartlab/1f9f05a1/2)
+    
+### Action Items
+----------------
+
+Again, below are the steps to follow to install ATSD:
+
+1. [Install the database](https://github.com/axibase/atsd-docs/tree/master/installation#installation) on a virtual machine or in a Linux container.
+2. [Install Axibase Collector](https://github.com/axibase/axibase-collector-docs/blob/master/installation.md#axibase-collector-installation) and configure it to write data into your ATSD instance.
+3. Login into your ATSD account.  
+
+After installing ATSD, scroll though the list of CAA metrics and create and example and send it over to us.
+
+If you require assistance in installing this software or have any questions, please feel free to [contact us](https://axibase.com/feedback/) and we would be happy to be of assistance!
 
     
      
