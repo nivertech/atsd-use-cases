@@ -17,9 +17,13 @@ To answer such questions, the Civil Aviation Authority (CAA) serves as an indepe
 ### CAA Raw Datasets
 --------------------
 
-CAA raw datasets are published every month, and are available ranging back to 1973. From 1990 to the present day, these reports are available in CSV and PDF format. Datasets published before 1990 are available only in PDF format. These datasets merely contain raw data; that is they do not contain any information on analytics or trends, and do not contain any graphs or figures. A link to these raw datasets may be found at the below link:
+CAA raw datasets are published every month, and are available ranging back to 1973. These reports are available in CSV and PDF format, with some reports only being available in one form or another. These datasets merely contain raw data; that is they do not contain any information on analytics or trends, and do not contain any graphs or figures. A link to these raw datasets may be found at the below link:
 
 [https://www.caa.co.uk/Data-and-analysis/UK-aviation-market/Airports/Datasets/UK-airport-data/](https://www.caa.co.uk/Data-and-analysis/UK-aviation-market/Airports/Datasets/UK-airport-data/)
+
+Below is an image of a typical raw data set.
+
+![Figure 1](Images/Figure1.png)
 
 ### CAA Aviation Trends
 -----------------------
@@ -38,12 +42,14 @@ Below is an image from the same report showing terminal passengers at UK airport
 
 The data is presented for scheduled and chartered flights for passengers from within the UK, Europe, North America, and the Rest of the World. Again, quantities of travelers and growth percentages are presented comparing Q4 of 2008 to 2007, and the entire "rolling" years of Q1 through Q4 of 2007 and 2008, respectively. To summarize the graph, the following sentence is used: "Passenger numbers to all destination groups fell in quarter 4 2008, by around 8%, except for passengers numbers to the Rest of the World destination group, which fell by considerably less."
 
-While the aviation trend PDF files can be helpful, they seem to have a very limited scope. Typically, between only 4 to 6 graphs are presented to summarize an entire quarter in one report. To gain a meaningful understanding of the data and trends over time, you would need to open multiple files at a time and compare trends, which can be difficult and time consuming to work though.
+While the aviation trend PDF files can be helpful, they are not interactive and do not allow the user to easily move through different metrics and datasets. To gain a meaningful understanding of the data and trends over time, you would need to open multiple files at a time and compare trends, which can be difficult and time consuming to work though.
 
 ### Axibase's Time Series Database (ATSD)
 -----------------------------------------
 
-The processing of CAA datasets using Axibase's Time Series Database (ATSD) is much less cumbersome. Processing the same data with ATSD is less time consuming because the user has the ability to easily toggle between different datasets and years, and filter out for a specific airport location or metric. When loading data for a particular dataset the collector uses metadata to understand the meaning of columns and automatically extract dates, times, and categories from the data files. Besides, ATSD stores the data in the user's own database so that this public data can be combined with internal data sources as well as mixed and matched across different datasets. Once you install ATSD, you **don't** have to:
+The processing of CAA datasets using Axibase's Time Series Database (ATSD) is much less cumbersome. Processing the same data with ATSD is less time consuming because the user has the ability to easily toggle between different datasets and years, and filter out for a specific airport location or metric. ATSD stores the data in the user's own database so that this public data can be combined with internal data sources as well as mixed and matched across different datasets. For example, you could combine the CAA datasets with weather patterns to see if there is any correlation between poor weather and flight delays; or with another country's aviation statistics to see how they compare to UK trends. 
+
+Once you install ATSD, you **don't** have to:
 
 * Add additional datasets from caa.co.uk
 * Manipulate and design table schema
@@ -52,9 +58,7 @@ The processing of CAA datasets using Axibase's Time Series Database (ATSD) is mu
 
 Rather, you can configure a scheduled job to retrieve the file from the specified endpoint and have ATSD parse it according to pre-defined rules. Once you have raw data in ATSD, creating and sharing reports with built-in widgets is fairly trivial. The reports will be continuously updated as new data comes in.
 
-Using the ATSD default portal for CAA metrics, the user has the ability to filter between 228 different CAA airport aviation metrics. Additionally, the user can filter between 55 different UK airports and filter by airport groups (London area, other UK, or no UK reporting airports). 
-
-The figure below shows the first metric in the first dropdown: air passengers totals for 2015 for all 55 airports from January 2015 to February 2016.
+Using the ATSD default portal for CAA metrics, the user has the ability to filter the CAA datasets to their liking. The first filter allows the user to sort by CAA metric. 228 different CAA airport aviation metrics can be filtered for. The figure below shows the first metric in the first dropdown: air passengers totals for January 2015 to February 2016. The second filter allows the user can filter between 55 different UK airports. In this case, all airports have been selected. The third filer allows the user to filter by airport groups (London area, other UK, or no UK reporting airports). In this case, all groups have been selected.  
 
 ![Figure 4](Images/Figure4.png)
 
