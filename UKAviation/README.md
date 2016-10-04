@@ -1,6 +1,6 @@
 ![TitlePhoto](Images/TitlePhoto.png)
 
-Analyzing UK Aviation Statistics using CAA datasets
+Analyzing UK Aviation Statistics using CAA Datasets
 ===================================================
 
 ### Introduction
@@ -187,7 +187,7 @@ The default Chart Lab portal can be found here:
     
     We can quickly change this widget to output a different figure type. For instance, we can change our widget from calendar to pie to see total international passenger figures from January 2015 to June 2016.
   
-15. Under the **[widget]** heading, change type from calender to pie.
+15. Under the **[widget]** heading, change type from calendar to pie.
 16. Delete the lines **summarize-period = 1 month** and **color-range = blue**.
 17. Change the title to **UK International Terminal Passenger Traffic: Passenger Totals from January 2015 to June 2016**.
 18. Press Run!
