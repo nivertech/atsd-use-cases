@@ -38,7 +38,7 @@ Below is an image from the same report showing terminal passengers at UK airport
 
 The data is presented for scheduled and chartered flights for passengers from within the UK, Europe, North America, and the Rest of the World. Again, quantities of travelers and growth percentages are presented comparing Q4 of 2008 to 2007, and the entire "rolling" years of Q1 through Q4 of 2007 and 2008, respectively. To summarize the graph, the following sentence is used: "Passenger numbers to all destination groups fell in quarter 4 2008, by around 8%, except for passengers numbers to the Rest of the World destination group, which fell by considerably less."
 
-While the aviation trend PDF files can be helpful, they seem to have a very limited scope. Typically, between only 3 and 4 graphs are presented to summarize an entire quarter in one report. To gain a meaningful understanding of the data and trends over time, you would need to open multiple files at a time and compare trends, which can be difficult and time consuming to work though. 
+While the aviation trend PDF files can be helpful, they seem to have a very limited scope. Typically, between only 4 to 6 graphs are presented to summarize an entire quarter in one report. To gain a meaningful understanding of the data and trends over time, you would need to open multiple files at a time and compare trends, which can be difficult and time consuming to work though.
 
 ### Axibase's Time Series Database (ATSD)
 -----------------------------------------
