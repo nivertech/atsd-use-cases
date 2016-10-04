@@ -38,12 +38,12 @@ Below is an image from the same report showing terminal passengers at UK airport
 
 The data is presented for scheduled and chartered flights for passengers from within the UK, Europe, North America, and the Rest of the World. Again, quantities of travelers and growth percentages are presented comparing Q4 of 2008 to 2007, and the entire "rolling" years of Q1 through Q4 of 2007 and 2008, respectively. To summarize the graph, the following sentence is used: "Passenger numbers to all destination groups fell in quarter 4 2008, by around 8%, except for passengers numbers to the Rest of the World destination group, which fell by considerably less."
 
-While the aviation trend PDF files can be helpful, they seem to have a very limited scope. Typically, between only 3 and 4 graphs are presented to summarize an entire quarter in one report. To gain a meaningful understanding of the data and trends, you would need to open multiple files at a time and compare trends, which can be difficult and time consuming to work though. 
+While the aviation trend PDF files can be helpful, they seem to have a very limited scope. Typically, between only 3 and 4 graphs are presented to summarize an entire quarter in one report. To gain a meaningful understanding of the data and trends over time, you would need to open multiple files at a time and compare trends, which can be difficult and time consuming to work though. 
 
 ### Axibase's Time Series Database (ATSD)
 -----------------------------------------
 
-The processing of CAA datasets using Axibase's Time Series Database (ATSD) is much less cumbersome. Processing the same data with ATSD is less time consuming because the user has the ability to easily toggle between different datasets and years, and filter out for a specific airport location or metric. When loading data for a particular dataset the collector uses metadata to understand the meaning of columns and automatically extract dates, times, and categories from the data files. Besides, ATSD stores the data in the user's own database so that this public data can be combined with internal data sources as well as mixed and matched across different datasets. Once you install ATSD, you don't have to:
+The processing of CAA datasets using Axibase's Time Series Database (ATSD) is much less cumbersome. Processing the same data with ATSD is less time consuming because the user has the ability to easily toggle between different datasets and years, and filter out for a specific airport location or metric. When loading data for a particular dataset the collector uses metadata to understand the meaning of columns and automatically extract dates, times, and categories from the data files. Besides, ATSD stores the data in the user's own database so that this public data can be combined with internal data sources as well as mixed and matched across different datasets. Once you install ATSD, you **don't** have to:
 
 * Add additional datasets from caa.co.uk
 * Manipulate and design table schema
@@ -56,7 +56,7 @@ With ATSD, the user is able display the dataset in an easily understandable mann
 
 [![](Images/button.png)](https://apps.axibase.com/chartlab/972babb9)
 
-Here, the user has the ability to filter between 228 different CAA airport aviation metrics. Additionally, the user can filter between 55 different UK airports and filter by airport groups (London area, other UK, or no UK reporting airports). The figure below shows air passengers totals for 2015 for all 55 airports from January 2015 to February 2016.
+Here, the user has the ability to filter between 228 different CAA airport aviation metrics. Additionally, the user can filter between 55 different UK airports and filter by airport groups (London area, other UK, or no UK reporting airports). The figure below shows the first metric in the first dropdown: air passengers totals for 2015 for all 55 airports from January 2015 to February 2016.
 
 ![Figure 4](Images/Figure4.png)
 
@@ -84,7 +84,7 @@ If you require assistance in installing this software or have any questions, ple
 
     ![Figure 5](Images/Figure5.png)
 
-2.  Next, we want to select the one **metric** which we would like to filter for. Once you have installed ATSD, you will want to navigate to the metric list to see the corresponding names. The first dropdown in Chart Lab only contains the shortened version of the **metric** names, so you will need to log into your [https://nur.axibase.com](https://nur.axibase.com) account to view the raw metric names. The image below contains the standard view after you have logged in. Press **Entities**. 
+2.  Next, we want to select the one **metric** which we would like to filter for. Once you have installed ATSD, you will want to navigate to the metric list to see the corresponding names. The first dropdown in Chart Lab only contains the shortened version of the **metric** names. You will need to log into your [https://nur.axibase.com](https://nur.axibase.com) account to view the full raw metric names, which must be used in the configuration. The image below contains the standard view after you have logged in. Press **Entities**. 
 
     ![Figure 6](Images/Figure6.png)
     
