@@ -52,13 +52,19 @@ The processing of CAA datasets using Axibase's Time Series Database (ATSD) is mu
 
 Rather, you can configure a scheduled job to retrieve the file from the specified endpoint and have ATSD parse it according to pre-defined rules. Once you have raw data in ATSD, creating and sharing reports with built-in widgets is fairly trivial. The reports will be continuously updated as new data comes in.
 
-With ATSD, the user is able display the dataset in an easily understandable manner. Here, you can explore our complete dataset for CAA aviation statistics by clicking below on the default portal:
+Using the ATSD default portal for CAA metrics, the user has the ability to filter between 228 different CAA airport aviation metrics. Additionally, the user can filter between 55 different UK airports and filter by airport groups (London area, other UK, or no UK reporting airports). 
 
-[![](Images/button.png)](https://apps.axibase.com/chartlab/972babb9)
-
-Here, the user has the ability to filter between 228 different CAA airport aviation metrics. Additionally, the user can filter between 55 different UK airports and filter by airport groups (London area, other UK, or no UK reporting airports). The figure below shows the first metric in the first dropdown: air passengers totals for 2015 for all 55 airports from January 2015 to February 2016.
+The figure below shows the first metric in the first dropdown: air passengers totals for 2015 for all 55 airports from January 2015 to February 2016.
 
 ![Figure 4](Images/Figure4.png)
+
+This figure shows total freight (in tons) for 2015 for all 55 airports from January 2015 to February 2016.
+
+![Figure 20](Images/Figure20.png)
+
+Here, you can explore our complete dataset for CAA aviation statistics by clicking below on the default portal:
+
+[![](Images/button.png)](https://apps.axibase.com/chartlab/972babb9)
 
 ### Creating Custom Portals
 ---------------------------
