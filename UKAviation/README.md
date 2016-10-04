@@ -8,26 +8,22 @@ Analyzing UK Aviation Statistics using CAA datasets
 
 Are airports getting more and more crowded every year?
 
-What some are the busiest airports in the United Kingdom?
+What some are the busiest airports in the United Kingdom (UK)?
 
 How often do airplanes get delayed?
 
-To answer such questions, the Civil Aviation Authority (CAA) serves as an independent specialist for the UK government. Established in 1972, the CAA collects and reports on key aviation metrics which summarize the level of activity at UK airports. According to their website, [caa.co.uk](https://www.caa.co.uk/Data-and-analysis/UK-aviation-market/Airports/Datasets/UK-Airport-data/Airport-data-2016-06/), the CAA collects statistics from more than 60 UK airports. Specific metrics are measured for items such as international and domestic mail shipped from UK airports (tons), international passenger traffic to UK airports, and terminal passengers at different UK airports among many others.
+To answer such questions, the Civil Aviation Authority (CAA) serves as an independent data specialist for the UK government. Established in 1972, the CAA collects and reports on key aviation metrics which summarize the level of activity at UK airports. According to their website, [caa.co.uk](https://www.caa.co.uk/Data-and-analysis/UK-aviation-market/Airports/Datasets/UK-Airport-data/Airport-data-2016-06/), the CAA collects statistics from more than 60 UK airports. Specific metrics are measured for items such as international and domestic mail shipped to and from UK airports (tons), international passenger traffic to and from UK airports, and terminal passenger totals at different UK airports, among many other metrics.
 
 ### CAA Dataset Formats
 ------------------------
 
-The datasets are available in two separate formats: raw datasets and aviation trends.
+CAA datasets are available in two separate formats: raw datasets and aviation trends.
 
-Raw datasets are published every month, and are available ranging back to 1973. From 1990 to present day these reports are available in CSV and PDF format. Datasets published before 1990 are available only in PDF format. These datasets merely contain raw data; that is they do not contain any information on analytics or trends, and do not contain any graphs or figures. These may be found at the below link:
+Raw datasets are published every month, and are available ranging back to 1973. From 1990 to the present day, these reports are available in CSV and PDF format. Datasets published before 1990 are available only in PDF format. These datasets merely contain raw data; that is they do not contain any information on analytics or trends, and do not contain any graphs or figures. A link to these raw datasets may be found at the below link:
 
 [https://www.caa.co.uk/Data-and-analysis/UK-aviation-market/Airports/Datasets/UK-airport-data/](https://www.caa.co.uk/Data-and-analysis/UK-aviation-market/Airports/Datasets/UK-airport-data/)
 
-Below is a dataset for "International Passenger Traffic to and from Reporting Airports (in Thousands) by Country 2005-2015," which was [published in January 2016](https://www.caa.co.uk/uploadedFiles/CAA/Content/Standard_Content/Data_and_analysis/Datasets/Airport_stats/Airport_data_2016_01/Table_11_International_Air_Pax_Traffic_to_from_UK_by_Country.pdf)
-
-![Figure 1](Images/Figure1.png)
-
-Aviation trends are published per quarter (four times per year). These reports date back to 2008 and are published only in PDF format. Language is used in these reports attempt to put the datasets into context. Graphs and tables showing volumes and year over year (y-o-y) growth rates of datasets are published. These may be found at the below link:
+Aviation trends are published per quarter (four times per year). These reports date back to 2008 and are published only in PDF format. Language is used in these reports to attempt to put the datasets into context. Graphs and tables showing volumes and year over year (y-o-y) growth rates of datasets are published. These aviation trend files may be found at the below link:
 
 [https://www.caa.co.uk/Data-and-analysis/UK-aviation-market/Airports/Aviation-Trends/](https://www.caa.co.uk/Data-and-analysis/UK-aviation-market/Airports/Aviation-Trends/)
 
@@ -55,7 +51,7 @@ The processing of CAA datasets using Axibase's Time Series Database (ATSD) is mu
 
 Rather, you can configure a scheduled job to retrieve the file from the specified endpoint and have ATSD parse it according to pre-defined rules. Once you have raw data in ATSD, creating and sharing reports with built-in widgets is fairly trivial. The reports will be continuously updated as new data comes in.
 
-With ATSD, the user is able display the dataset in an easily understandable manner. Here, you can explore the complete dataset for CAA aviation statistics using our portal:
+With ATSD, the user is able display the dataset in an easily understandable manner. Here, you can explore our complete dataset for CAA aviation statistics by clicking on the below portal:
 
 [![](Images/button.png)](https://apps.axibase.com/chartlab/972babb9)
 
@@ -103,19 +99,19 @@ If you require assistance in installing this software or have any questions, ple
 
     ![Figure 9](Images/Figure9.png)
 
-6.  On the following page you will have a list of metrics, which are available for the CAA entity. In our case, we are looking for UK Domestic terminal traffic for scheduled flights. Copy the seventh entry from the top of the page, **uk-caa.air-pax-by-type-and-nat-of-op.pax_terminal_scheduled_uk**.
+6.  Here, you will see a list of metrics, which are available for the CAA entity. In our case, we are looking for UK Domestic terminal traffic for scheduled flights. Copy the seventh entry from the top of the page, **uk-caa.air-pax-by-type-and-nat-of-op.pax_terminal_scheduled_uk**.
 
     ![Figure 10](Images/Figure10.png)
     
-7.  Navigate back to the portal. Type in **metric=** and paste the copied metric name.
+7.  Navigate back to the portal. Type in **metric=** and paste the copied metric name ().
 8.  Since we are comparing 2015 and 2016 values, enter **starttime = current_year** and **endtime = next_year**.
-9.  Since we will be looking at total domestic travel, enter **group-statistic = sum** and change mode from **column-stack** to **column**. The **group-statistic = sum** command calculates the total number of passengers for all airports in a given month. 
+9.  As we will be looking at total domestic travel, enter **group-statistic = sum** and change mode from **column-stack** to **column**. The **group-statistic = sum** command calculates the total number of passengers for all airports in a given month. 
 
     Your configuration should now look something like the image below.
     
     ![Figure 11](Images/Figure11.png)
 
-10. Next, again since we are looking at total domestic value, we need to select all airport and group names.  Create a new heading **[tags]** and enter **airport_name** = * and **group_name** = * (* is shorthand for all).
+10. Next, again since we are looking at total domestic value, we need to select all airport and group names.  Create a new heading for **[tags]** and enter **airport_name** = * and **group_name** = * (* is shorthand for all).
 11. To display data for 2016, create a new **[series]** and enter **label = current year**.
 12. To display data for 2015, create a new **[series]** and enter **label = previous year**. Enter **time-offset = 1 year** and **color = orange**. The **time-offset = 1 year** command shifts historical data by the specific lag to the current time. In our case, data for the year 2015 is displayed as if it were data for 2016.
 
