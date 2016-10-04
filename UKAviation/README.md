@@ -8,9 +8,9 @@ Analyzing UK Aviation Statistics using CAA datasets
 
 Are airports getting more and more crowded every year?
 
-What are the most popular travel destinations for a given airport?
+What some are the busiest airports in the United Kingdom?
 
-Do aviation trends follow the general course of a nation's economy?
+How often do airplanes get delayed?
 
 To answer such questions, the Civil Aviation Authority (CAA) serves as an independent specialist for the UK government. Established in 1972, the CAA collects and reports on key aviation metrics which summarize the level of activity at UK airports. According to their website, [caa.co.uk](https://www.caa.co.uk/Data-and-analysis/UK-aviation-market/Airports/Datasets/UK-Airport-data/Airport-data-2016-06/), the CAA collects statistics from more than 60 UK airports. Specific metrics are measured for items such as international and domestic mail shipped from UK airports (tons), international passenger traffic to UK airports, and terminal passengers at different UK airports among many others.
 
