@@ -177,7 +177,7 @@ The default Chart Lab portal can be found here:
 13. To increase the size of our figure, under **[configuration]** change offset-right from 50 to 0 and height-units from 2 to 1.
 14. Press Run!
     
-    Your figure should look like the image below.
+    Your figure should look like the image below. 
     
     ![Figure 17](Images/Figure17.png)
     
