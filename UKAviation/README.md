@@ -59,7 +59,7 @@ With ATSD, the user is able display the dataset in an easily understandable mann
 
 [![](Images/button.png)](https://apps.axibase.com/chartlab/972babb9)
 
-Here, the user has the ability to filter betweeen 228 different CAA airport aviation metrics. Additionally, the user can filter between 55 different UK airports and filter by airport groups (London area, other UK, or no UK reporting airports). The figure below shows air passengers totals for 2015 for all 55 airports from January 2015 to February 2016.
+Here, the user has the ability to filter between 228 different CAA airport aviation metrics. Additionally, the user can filter between 55 different UK airports and filter by airport groups (London area, other UK, or no UK reporting airports). The figure below shows air passengers totals for 2015 for all 55 airports from January 2015 to February 2016.
 
 ![Figure 4](Images/Figure4.png)
 
@@ -77,6 +77,8 @@ We will walk through a brief example on how to customize the default portal to c
 1. [Install the database](https://github.com/axibase/atsd-docs/tree/master/installation#installation) on a virtual machine or in a Linux container.
 2. [Install Axibase Collector](https://github.com/axibase/axibase-collector-docs/blob/master/installation.md#axibase-collector-installation) and configure it to write data into your ATSD instance.
 3. Login into your ATSD account.
+
+If you require assistance in installing this software or have any questions, please feel free to [contact us](https://axibase.com/feedback/) and we would be happy to be of assistance!
 
 ### Example 1
 -------------
@@ -107,7 +109,7 @@ We will walk through a brief example on how to customize the default portal to c
     
 7.  Navigate back to the portal. Type in **metric=** and paste the copied metric name.
 8.  Since we are comparing 2015 and 2016 values, enter **starttime = current_year** and **endtime = next_year**.
-9.  Since we will be looking at total domestic travel, enter **group-statistic = sum** and change moe from **column-stack** to **column**.
+9.  Since we will be looking at total domestic travel, enter **group-statistic = sum** and change mode from **column-stack** to **column**. The **group-statistic = sum** command calculates the total number of passengers for all airports in a given month. 
 
     Your configuration should now look something like the image below.
     
@@ -115,7 +117,7 @@ We will walk through a brief example on how to customize the default portal to c
 
 10. Next, again since we are looking at total domestic value, we need to select all airport and group names.  Create a new heading **[tags]** and enter **airport_name** = * and **group_name** = * (* is shorthand for all).
 11. To display data for 2016, create a new **[series]** and enter **label = current year**.
-12. To display data for 2015, create a new **[series]** and enter **label = previous year**. Enter **time-offset = 1 year** and **color = orange**. 
+12. To display data for 2015, create a new **[series]** and enter **label = previous year**. Enter **time-offset = 1 year** and **color = orange**. The **time-offset = 1 year** command shifts historical data by the specific lag to the current time. In our case, data for the year 2015 is displayed as if it were data for 2016.
 
     Your configuration should now look like the image below.
     
@@ -138,7 +140,51 @@ Here you can explore this configuration in Chart Lab:
 ### Example 2
 -------------
 
+Now that we are familiar with the CAA entity and different metrics, we can, as an alternative to building a configuration from the default portal, create a configuration from the generic widget settings in Chart Lab. Let us now walk through building a calendar Widget to show the total international passengers traveling from UK airports within the last year.
 
+The default Chart Lab portal can be found here:
+
+[![](Images/button.png)](https://apps.axibase.com/chartlab)
+
+1.  Press the Chart Lab link above.
+2.  Change the source to **ATSD** and select **calendar** from the Widget drop-down.
+3.  Delete the section of the configuration as shown in the image below.
+
+    ![Figure 14](Images/Figure14.png)
+  
+4.  Change the entity name to **uk-caa** and the metric name to **uk-caa.eu-and-other-intl-passenger-traffic.total_pax_eu_last_period**, which was taken from the metric list in ATSD.
+5.  Since we want to display international passenger figures for all available UK airports, create a **[tags]** heading. Under this heading, enter in airport_name=* (* is shorthand for all). 
+6.  Under the **[configuration]** heading, enter **timezone = UTC**. 
+7.  Under the **[widget]** heading, delete the line **timespan = 3 hour**. 
+8.  To specific our new timespan, enter in **starttime = 2015-01-01T00:00:00z** and on the next line **endtime = current_month**.
+9.  Modify the **summarize-period** line from 10 minutes to 1 month.
+10. To display airport names in our figure, enter **label-format = tags.airport_name**. 
+
+    Your configuration should now look like the image below.
+  
+    ![Figure 15](Images/Figure15.png)
+  
+11. Press Run!
+
+    Your figure should look like the image below.
+    
+    ![Figure 16](Images/Figure16.png)
+    
+    The are a few more steps we can take to clean up our figure.
+    
+12. To create a figure title, enter **title = UK International Terminal Passenger Traffic: Total Passenger**.
+13. To increase the size of our figure, under **[configuration]** change offset-right from 50 to 0 and height-units from 2 to 1.
+14. Press Run!
+    
+    Your figure should look like the image below.
+    
+    ![Figure 17](Images/Figure17.png)
+    
+    From our figure we can see a month by month breakdown of international passenger traffic from all UK airports. The calendar widget is useful for quickly gaining an understanding of the general trends of a particular dataset, as we as observing any outliers in the set. We can see in our instance that in 2015 the most popular travel season was generally from May to October, as indicated by the dark blue square shading. We can also quickly observe outliers in Shoreham and Oxford (Kidlington) for the months of January and February, respectively. You can explore this portal by clicking on the link below.
+    
+    [![](Images/button.png)](https://apps.axibase.com/chartlab/8dc941e3)
+    
+    
 
 
     
