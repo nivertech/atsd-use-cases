@@ -88,7 +88,7 @@ We will walk through a brief example on how to customize the default portal to c
 
     ![Figure 5](Images/Figure5.png)
 
-2.  Next, we want to select the one **metric** which we would like to filter for. The first dropdown in Chart Lab only contains the shortened version of the **metric** names. Here is a text file which contains the full raw metric names: [uk-caa-metrics.txt](uk-caa-metrics.txtMagnifier). A complete list of metrics is also available in the [Appendix](https://github.com/axibase/atsd-use-cases/tree/master/UKAviation#appendix-caa-metric-list).
+2.  Next, we want to select the one **metric** which we would like to filter for. The first dropdown in Chart Lab only contains the shortened version of the **metric** names. Here is a text file which contains the full raw metric names: [uk-caa-metrics.txt](uk-caa-metrics.txtMagnifier). A complete list of metrics is also available in the [Appendix](https://github.com/axibase/atsd-use-cases/tree/master/UKAviation#appedix-caa-metric-list).
 
     ![Figure 21](Images/Figure21.png)
 
