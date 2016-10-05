@@ -21,7 +21,7 @@ CAA raw datasets are published every month, and are available ranging back to 19
 
 [https://www.caa.co.uk/Data-and-analysis/UK-aviation-market/Airports/Datasets/UK-airport-data/](https://www.caa.co.uk/Data-and-analysis/UK-aviation-market/Airports/Datasets/UK-airport-data/)
 
-Below is an image of a typical raw data set.
+Below is an image of a typical raw data set, taken from [January 2016](https://www.caa.co.uk/uploadedFiles/CAA/Content/Standard_Content/Data_and_analysis/Datasets/Airport_stats/Airport_data_2016_01/Table_11_International_Air_Pax_Traffic_to_from_UK_by_Country.pdf)
 
 ![Figure 1](Images/Figure1.png)
 
@@ -79,13 +79,7 @@ Likewise, by customizing the data the way you want, you can filter out any unnec
 
 The default portal, from which you can customize the dataset results, again can be found here: **[DEFAULT](https://apps.axibase.com/chartlab/972babb9)**
 
-We will walk through a brief example on how to customize the default portal to compare UK Domestic terminal traffic for scheduled flights between 2015 and 2016. But before we walk through this example, the user must first install ATSD:
-
-1. [Install the database](https://github.com/axibase/atsd-docs/tree/master/installation#installation) on a virtual machine or in a Linux container.
-2. [Install Axibase Collector](https://github.com/axibase/axibase-collector-docs/blob/master/installation.md#axibase-collector-installation) and configure it to write data into your ATSD instance.
-3. Login into your ATSD account.
-
-If you require assistance in installing this software or have any questions, please feel free to [contact us](https://axibase.com/feedback/) and we would be happy to be of assistance!
+We will walk through a brief example on how to customize the default portal to compare UK Domestic terminal traffic for scheduled flights between 2015 and 2016. 
 
 ### Example 1
 -------------
@@ -94,7 +88,11 @@ If you require assistance in installing this software or have any questions, ple
 
     ![Figure 5](Images/Figure5.png)
 
-2.  Next, we want to select the one **metric** which we would like to filter for. Once you have installed ATSD, you will want to navigate to the metric list to see the corresponding names. The first dropdown in Chart Lab only contains the shortened version of the **metric** names. You will need to log into your [https://nur.axibase.com](https://nur.axibase.com) account to view the full raw metric names, which must be used in the configuration. The image below contains the standard view after you have logged in. Press **Entities**. 
+2.  Next, we want to select the one **metric** which we would like to filter for. The first dropdown in Chart Lab only contains the shortened version of the **metric** names. Below is a text file which contains the full raw metric names:
+
+    [uk-caa-metrics.txt]( uk-caa-metrics.txtMagnifier)
+
+    If you have installed ATSD, you will want to navigate to the metric list to see the corresponding names. You will need to log into your [ATSD account](https://atsd_server:8443/) to view the full raw metric names, which must be used in the configuration. The image below contains the standard view after you have logged in. Press **Entities**. 
 
     ![Figure 6](Images/Figure6.png)
     
@@ -195,12 +193,17 @@ The default Chart Lab portal can be found here:
     
     [![](Images/button.png)](https://apps.axibase.com/chartlab/8dc941e3)
     
-    We can quickly change this widget to output a different figure type. For instance, we can change our widget from calendar to pie to see total international passenger figures from January 2015 to June 2016.
+    We can quickly change this widget to output a different figure type. For instance, we can change our widget from calendar to pie to see total international passenger figures for June 2016.
   
 15. Under the **[widget]** heading, change type from calendar to pie.
 16. Delete the lines **summarize-period = 1 month** and **color-range = blue**.
-17. Change the title to **UK International Terminal Passenger Traffic: Passenger Totals from January 2015 to June 2016**.
-18. Press Run!
+17. Change from **starttime = 2015-01-01T00:00:00Z** to **starttime = current year**.
+18. Let us only display the top 15 airports. Enter **display = value > top(15)**.
+19. To display a legend with the figure, enter **legend-position = top**.
+20. To show numeric values with the figure, enter **series-labels = connected**.
+21. Enter **mode = ring**. 
+22. Change the title to **UK International Terminal Passenger Traffic: Top 15 Airports June 2016**.
+23. Press Run!
 
     Your new figure should look like the image below.
     
@@ -208,19 +211,21 @@ The default Chart Lab portal can be found here:
     
     You can explore this portal by clicking on the link below.
     
-    [![](Images/button.png)](https://apps.axibase.com/chartlab/1f9f05a1/2)
+    [![](Images/button.png)](https://apps.axibase.com/chartlab/1f9f05a1/4)
     
 ### Action Items
 ----------------
 
-Again, below are the steps to follow to install ATSD and create figures for CAA metrics:
+Below are the steps to follow to install ATSD and create figures for CAA metrics:
 
 1. [Install the database](https://github.com/axibase/atsd-docs/tree/master/installation#installation) on a virtual machine or in a Linux container.
 2. [Install Axibase Collector](https://github.com/axibase/axibase-collector-docs/blob/master/installation.md#axibase-collector-installation) and configure it to write data into your ATSD instance.
-3. Login into your ATSD account.
-4. Select your desired CAA metric and begin building your configuration!
+3. Import the  [csv-configs.xml](csv-configs.xml) into Axibase Collector.
+4. Import the [jobs.xml](jobs.xml) into Axibase Collector. 
+5. Login into your ATSD account.
+6. Select your desired CAA metric and begin building your configuration!
 
-After installing ATSD and scroll though the list of CAA metrics, create your own example and send it over to us.
+After installing ATSD and scrolling though the list of CAA metrics, create your own example and send it over to us.
 
 If you require assistance in installing this software or have any questions, please feel free to [contact us](https://axibase.com/feedback/) and we would be happy to be of assistance!
 

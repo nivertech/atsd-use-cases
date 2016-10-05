@@ -1,0 +1,146 @@
+<list>
+  <com.axibase.tsd.model.csv.CsvConfiguration>
+    <name>uk-caa</name>
+    <putType>METRIC</putType>
+    <delimiter>,</delimiter>
+    <recordDelimiter>
+</recordDelimiter>
+    <padding> </padding>
+    <comment></comment>
+    <textQualifier>&quot;</textQualifier>
+    <entityColumn/>
+    <defaultEntity>uk-caa</defaultEntity>
+    <timestampColumn class="java.util.Arrays$ArrayList">
+      <a class="string-array">
+        <string>this_period</string>
+      </a>
+    </timestampColumn>
+    <timestampFormat>yyyyMM</timestampFormat>
+    <metricPrefix>uk-caa.</metricPrefix>
+    <timestampType>PATTERN</timestampType>
+    <processEvents>false</processEvents>
+    <writeProperty>false</writeProperty>
+    <enabled>true</enabled>
+    <discardNan>false</discardNan>
+    <ignoreParseErrors>true</ignoreParseErrors>
+    <timeZone>GMT</timeZone>
+    <tagColumns class="linked-hash-set">
+      <string>airport_name</string>
+      <string>group_name</string>
+      <string>airport_1_name</string>
+      <string>airport_2_name</string>
+      <string>intended_airport</string>
+      <string>actual_airport</string>
+      <string>foreign_region</string>
+      <string>foreign_country</string>
+      <string>UK_airport</string>
+      <string>foreign_airport</string>
+    </tagColumns>
+    <excludedColumns class="linked-hash-set">
+      <string>rundate</string>
+      <string>Run_Date</string>
+      <string>last_period</string>
+      <string>Last_Period</string>
+      <string>charters_tm_only_small_acf</string>
+      <string>charters_lm_only_small_acf</string>
+    </excludedColumns>
+    <propertyColumns class="linked-hash-set"/>
+    <propertyKeyColumns class="linked-hash-set"/>
+    <entityTags class="linked-hash-set"/>
+    <metricTags class="linked-hash-set"/>
+    <defaultTags class="linked-hash-map"/>
+    <renamedColumns class="linked-hash-map">
+      <entry>
+        <string>Reporting_Airport_Group_Name</string>
+        <string>group_name</string>
+      </entry>
+      <entry>
+        <string>This_Period</string>
+        <string>this_period</string>
+      </entry>
+      <entry>
+        <string>UK_airport</string>
+        <string>airport_name</string>
+      </entry>
+      <entry>
+        <string>pax_termial_scheduled_UK</string>
+        <string>pax_terminal_scheduled_uk</string>
+      </entry>
+      <entry>
+        <string>report_period</string>
+        <string>this_period</string>
+      </entry>
+      <entry>
+        <string>reporting_airport_group_name</string>
+        <string>group_name</string>
+      </entry>
+      <entry>
+        <string>reporting_airport_name</string>
+        <string>airport_name</string>
+      </entry>
+      <entry>
+        <string>reporting_period</string>
+        <string>this_period</string>
+      </entry>
+      <entry>
+        <string>repoting_airport_group_name</string>
+        <string>group_name</string>
+      </entry>
+      <entry>
+        <string>rpt_apt_grp_name</string>
+        <string>group_name</string>
+      </entry>
+      <entry>
+        <string>rpt_apt_name</string>
+        <string>airport_name</string>
+      </entry>
+      <entry>
+        <string>total_pax_eu_cht_tp</string>
+        <string>total_pax_eu_charter_this_period</string>
+      </entry>
+      <entry>
+        <string>total_pax_eu_lp</string>
+        <string>total_pax_eu_last_period</string>
+      </entry>
+      <entry>
+        <string>total_pax_eu_pc</string>
+        <string>total_pax_eu_percent</string>
+      </entry>
+      <entry>
+        <string>total_pax_eu_shd_tp</string>
+        <string>total_pax_eu_scheduled_this_period</string>
+      </entry>
+      <entry>
+        <string>total_pax_eu_tp</string>
+        <string>total_pax_eu_this_period</string>
+      </entry>
+      <entry>
+        <string>total_pax_oi_cht_tp</string>
+        <string>total_pax_other_international_charter_this_period</string>
+      </entry>
+      <entry>
+        <string>total_pax_oi_lp</string>
+        <string>total_pax_other_international_last_period</string>
+      </entry>
+      <entry>
+        <string>total_pax_oi_pc</string>
+        <string>total_pax_other_international_percent</string>
+      </entry>
+      <entry>
+        <string>total_pax_oi_shd_tp</string>
+        <string>total_pax_other_international_scheduled_this_period</string>
+      </entry>
+      <entry>
+        <string>total_pax_oi_tp</string>
+        <string>total_pax_other_international_this_period</string>
+      </entry>
+      <entry>
+        <string>total_pax_tp</string>
+        <string>total_pax_this_period</string>
+      </entry>
+    </renamedColumns>
+    <header/>
+    <decimalSeparator>.</decimalSeparator>
+    <groupingSeparator>,</groupingSeparator>
+  </com.axibase.tsd.model.csv.CsvConfiguration>
+</list>
