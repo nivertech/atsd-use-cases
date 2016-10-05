@@ -63,9 +63,7 @@ Once you install ATSD, you **don't** have to:
 * Provision an application server
 * Write programs to parse and digest these types of files.
 
-Rather, you can configure a scheduled job to retrieve the file from the specified endpoint and have ATSD parse it according to pre-defined rules. Once you have raw data in ATSD, creating and sharing reports with built-in widgets is fairly trivial. The reports will be continuously updated as new data comes in. 
-
-Below is a image of the data flow of ATSD.
+Rather, you can configure a scheduled job to retrieve the file from the specified endpoint and have ATSD parse it according to pre-defined rules. Once you have raw data in ATSD, creating and sharing reports with built-in widgets is fairly trivial. The reports will be continuously updated as new data comes in. Below is a image of the data flow of ATSD.
 
 ![dataflow](Images/dataflow.png)
 
