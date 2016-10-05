@@ -244,16 +244,16 @@ If you require assistance in installing this software or have any questions, ple
 ### Index: CAA Metric List
 --------------------------
 
-uk-caa.air-pax-by-type-and-nat-of-op.pax_termial_scheduled_uk
-uk-caa.air-pax-by-type-and-nat-of-op.pax_terminal_charter_foreign_eu
-uk-caa.air-pax-by-type-and-nat-of-op.pax_terminal_charter_foreign_non_eu
-uk-caa.air-pax-by-type-and-nat-of-op.pax_terminal_charter_uk
-uk-caa.air-pax-by-type-and-nat-of-op.pax_terminal_scheduled_foreign_eu
-uk-caa.air-pax-by-type-and-nat-of-op.pax_terminal_scheduled_foreign_non_eu
-uk-caa.air-pax-by-type-and-nat-of-op.pax_terminal_scheduled_uk
-uk-caa.air-pax-by-type-and-nat-of-op.pax_transit_charter_foreign_eu
-uk-caa.air-pax-by-type-and-nat-of-op.pax_transit_charter_foreign_non_eu
-uk-caa.air-pax-by-type-and-nat-of-op.pax_transit_charter_uk
+uk-caa.air-pax-by-type-and-nat-of-op.pax_termial_scheduled_uk <br />
+uk-caa.air-pax-by-type-and-nat-of-op.pax_terminal_charter_foreign_eu <br />
+uk-caa.air-pax-by-type-and-nat-of-op.pax_terminal_charter_foreign_non_eu <br />
+uk-caa.air-pax-by-type-and-nat-of-op.pax_terminal_charter_uk <br />
+uk-caa.air-pax-by-type-and-nat-of-op.pax_terminal_scheduled_foreign_eu <br />
+uk-caa.air-pax-by-type-and-nat-of-op.pax_terminal_scheduled_foreign_non_eu <br />
+uk-caa.air-pax-by-type-and-nat-of-op.pax_terminal_scheduled_uk <br />
+uk-caa.air-pax-by-type-and-nat-of-op.pax_transit_charter_foreign_eu <br />
+uk-caa.air-pax-by-type-and-nat-of-op.pax_transit_charter_foreign_non_eu <br />
+uk-caa.air-pax-by-type-and-nat-of-op.pax_transit_charter_uk <br />
 uk-caa.air-pax-by-type-and-nat-of-op.pax_transit_scheduled_foreign_eu
 uk-caa.air-pax-by-type-and-nat-of-op.pax_transit_scheduled_foreign_non_eu
 uk-caa.air-pax-by-type-and-nat-of-op.pax_transit_scheduled_uk
