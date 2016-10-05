@@ -254,372 +254,372 @@ uk-caa.air-pax-by-type-and-nat-of-op.pax_terminal_scheduled_uk <br />
 uk-caa.air-pax-by-type-and-nat-of-op.pax_transit_charter_foreign_eu <br />
 uk-caa.air-pax-by-type-and-nat-of-op.pax_transit_charter_foreign_non_eu <br />
 uk-caa.air-pax-by-type-and-nat-of-op.pax_transit_charter_uk <br />
-uk-caa.air-pax-by-type-and-nat-of-op.pax_transit_scheduled_foreign_eu
-uk-caa.air-pax-by-type-and-nat-of-op.pax_transit_scheduled_foreign_non_eu
-uk-caa.air-pax-by-type-and-nat-of-op.pax_transit_scheduled_uk
-uk-caa.air-pax-by-type-and-nat-of-op.total_pax
-uk-caa.air-transport-movements-comparison.atms_cargo_aircraft_last_period
-uk-caa.air-transport-movements-comparison.atms_cargo_aircraft_percent
-uk-caa.air-transport-movements-comparison.atms_cargo_aircraft_this_period
-uk-caa.air-transport-movements-comparison.atms_passenger_aircraft_last_period
-uk-caa.air-transport-movements-comparison.atms_passenger_aircraft_percent
-uk-caa.air-transport-movements-comparison.atms_passenger_aircraft_this_period
-uk-caa.air-transport-movements-comparison.total_atms_last_period
-uk-caa.air-transport-movements-comparison.total_atms_percent
-uk-caa.air-transport-movements-comparison.total_atms_this_period
-uk-caa.air-transport-movements-vs-prev-year.atms_cargo_aircraft_last_period
-uk-caa.air-transport-movements-vs-prev-year.atms_cargo_aircraft_percent
-uk-caa.air-transport-movements-vs-prev-year.atms_cargo_aircraft_this_period
-uk-caa.air-transport-movements-vs-prev-year.atms_passenger_aircraft_last_period
-uk-caa.air-transport-movements-vs-prev-year.atms_passenger_aircraft_percent
-uk-caa.air-transport-movements-vs-prev-year.atms_passenger_aircraft_this_period
-uk-caa.air-transport-movements-vs-prev-year.total_atms_last_period
-uk-caa.air-transport-movements-vs-prev-year.total_atms_percent
-uk-caa.air-transport-movements-vs-prev-year.total_atms_this_period
-uk-caa.air-transport-movements.charter_all_domestic_atm
-uk-caa.air-transport-movements.charter_all_eu_international_atm
-uk-caa.air-transport-movements.charter_all_non_eu_international_atm
-uk-caa.air-transport-movements.charter_eu_international_passenger_atm
-uk-caa.air-transport-movements.charter_passenger_domestic_atm
-uk-caa.air-transport-movements.charter_passenger_non_eu_international_atm
-uk-caa.air-transport-movements.scheduled_all_domestic_atm
-uk-caa.air-transport-movements.scheduled_all_eu_international_atm
-uk-caa.air-transport-movements.scheduled_all_non_eu_international_atm
-uk-caa.air-transport-movements.scheduled_passenger_domestic_atm
-uk-caa.air-transport-movements.scheduled_passenger_eu_international_atm
-uk-caa.air-transport-movements.scheduled_passenger_non_eu_international_atm
-uk-caa.air-transport-movements.total_domestic_atm
-uk-caa.air-transport-movements.total_eu_atm
-uk-caa.air-transport-movements.total_non_eu_international_atm
-uk-caa.aircraft-movements.aero_club
-uk-caa.aircraft-movements.air_taxi
-uk-caa.aircraft-movements.air_transport
-uk-caa.aircraft-movements.business_aviation
-uk-caa.aircraft-movements.grand_total
-uk-caa.aircraft-movements.local_movements
-uk-caa.aircraft-movements.military
-uk-caa.aircraft-movements.official
-uk-caa.aircraft-movements.other_flights
-uk-caa.aircraft-movements.positioning_flights
-uk-caa.aircraft-movements.private_flights
-uk-caa.aircraft-movements.test_and_training
-uk-caa.aircraft-movementsaero_club
-uk-caa.aircraft-movementsair_taxi
-uk-caa.aircraft-movementsair_transport
-uk-caa.aircraft-movementsbusiness_aviation
-uk-caa.aircraft-movementsgrand_total
-uk-caa.aircraft-movementslocal_movements
-uk-caa.aircraft-movementsmilitary
-uk-caa.aircraft-movementsofficial
-uk-caa.aircraft-movementsother_flights
-uk-caa.aircraft-movementspositioning_flights
-uk-caa.aircraft-movementsprivate_flights
-uk-caa.aircraft-movementstest_and_training
-uk-caa.airport-landings-diverted.num_flights_day_1
-uk-caa.airport-landings-diverted.num_flights_day_10
-uk-caa.airport-landings-diverted.num_flights_day_11
-uk-caa.airport-landings-diverted.num_flights_day_12
-uk-caa.airport-landings-diverted.num_flights_day_13
-uk-caa.airport-landings-diverted.num_flights_day_14
-uk-caa.airport-landings-diverted.num_flights_day_15
-uk-caa.airport-landings-diverted.num_flights_day_16
-uk-caa.airport-landings-diverted.num_flights_day_17
-uk-caa.airport-landings-diverted.num_flights_day_18
-uk-caa.airport-landings-diverted.num_flights_day_19
-uk-caa.airport-landings-diverted.num_flights_day_2
-uk-caa.airport-landings-diverted.num_flights_day_20
-uk-caa.airport-landings-diverted.num_flights_day_21
-uk-caa.airport-landings-diverted.num_flights_day_22
-uk-caa.airport-landings-diverted.num_flights_day_23
-uk-caa.airport-landings-diverted.num_flights_day_24
-uk-caa.airport-landings-diverted.num_flights_day_25
-uk-caa.airport-landings-diverted.num_flights_day_26
-uk-caa.airport-landings-diverted.num_flights_day_27
-uk-caa.airport-landings-diverted.num_flights_day_28
-uk-caa.airport-landings-diverted.num_flights_day_29
-uk-caa.airport-landings-diverted.num_flights_day_3
-uk-caa.airport-landings-diverted.num_flights_day_30
-uk-caa.airport-landings-diverted.num_flights_day_31
-uk-caa.airport-landings-diverted.num_flights_day_4
-uk-caa.airport-landings-diverted.num_flights_day_5
-uk-caa.airport-landings-diverted.num_flights_day_6
-uk-caa.airport-landings-diverted.num_flights_day_7
-uk-caa.airport-landings-diverted.num_flights_day_8
-uk-caa.airport-landings-diverted.num_flights_day_9
-uk-caa.airport-landings-diverted.total_flights
-uk-caa.domestic-air-pax-route-analysis-by-airport.total_pax_charter_last_period
-uk-caa.domestic-air-pax-route-analysis-by-airport.total_pax_charter_this_period
-uk-caa.domestic-air-pax-route-analysis-by-airport.total_pax_last_period
-uk-caa.domestic-air-pax-route-analysis-by-airport.total_pax_percent
-uk-caa.domestic-air-pax-route-analysis-by-airport.total_pax_scheduled_last_period
-uk-caa.domestic-air-pax-route-analysis-by-airport.total_pax_scheduled_this_period
-uk-caa.domestic-air-pax-route-analysis-by-airport.total_pax_this_period
-uk-caa.domestic-air-pax-route-analysis-by-each-reporting-airport.total_pax_charter_last_period
-uk-caa.domestic-air-pax-route-analysis-by-each-reporting-airport.total_pax_charter_this_period
-uk-caa.domestic-air-pax-route-analysis-by-each-reporting-airport.total_pax_last_period
-uk-caa.domestic-air-pax-route-analysis-by-each-reporting-airport.total_pax_percent
-uk-caa.domestic-air-pax-route-analysis-by-each-reporting-airport.total_pax_scheduled_last_period
-uk-caa.domestic-air-pax-route-analysis-by-each-reporting-airport.total_pax_scheduled_this_period
-uk-caa.domestic-air-pax-route-analysis-by-each-reporting-airport.total_pax_this_period
-uk-caa.domestic-terminal-passenger-traffic.total_pax_charter_last_period
-uk-caa.domestic-terminal-passenger-traffic.total_pax_charter_this_period
-uk-caa.domestic-terminal-passenger-traffic.total_pax_last_period
-uk-caa.domestic-terminal-passenger-traffic.total_pax_percent
-uk-caa.domestic-terminal-passenger-traffic.total_pax_scheduled_last_period
-uk-caa.domestic-terminal-passenger-traffic.total_pax_scheduled_this_period
-uk-caa.domestic-terminal-passenger-traffic.total_pax_this_period
-uk-caa.domestic-terminal-pax-traffic.total_pax_charter_this_period
-uk-caa.domestic-terminal-pax-traffic.total_pax_last_period
-uk-caa.domestic-terminal-pax-traffic.total_pax_percent
-uk-caa.domestic-terminal-pax-traffic.total_pax_scheduled_this_period
-uk-caa.domestic-terminal-pax-traffic.total_pax_this_period
-uk-caa.eu-and-other-intl-passenger-traffic.total_pax_eu_charter_this_period
-uk-caa.eu-and-other-intl-passenger-traffic.total_pax_eu_cht_tp
-uk-caa.eu-and-other-intl-passenger-traffic.total_pax_eu_last_period
-uk-caa.eu-and-other-intl-passenger-traffic.total_pax_eu_lp
-uk-caa.eu-and-other-intl-passenger-traffic.total_pax_eu_pc
-uk-caa.eu-and-other-intl-passenger-traffic.total_pax_eu_percent
-uk-caa.eu-and-other-intl-passenger-traffic.total_pax_eu_scheduled_this_period
-uk-caa.eu-and-other-intl-passenger-traffic.total_pax_eu_shd_tp
-uk-caa.eu-and-other-intl-passenger-traffic.total_pax_eu_this_period
-uk-caa.eu-and-other-intl-passenger-traffic.total_pax_eu_tp
-uk-caa.eu-and-other-intl-passenger-traffic.total_pax_oi_cht_tp
-uk-caa.eu-and-other-intl-passenger-traffic.total_pax_oi_lp
-uk-caa.eu-and-other-intl-passenger-traffic.total_pax_oi_pc
-uk-caa.eu-and-other-intl-passenger-traffic.total_pax_oi_shd_tp
-uk-caa.eu-and-other-intl-passenger-traffic.total_pax_oi_tp
-uk-caa.eu-and-other-intl-passenger-traffic.total_pax_other_international_charter_this_period
-uk-caa.eu-and-other-intl-passenger-traffic.total_pax_other_international_last_period
-uk-caa.eu-and-other-intl-passenger-traffic.total_pax_other_international_percent
-uk-caa.eu-and-other-intl-passenger-traffic.total_pax_other_international_scheduled_this_period
-uk-caa.eu-and-other-intl-passenger-traffic.total_pax_other_international_this_period
-uk-caa.eu-and-other-intl-passenger-traffic.total_pax_this_period
-uk-caa.eu-and-other-intl-passenger-traffic.total_pax_tp
-uk-caa.eu-and-other-intl-terminal-pax-traffic.total_pax_eu_charter_this_period
-uk-caa.eu-and-other-intl-terminal-pax-traffic.total_pax_eu_last_period
-uk-caa.eu-and-other-intl-terminal-pax-traffic.total_pax_eu_percent
-uk-caa.eu-and-other-intl-terminal-pax-traffic.total_pax_eu_scheduled_this_period
-uk-caa.eu-and-other-intl-terminal-pax-traffic.total_pax_eu_this_period
-uk-caa.eu-and-other-intl-terminal-pax-traffic.total_pax_other_international_charter_this_period
-uk-caa.eu-and-other-intl-terminal-pax-traffic.total_pax_other_international_last_period
-uk-caa.eu-and-other-intl-terminal-pax-traffic.total_pax_other_international_percent
-uk-caa.eu-and-other-intl-terminal-pax-traffic.total_pax_other_international_scheduled_this_period
-uk-caa.eu-and-other-intl-terminal-pax-traffic.total_pax_other_international_this_period
-uk-caa.eu-and-other-intl-terminal-pax-traffic.total_pax_this_period
-uk-caa.eu_and_other_intl_passenger_traffic.total_pax_eu_cht_tp
-uk-caa.eu_and_other_intl_passenger_traffic.total_pax_eu_lp
-uk-caa.eu_and_other_intl_passenger_traffic.total_pax_eu_pc
-uk-caa.eu_and_other_intl_passenger_traffic.total_pax_eu_shd_tp
-uk-caa.eu_and_other_intl_passenger_traffic.total_pax_eu_tp
-uk-caa.eu_and_other_intl_passenger_traffic.total_pax_oi_cht_tp
-uk-caa.eu_and_other_intl_passenger_traffic.total_pax_oi_lp
-uk-caa.eu_and_other_intl_passenger_traffic.total_pax_oi_pc
-uk-caa.eu_and_other_intl_passenger_traffic.total_pax_oi_shd_tp
-uk-caa.eu_and_other_intl_passenger_traffic.total_pax_oi_tp
-uk-caa.eu_and_other_intl_passenger_traffic.total_pax_tp
-uk-caa.freight-by-aircraft-configuration.total_freight_cargo_aircraft_last_period
-uk-caa.freight-by-aircraft-configuration.total_freight_cargo_aircraft_percent_change
-uk-caa.freight-by-aircraft-configuration.total_freight_cargo_aircraft_this_period
-uk-caa.freight-by-aircraft-configuration.total_freight_last_period
-uk-caa.freight-by-aircraft-configuration.total_freight_passenger_aircraft_last_period
-uk-caa.freight-by-aircraft-configuration.total_freight_passenger_aircraft_percent_change
-uk-caa.freight-by-aircraft-configuration.total_freight_passenger_aircraft_this_period
-uk-caa.freight-by-aircraft-configuration.total_freight_percent_change
-uk-caa.freight-by-aircraft-configuration.total_freight_this_period
-uk-caa.freight-by-type-and-nat-of-op.freight_picked_up_charter_foreign_eu
-uk-caa.freight-by-type-and-nat-of-op.freight_picked_up_charter_foreign_non_eu
-uk-caa.freight-by-type-and-nat-of-op.freight_picked_up_charter_uk
-uk-caa.freight-by-type-and-nat-of-op.freight_picked_up_scheduled_foreign_eu
-uk-caa.freight-by-type-and-nat-of-op.freight_picked_up_scheduled_foreign_non_eu
-uk-caa.freight-by-type-and-nat-of-op.freight_picked_up_scheduled_uk
-uk-caa.freight-by-type-and-nat-of-op.freight_set_down_charter_foreign_eu
-uk-caa.freight-by-type-and-nat-of-op.freight_set_down_charter_foreign_non_eu
-uk-caa.freight-by-type-and-nat-of-op.freight_set_down_charter_uk
-uk-caa.freight-by-type-and-nat-of-op.freight_set_down_scheduled_foreign_eu
-uk-caa.freight-by-type-and-nat-of-op.freight_set_down_scheduled_foreign_non_eu
-uk-caa.freight-by-type-and-nat-of-op.freight_set_down_scheduled_uk
-uk-caa.freight-by-type-and-nat-of-op.total_freight
-uk-caa.freight-by-type-and-nationality.freight_picked_up_charter_foreign_eu
-uk-caa.freight-by-type-and-nationality.freight_picked_up_charter_foreign_non_eu
-uk-caa.freight-by-type-and-nationality.freight_picked_up_charter_uk
-uk-caa.freight-by-type-and-nationality.freight_picked_up_scheduled_foreign_eu
-uk-caa.freight-by-type-and-nationality.freight_picked_up_scheduled_foreign_non_eu
-uk-caa.freight-by-type-and-nationality.freight_picked_up_scheduled_uk
-uk-caa.freight-by-type-and-nationality.freight_set_down_charter_foreign_eu
-uk-caa.freight-by-type-and-nationality.freight_set_down_charter_foreign_non_eu
-uk-caa.freight-by-type-and-nationality.freight_set_down_charter_uk
-uk-caa.freight-by-type-and-nationality.freight_set_down_scheduled_foreign_eu
-uk-caa.freight-by-type-and-nationality.freight_set_down_scheduled_foreign_non_eu
-uk-caa.freight-by-type-and-nationality.freight_set_down_scheduled_uk
-uk-caa.freight-by-type-and-nationality.total_freight
-uk-caa.international-and-domestic-freight.freight_charter_cargo_aircraft_foreign_eu
-uk-caa.international-and-domestic-freight.freight_charter_cargo_aircraft_foreign_non_eu
-uk-caa.international-and-domestic-freight.freight_charter_cargo_aircraft_uk
-uk-caa.international-and-domestic-freight.freight_charter_passenger_aircraft_foreign_eu
-uk-caa.international-and-domestic-freight.freight_charter_passenger_aircraft_foreign_non_eu
-uk-caa.international-and-domestic-freight.freight_charter_passenger_aircraft_uk
-uk-caa.international-and-domestic-freight.freight_passenger_aircraft_foreign_eu
-uk-caa.international-and-domestic-freight.freight_schedueld_passenger_aircraft_uk
-uk-caa.international-and-domestic-freight.freight_scheduled_cargo_aircraft_foreign_eu
-uk-caa.international-and-domestic-freight.freight_scheduled_cargo_aircraft_foreign_non_eu
-uk-caa.international-and-domestic-freight.freight_scheduled_cargo_aircraft_uk
-uk-caa.international-and-domestic-freight.freight_scheduled_passenger_aircraft_foreign_eu
-uk-caa.international-and-domestic-freight.freight_scheduled_passenger_aircraft_foreign_eu1
-uk-caa.international-and-domestic-freight.freight_scheduled_passenger_aircraft_foreign_non_eu
-uk-caa.international-and-domestic-mail.mail_charter_cargo_aircraft_foreign_eu
-uk-caa.international-and-domestic-mail.mail_charter_cargo_aircraft_foreign_non_eu
-uk-caa.international-and-domestic-mail.mail_charter_cargo_aircraft_uk
-uk-caa.international-and-domestic-mail.mail_charter_passenger_aircraft_foreign_eu
-uk-caa.international-and-domestic-mail.mail_charter_passenger_aircraft_foreign_non_eu
-uk-caa.international-and-domestic-mail.mail_charter_passenger_aircraft_uk
-uk-caa.international-and-domestic-mail.mail_scheduled_cargo_aircraft_foreign_eu
-uk-caa.international-and-domestic-mail.mail_scheduled_cargo_aircraft_foreign_non_eu
-uk-caa.international-and-domestic-mail.mail_scheduled_cargo_aircraft_uk
-uk-caa.international-and-domestic-mail.mail_scheduled_passenger_aircraft_foreign_eu
-uk-caa.international-and-domestic-mail.mail_scheduled_passenger_aircraft_foreign_non_eu
-uk-caa.international-and-domestic-mail.mail_scheduled_passenger_aircraft_uk
-uk-caa.intl-air-pax-traffic-route-analysis.total_pax_charter_last_period
-uk-caa.intl-air-pax-traffic-route-analysis.total_pax_charter_this_period
-uk-caa.intl-air-pax-traffic-route-analysis.total_pax_last_period
-uk-caa.intl-air-pax-traffic-route-analysis.total_pax_percent
-uk-caa.intl-air-pax-traffic-route-analysis.total_pax_scheduled_last_period
-uk-caa.intl-air-pax-traffic-route-analysis.total_pax_scheduled_this_period
-uk-caa.intl-air-pax-traffic-route-analysis.total_pax_this_period
-uk-caa.intl-and-domestic-freight.freight_charter_cargo_aircraft_foreign_eu
-uk-caa.intl-and-domestic-freight.freight_charter_cargo_aircraft_foreign_non_eu
-uk-caa.intl-and-domestic-freight.freight_charter_cargo_aircraft_uk
-uk-caa.intl-and-domestic-freight.freight_charter_passenger_aircraft_foreign_non_eu
-uk-caa.intl-and-domestic-freight.freight_charter_passenger_aircraft_uk
-uk-caa.intl-and-domestic-freight.freight_passenger_aircraft_foreign_eu
-uk-caa.intl-and-domestic-freight.freight_schedueld_passenger_aircraft_uk
-uk-caa.intl-and-domestic-freight.freight_scheduled_cargo_aircraft_foreign_eu
-uk-caa.intl-and-domestic-freight.freight_scheduled_cargo_aircraft_foreign_non_eu
-uk-caa.intl-and-domestic-freight.freight_scheduled_cargo_aircraft_uk
-uk-caa.intl-and-domestic-freight.freight_scheduled_passenger_aircraft_foreign_eu
-uk-caa.intl-and-domestic-freight.freight_scheduled_passenger_aircraft_foreign_eu1
-uk-caa.intl-and-domestic-mail.mail_charter_cargo_aircraft_foreign_eu
-uk-caa.intl-and-domestic-mail.mail_charter_cargo_aircraft_foreign_non_eu
-uk-caa.intl-and-domestic-mail.mail_charter_cargo_aircraft_uk
-uk-caa.intl-and-domestic-mail.mail_charter_passenger_aircraft_foreign_eu
-uk-caa.intl-and-domestic-mail.mail_charter_passenger_aircraft_foreign_non_eu
-uk-caa.intl-and-domestic-mail.mail_charter_passenger_aircraft_uk
-uk-caa.intl-and-domestic-mail.mail_scheduled_cargo_aircraft_foreign_eu
-uk-caa.intl-and-domestic-mail.mail_scheduled_cargo_aircraft_foreign_non_eu
-uk-caa.intl-and-domestic-mail.mail_scheduled_cargo_aircraft_uk
-uk-caa.intl-and-domestic-mail.mail_scheduled_passenger_aircraft_foreign_eu
-uk-caa.intl-and-domestic-mail.mail_scheduled_passenger_aircraft_foreign_non_eu
-uk-caa.intl-and-domestic-mail.mail_scheduled_passenger_aircraft_uk
-uk-caa.mail-by-aircraft-configuration.total_mail_cargo_aircraft_last_period
-uk-caa.mail-by-aircraft-configuration.total_mail_cargo_aircraft_percent_change
-uk-caa.mail-by-aircraft-configuration.total_mail_cargo_aircraft_this_period
-uk-caa.mail-by-aircraft-configuration.total_mail_last_period
-uk-caa.mail-by-aircraft-configuration.total_mail_passenger_aircraft_last_period
-uk-caa.mail-by-aircraft-configuration.total_mail_passenger_aircraft_percent_change
-uk-caa.mail-by-aircraft-configuration.total_mail_passenger_aircraft_this_period
-uk-caa.mail-by-aircraft-configuration.total_mail_percent_change
-uk-caa.mail-by-aircraft-configuration.total_mail_this_period
-uk-caa.mail-by-type-and-nat-of-op.mail_picked_up_charter_foreign_eu
-uk-caa.mail-by-type-and-nat-of-op.mail_picked_up_charter_foreign_non_eu
-uk-caa.mail-by-type-and-nat-of-op.mail_picked_up_charter_uk
-uk-caa.mail-by-type-and-nat-of-op.mail_picked_up_scheduled_foreign_eu
-uk-caa.mail-by-type-and-nat-of-op.mail_picked_up_scheduled_foreign_non_eu
-uk-caa.mail-by-type-and-nat-of-op.mail_picked_up_scheduled_uk
-uk-caa.mail-by-type-and-nat-of-op.mail_set_down_charter_foreign_eu
-uk-caa.mail-by-type-and-nat-of-op.mail_set_down_charter_foreign_non_eu
-uk-caa.mail-by-type-and-nat-of-op.mail_set_down_charter_uk
-uk-caa.mail-by-type-and-nat-of-op.mail_set_down_scheduled_foreign_eu
-uk-caa.mail-by-type-and-nat-of-op.mail_set_down_scheduled_foreign_non_eu
-uk-caa.mail-by-type-and-nat-of-op.mail_set_down_scheduled_uk
-uk-caa.mail-by-type-and-nat-of-op.total_mail
-uk-caa.mail-by-type-and-nationality.mail_picked_up_charter_foreign_eu
-uk-caa.mail-by-type-and-nationality.mail_picked_up_charter_foreign_non_eu
-uk-caa.mail-by-type-and-nationality.mail_picked_up_charter_uk
-uk-caa.mail-by-type-and-nationality.mail_picked_up_scheduled_foreign_eu
-uk-caa.mail-by-type-and-nationality.mail_picked_up_scheduled_foreign_non_eu
-uk-caa.mail-by-type-and-nationality.mail_picked_up_scheduled_uk
-uk-caa.mail-by-type-and-nationality.mail_set_down_charter_foreign_eu
-uk-caa.mail-by-type-and-nationality.mail_set_down_charter_foreign_non_eu
-uk-caa.mail-by-type-and-nationality.mail_set_down_charter_uk
-uk-caa.mail-by-type-and-nationality.mail_set_down_scheduled_foreign_eu
-uk-caa.mail-by-type-and-nationality.mail_set_down_scheduled_foreign_non_eu
-uk-caa.mail-by-type-and-nationality.mail_set_down_scheduled_uk
-uk-caa.mail-by-type-and-nationality.total_mail
-uk-caa.pax-and-air-transport-movements-split-by-fixed-and-rotary-wing-aircraft.total_atms_fixed_wing_last_period
-uk-caa.pax-and-air-transport-movements-split-by-fixed-and-rotary-wing-aircraft.total_atms_fixed_wing_percent_change
-uk-caa.pax-and-air-transport-movements-split-by-fixed-and-rotary-wing-aircraft.total_atms_fixed_wing_this_period
-uk-caa.pax-and-air-transport-movements-split-by-fixed-and-rotary-wing-aircraft.total_atms_rotary_wing_last_period
-uk-caa.pax-and-air-transport-movements-split-by-fixed-and-rotary-wing-aircraft.total_atms_rotary_wing_percent_change
-uk-caa.pax-and-air-transport-movements-split-by-fixed-and-rotary-wing-aircraft.total_atms_rotary_wing_this_period
-uk-caa.pax-and-air-transport-movements-split-by-fixed-and-rotary-wing-aircraft.total_pax_fixed_wing_last_period
-uk-caa.pax-and-air-transport-movements-split-by-fixed-and-rotary-wing-aircraft.total_pax_fixed_wing_percent_change
-uk-caa.pax-and-air-transport-movements-split-by-fixed-and-rotary-wing-aircraft.total_pax_fixed_wing_this_period
-uk-caa.pax-and-air-transport-movements-split-by-fixed-and-rotary-wing-aircraft.total_pax_rotary_wing_last_period
-uk-caa.pax-and-air-transport-movements-split-by-fixed-and-rotary-wing-aircraft.total_pax_rotary_wing_percent_change
-uk-caa.pax-and-air-transport-movements-split-by-fixed-and-rotary-wing-aircraft.total_pax_rotary_wing_this_period
-uk-caa.pax-and-atm-by-fixed-rotary-wing-aircraft.total_atms_fixed_wing_last_period
-uk-caa.pax-and-atm-by-fixed-rotary-wing-aircraft.total_atms_fixed_wing_percent_change
-uk-caa.pax-and-atm-by-fixed-rotary-wing-aircraft.total_atms_fixed_wing_this_period
-uk-caa.pax-and-atm-by-fixed-rotary-wing-aircraft.total_atms_rotary_wing_last_period
-uk-caa.pax-and-atm-by-fixed-rotary-wing-aircraft.total_atms_rotary_wing_percent_change
-uk-caa.pax-and-atm-by-fixed-rotary-wing-aircraft.total_atms_rotary_wing_this_period
-uk-caa.pax-and-atm-by-fixed-rotary-wing-aircraft.total_pax_fixed_wing_last_period
-uk-caa.pax-and-atm-by-fixed-rotary-wing-aircraft.total_pax_fixed_wing_percent_change
-uk-caa.pax-and-atm-by-fixed-rotary-wing-aircraft.total_pax_fixed_wing_this_period
-uk-caa.pax-and-atm-by-fixed-rotary-wing-aircraft.total_pax_rotary_wing_last_period
-uk-caa.pax-and-atm-by-fixed-rotary-wing-aircraft.total_pax_rotary_wing_percent_change
-uk-caa.pax-and-atm-by-fixed-rotary-wing-aircraft.total_pax_rotary_wing_this_period
-uk-caa.size-of-uk-airports.last_year_pax
-uk-caa.size-of-uk-airports.last_year_total_pax_uk_airports
-uk-caa.size-of-uk-airports.this_year_pax
-uk-caa.size-of-uk-airports.this_year_total_pax_uk_airports
-uk-caa.size-of-uk-airportslast_year_pax
-uk-caa.size-of-uk-airportslast_year_total_pax_uk_airports
-uk-caa.size-of-uk-airportsthis_year_pax
-uk-caa.size-of-uk-airportsthis_year_total_pax_uk_airports
-uk-caa.summary-of-activity-at-uk-airports.atms_charter
-uk-caa.summary-of-activity-at-uk-airports.atms_scheduled
-uk-caa.summary-of-activity-at-uk-airports.charter_freight
-uk-caa.summary-of-activity-at-uk-airports.charter_mail
-uk-caa.summary-of-activity-at-uk-airports.scheduled_freight
-uk-caa.summary-of-activity-at-uk-airports.scheduled_mail
-uk-caa.summary-of-activity-at-uk-airports.terminal_charter_pax
-uk-caa.summary-of-activity-at-uk-airports.terminal_scheduled_pax
-uk-caa.summary-of-activity-at-uk-airports.transit_charter_pax
-uk-caa.summary-of-activity-at-uk-airports.transit_scheduled_pax
-uk-caa.terminal-and-transit-passengers.terminal_pax_last_period
-uk-caa.terminal-and-transit-passengers.terminal_pax_percent
-uk-caa.terminal-and-transit-passengers.terminal_pax_this_period
-uk-caa.terminal-and-transit-passengers.total_pax_last_period
-uk-caa.terminal-and-transit-passengers.total_pax_percent
-uk-caa.terminal-and-transit-passengers.total_pax_this_period
-uk-caa.terminal-and-transit-passengers.transit_pax_last_period
-uk-caa.terminal-and-transit-passengers.transit_pax_percent
-uk-caa.terminal-and-transit-passengers.transit_pax_this_period
-uk-caa.terminal-and-transit-pax.terminal_pax_last_period
-uk-caa.terminal-and-transit-pax.terminal_pax_percent
-uk-caa.terminal-and-transit-pax.terminal_pax_this_period
-uk-caa.terminal-and-transit-pax.total_pax_last_period
-uk-caa.terminal-and-transit-pax.total_pax_percent
-uk-caa.terminal-and-transit-pax.total_pax_this_period
-uk-caa.terminal-and-transit-pax.transit_pax_last_period
-uk-caa.terminal-and-transit-pax.transit_pax_percent
-uk-caa.terminal-and-transit-pax.transit_pax_this_period
-uk-caa.trans-move-by-type.airport_cluster
-uk-caa.trans-move-by-type.atms_charter_foreign_eu_operator
-uk-caa.trans-move-by-type.atms_charter_foreign_non_eu_operator
-uk-caa.trans-move-by-type.atms_charter_uk_operator
-uk-caa.trans-move-by-type.atms_scheduled_foreign_eu_operator
-uk-caa.trans-move-by-type.atms_scheduled_foreign_non_eu_operator
-uk-caa.trans-move-by-type.atms_scheduled_uk_operator
-uk-caa.trans-move-by-type.rpt_apt_grp_cd
-uk-caa.trans-move-by-type.total_atms
-uk-caa.transport-movements-by-type.airport_cluster
-uk-caa.transport-movements-by-type.atms_charter_foreign_eu_operator
-uk-caa.transport-movements-by-type.atms_charter_foreign_non_eu_operator
-uk-caa.transport-movements-by-type.atms_charter_uk_operator
-uk-caa.transport-movements-by-type.atms_scheduled_foreign_eu_operator
-uk-caa.transport-movements-by-type.atms_scheduled_foreign_non_eu_operator
-uk-caa.transport-movements-by-type.atms_scheduled_uk_operator
-uk-caa.transport-movements-by-type.rpt_apt_grp_cd
-uk-caa.transport-movements-by-type.total_atms
+uk-caa.air-pax-by-type-and-nat-of-op.pax_transit_scheduled_foreign_eu <br />
+uk-caa.air-pax-by-type-and-nat-of-op.pax_transit_scheduled_foreign_non_eu <br />
+uk-caa.air-pax-by-type-and-nat-of-op.pax_transit_scheduled_uk<br />
+uk-caa.air-pax-by-type-and-nat-of-op.total_pax<br />
+uk-caa.air-transport-movements-comparison.atms_cargo_aircraft_last_period<br />
+uk-caa.air-transport-movements-comparison.atms_cargo_aircraft_percent<br />
+uk-caa.air-transport-movements-comparison.atms_cargo_aircraft_this_period<br />
+uk-caa.air-transport-movements-comparison.atms_passenger_aircraft_last_period<br />
+uk-caa.air-transport-movements-comparison.atms_passenger_aircraft_percent<br />
+uk-caa.air-transport-movements-comparison.atms_passenger_aircraft_this_period<br />
+uk-caa.air-transport-movements-comparison.total_atms_last_period<br />
+uk-caa.air-transport-movements-comparison.total_atms_percent<br />
+uk-caa.air-transport-movements-comparison.total_atms_this_period<br />
+uk-caa.air-transport-movements-vs-prev-year.atms_cargo_aircraft_last_period<br />
+uk-caa.air-transport-movements-vs-prev-year.atms_cargo_aircraft_percent<br />
+uk-caa.air-transport-movements-vs-prev-year.atms_cargo_aircraft_this_period<br />
+uk-caa.air-transport-movements-vs-prev-year.atms_passenger_aircraft_last_period<br />
+uk-caa.air-transport-movements-vs-prev-year.atms_passenger_aircraft_percent<br />
+uk-caa.air-transport-movements-vs-prev-year.atms_passenger_aircraft_this_period<br />
+uk-caa.air-transport-movements-vs-prev-year.total_atms_last_period<br />
+uk-caa.air-transport-movements-vs-prev-year.total_atms_percent<br />
+uk-caa.air-transport-movements-vs-prev-year.total_atms_this_period<br />
+uk-caa.air-transport-movements.charter_all_domestic_atm<br />
+uk-caa.air-transport-movements.charter_all_eu_international_atm<br />
+uk-caa.air-transport-movements.charter_all_non_eu_international_atm<br />
+uk-caa.air-transport-movements.charter_eu_international_passenger_atm<br />
+uk-caa.air-transport-movements.charter_passenger_domestic_atm<br />
+uk-caa.air-transport-movements.charter_passenger_non_eu_international_atm<br />
+uk-caa.air-transport-movements.scheduled_all_domestic_atm<br />
+uk-caa.air-transport-movements.scheduled_all_eu_international_atm<br />
+uk-caa.air-transport-movements.scheduled_all_non_eu_international_atm<br />
+uk-caa.air-transport-movements.scheduled_passenger_domestic_atm<br />
+uk-caa.air-transport-movements.scheduled_passenger_eu_international_atm<br />
+uk-caa.air-transport-movements.scheduled_passenger_non_eu_international_atm<br />
+uk-caa.air-transport-movements.total_domestic_atm<br />
+uk-caa.air-transport-movements.total_eu_atm<br />
+uk-caa.air-transport-movements.total_non_eu_international_atm<br />
+uk-caa.aircraft-movements.aero_club<br />
+uk-caa.aircraft-movements.air_taxi<br />
+uk-caa.aircraft-movements.air_transport<br />
+uk-caa.aircraft-movements.business_aviation<br />
+uk-caa.aircraft-movements.grand_total<br />
+uk-caa.aircraft-movements.local_movements<br />
+uk-caa.aircraft-movements.military<br />
+uk-caa.aircraft-movements.official<br />
+uk-caa.aircraft-movements.other_flights<br />
+uk-caa.aircraft-movements.positioning_flights<br />
+uk-caa.aircraft-movements.private_flights<br />
+uk-caa.aircraft-movements.test_and_training<br />
+uk-caa.aircraft-movementsaero_club<br />
+uk-caa.aircraft-movementsair_taxi<br />
+uk-caa.aircraft-movementsair_transport<br />
+uk-caa.aircraft-movementsbusiness_aviation<br />
+uk-caa.aircraft-movementsgrand_total<br />
+uk-caa.aircraft-movementslocal_movements<br />
+uk-caa.aircraft-movementsmilitary<br />
+uk-caa.aircraft-movementsofficial<br />
+uk-caa.aircraft-movementsother_flights<br />
+uk-caa.aircraft-movementspositioning_flights<br />
+uk-caa.aircraft-movementsprivate_flights<br />
+uk-caa.aircraft-movementstest_and_training<br />
+uk-caa.airport-landings-diverted.num_flights_day_1<br />
+uk-caa.airport-landings-diverted.num_flights_day_10<br />
+uk-caa.airport-landings-diverted.num_flights_day_11<br />
+uk-caa.airport-landings-diverted.num_flights_day_12<br />
+uk-caa.airport-landings-diverted.num_flights_day_13<br />
+uk-caa.airport-landings-diverted.num_flights_day_14<br />
+uk-caa.airport-landings-diverted.num_flights_day_15<br />
+uk-caa.airport-landings-diverted.num_flights_day_16<br />
+uk-caa.airport-landings-diverted.num_flights_day_17<br />
+uk-caa.airport-landings-diverted.num_flights_day_18<br />
+uk-caa.airport-landings-diverted.num_flights_day_19<br />
+uk-caa.airport-landings-diverted.num_flights_day_2<br />
+uk-caa.airport-landings-diverted.num_flights_day_20<br />
+uk-caa.airport-landings-diverted.num_flights_day_21<br />
+uk-caa.airport-landings-diverted.num_flights_day_22<br />
+uk-caa.airport-landings-diverted.num_flights_day_23<br />
+uk-caa.airport-landings-diverted.num_flights_day_24<br />
+uk-caa.airport-landings-diverted.num_flights_day_25<br />
+uk-caa.airport-landings-diverted.num_flights_day_26<br />
+uk-caa.airport-landings-diverted.num_flights_day_27<br />
+uk-caa.airport-landings-diverted.num_flights_day_28<br />
+uk-caa.airport-landings-diverted.num_flights_day_29<br />
+uk-caa.airport-landings-diverted.num_flights_day_3<br />
+uk-caa.airport-landings-diverted.num_flights_day_30<br />
+uk-caa.airport-landings-diverted.num_flights_day_31<br />
+uk-caa.airport-landings-diverted.num_flights_day_4<br />
+uk-caa.airport-landings-diverted.num_flights_day_5<br />
+uk-caa.airport-landings-diverted.num_flights_day_6<br />
+uk-caa.airport-landings-diverted.num_flights_day_7<br />
+uk-caa.airport-landings-diverted.num_flights_day_8<br />
+uk-caa.airport-landings-diverted.num_flights_day_9<br />
+uk-caa.airport-landings-diverted.total_flights<br />
+uk-caa.domestic-air-pax-route-analysis-by-airport.total_pax_charter_last_period<br />
+uk-caa.domestic-air-pax-route-analysis-by-airport.total_pax_charter_this_period<br />
+uk-caa.domestic-air-pax-route-analysis-by-airport.total_pax_last_period<br />
+uk-caa.domestic-air-pax-route-analysis-by-airport.total_pax_percent<br />
+uk-caa.domestic-air-pax-route-analysis-by-airport.total_pax_scheduled_last_period<br />
+uk-caa.domestic-air-pax-route-analysis-by-airport.total_pax_scheduled_this_period<br />
+uk-caa.domestic-air-pax-route-analysis-by-airport.total_pax_this_period<br />
+uk-caa.domestic-air-pax-route-analysis-by-each-reporting-airport.total_pax_charter_last_period<br />
+uk-caa.domestic-air-pax-route-analysis-by-each-reporting-airport.total_pax_charter_this_period<br />
+uk-caa.domestic-air-pax-route-analysis-by-each-reporting-airport.total_pax_last_period<br />
+uk-caa.domestic-air-pax-route-analysis-by-each-reporting-airport.total_pax_percent<br />
+uk-caa.domestic-air-pax-route-analysis-by-each-reporting-airport.total_pax_scheduled_last_period<br />
+uk-caa.domestic-air-pax-route-analysis-by-each-reporting-airport.total_pax_scheduled_this_period<br />
+uk-caa.domestic-air-pax-route-analysis-by-each-reporting-airport.total_pax_this_period<br />
+uk-caa.domestic-terminal-passenger-traffic.total_pax_charter_last_period<br />
+uk-caa.domestic-terminal-passenger-traffic.total_pax_charter_this_period<br />
+uk-caa.domestic-terminal-passenger-traffic.total_pax_last_period<br />
+uk-caa.domestic-terminal-passenger-traffic.total_pax_percent<br />
+uk-caa.domestic-terminal-passenger-traffic.total_pax_scheduled_last_period<br />
+uk-caa.domestic-terminal-passenger-traffic.total_pax_scheduled_this_period<br />
+uk-caa.domestic-terminal-passenger-traffic.total_pax_this_period<br />
+uk-caa.domestic-terminal-pax-traffic.total_pax_charter_this_period<br />
+uk-caa.domestic-terminal-pax-traffic.total_pax_last_period<br />
+uk-caa.domestic-terminal-pax-traffic.total_pax_percent<br />
+uk-caa.domestic-terminal-pax-traffic.total_pax_scheduled_this_period<br />
+uk-caa.domestic-terminal-pax-traffic.total_pax_this_period<br />
+uk-caa.eu-and-other-intl-passenger-traffic.total_pax_eu_charter_this_period<br />
+uk-caa.eu-and-other-intl-passenger-traffic.total_pax_eu_cht_tp<br />
+uk-caa.eu-and-other-intl-passenger-traffic.total_pax_eu_last_period<br />
+uk-caa.eu-and-other-intl-passenger-traffic.total_pax_eu_lp<br />
+uk-caa.eu-and-other-intl-passenger-traffic.total_pax_eu_pc<br />
+uk-caa.eu-and-other-intl-passenger-traffic.total_pax_eu_percent<br />
+uk-caa.eu-and-other-intl-passenger-traffic.total_pax_eu_scheduled_this_period<br />
+uk-caa.eu-and-other-intl-passenger-traffic.total_pax_eu_shd_tp<br />
+uk-caa.eu-and-other-intl-passenger-traffic.total_pax_eu_this_period<br />
+uk-caa.eu-and-other-intl-passenger-traffic.total_pax_eu_tp<br />
+uk-caa.eu-and-other-intl-passenger-traffic.total_pax_oi_cht_tp<br />
+uk-caa.eu-and-other-intl-passenger-traffic.total_pax_oi_lp<br />
+uk-caa.eu-and-other-intl-passenger-traffic.total_pax_oi_pc<br />
+uk-caa.eu-and-other-intl-passenger-traffic.total_pax_oi_shd_tp<br />
+uk-caa.eu-and-other-intl-passenger-traffic.total_pax_oi_tp<br />
+uk-caa.eu-and-other-intl-passenger-traffic.total_pax_other_international_charter_this_period<br />
+uk-caa.eu-and-other-intl-passenger-traffic.total_pax_other_international_last_period<br />
+uk-caa.eu-and-other-intl-passenger-traffic.total_pax_other_international_percent<br />
+uk-caa.eu-and-other-intl-passenger-traffic.total_pax_other_international_scheduled_this_period<br />
+uk-caa.eu-and-other-intl-passenger-traffic.total_pax_other_international_this_period<br />
+uk-caa.eu-and-other-intl-passenger-traffic.total_pax_this_period<br />
+uk-caa.eu-and-other-intl-passenger-traffic.total_pax_tp<br />
+uk-caa.eu-and-other-intl-terminal-pax-traffic.total_pax_eu_charter_this_period<br />
+uk-caa.eu-and-other-intl-terminal-pax-traffic.total_pax_eu_last_period<br />
+uk-caa.eu-and-other-intl-terminal-pax-traffic.total_pax_eu_percent<br />
+uk-caa.eu-and-other-intl-terminal-pax-traffic.total_pax_eu_scheduled_this_period<br />
+uk-caa.eu-and-other-intl-terminal-pax-traffic.total_pax_eu_this_period<br />
+uk-caa.eu-and-other-intl-terminal-pax-traffic.total_pax_other_international_charter_this_period<br />
+uk-caa.eu-and-other-intl-terminal-pax-traffic.total_pax_other_international_last_period<br />
+uk-caa.eu-and-other-intl-terminal-pax-traffic.total_pax_other_international_percent<br />
+uk-caa.eu-and-other-intl-terminal-pax-traffic.total_pax_other_international_scheduled_this_period<br />
+uk-caa.eu-and-other-intl-terminal-pax-traffic.total_pax_other_international_this_period<br />
+uk-caa.eu-and-other-intl-terminal-pax-traffic.total_pax_this_period<br />
+uk-caa.eu_and_other_intl_passenger_traffic.total_pax_eu_cht_tp<br />
+uk-caa.eu_and_other_intl_passenger_traffic.total_pax_eu_lp<br />
+uk-caa.eu_and_other_intl_passenger_traffic.total_pax_eu_pc<br />
+uk-caa.eu_and_other_intl_passenger_traffic.total_pax_eu_shd_tp<br />
+uk-caa.eu_and_other_intl_passenger_traffic.total_pax_eu_tp<br />
+uk-caa.eu_and_other_intl_passenger_traffic.total_pax_oi_cht_tp<br />
+uk-caa.eu_and_other_intl_passenger_traffic.total_pax_oi_lp<br />
+uk-caa.eu_and_other_intl_passenger_traffic.total_pax_oi_pc<br />
+uk-caa.eu_and_other_intl_passenger_traffic.total_pax_oi_shd_tp<br />
+uk-caa.eu_and_other_intl_passenger_traffic.total_pax_oi_tp<br />
+uk-caa.eu_and_other_intl_passenger_traffic.total_pax_tp<br />
+uk-caa.freight-by-aircraft-configuration.total_freight_cargo_aircraft_last_period<br />
+uk-caa.freight-by-aircraft-configuration.total_freight_cargo_aircraft_percent_change<br />
+uk-caa.freight-by-aircraft-configuration.total_freight_cargo_aircraft_this_period<br />
+uk-caa.freight-by-aircraft-configuration.total_freight_last_period<br />
+uk-caa.freight-by-aircraft-configuration.total_freight_passenger_aircraft_last_period<br />
+uk-caa.freight-by-aircraft-configuration.total_freight_passenger_aircraft_percent_change<br />
+uk-caa.freight-by-aircraft-configuration.total_freight_passenger_aircraft_this_period<br />
+uk-caa.freight-by-aircraft-configuration.total_freight_percent_change<br />
+uk-caa.freight-by-aircraft-configuration.total_freight_this_period<br />
+uk-caa.freight-by-type-and-nat-of-op.freight_picked_up_charter_foreign_eu<br />
+uk-caa.freight-by-type-and-nat-of-op.freight_picked_up_charter_foreign_non_eu<br />
+uk-caa.freight-by-type-and-nat-of-op.freight_picked_up_charter_uk<br />
+uk-caa.freight-by-type-and-nat-of-op.freight_picked_up_scheduled_foreign_eu<br />
+uk-caa.freight-by-type-and-nat-of-op.freight_picked_up_scheduled_foreign_non_eu<br />
+uk-caa.freight-by-type-and-nat-of-op.freight_picked_up_scheduled_uk<br />
+uk-caa.freight-by-type-and-nat-of-op.freight_set_down_charter_foreign_eu<br />
+uk-caa.freight-by-type-and-nat-of-op.freight_set_down_charter_foreign_non_eu<br />
+uk-caa.freight-by-type-and-nat-of-op.freight_set_down_charter_uk<br />
+uk-caa.freight-by-type-and-nat-of-op.freight_set_down_scheduled_foreign_eu<br />
+uk-caa.freight-by-type-and-nat-of-op.freight_set_down_scheduled_foreign_non_eu<br />
+uk-caa.freight-by-type-and-nat-of-op.freight_set_down_scheduled_uk<br />
+uk-caa.freight-by-type-and-nat-of-op.total_freight<br />
+uk-caa.freight-by-type-and-nationality.freight_picked_up_charter_foreign_eu<br />
+uk-caa.freight-by-type-and-nationality.freight_picked_up_charter_foreign_non_eu<br />
+uk-caa.freight-by-type-and-nationality.freight_picked_up_charter_uk<br />
+uk-caa.freight-by-type-and-nationality.freight_picked_up_scheduled_foreign_eu<br />
+uk-caa.freight-by-type-and-nationality.freight_picked_up_scheduled_foreign_non_eu<br />
+uk-caa.freight-by-type-and-nationality.freight_picked_up_scheduled_uk<br />
+uk-caa.freight-by-type-and-nationality.freight_set_down_charter_foreign_eu<br />
+uk-caa.freight-by-type-and-nationality.freight_set_down_charter_foreign_non_eu<br />
+uk-caa.freight-by-type-and-nationality.freight_set_down_charter_uk<br />
+uk-caa.freight-by-type-and-nationality.freight_set_down_scheduled_foreign_eu<br />
+uk-caa.freight-by-type-and-nationality.freight_set_down_scheduled_foreign_non_eu<br />
+uk-caa.freight-by-type-and-nationality.freight_set_down_scheduled_uk<br />
+uk-caa.freight-by-type-and-nationality.total_freight<br />
+uk-caa.international-and-domestic-freight.freight_charter_cargo_aircraft_foreign_eu<br />
+uk-caa.international-and-domestic-freight.freight_charter_cargo_aircraft_foreign_non_eu<br />
+uk-caa.international-and-domestic-freight.freight_charter_cargo_aircraft_uk<br />
+uk-caa.international-and-domestic-freight.freight_charter_passenger_aircraft_foreign_eu<br />
+uk-caa.international-and-domestic-freight.freight_charter_passenger_aircraft_foreign_non_eu<br />
+uk-caa.international-and-domestic-freight.freight_charter_passenger_aircraft_uk<br />
+uk-caa.international-and-domestic-freight.freight_passenger_aircraft_foreign_eu<br />
+uk-caa.international-and-domestic-freight.freight_schedueld_passenger_aircraft_uk<br />
+uk-caa.international-and-domestic-freight.freight_scheduled_cargo_aircraft_foreign_eu<br />
+uk-caa.international-and-domestic-freight.freight_scheduled_cargo_aircraft_foreign_non_eu<br />
+uk-caa.international-and-domestic-freight.freight_scheduled_cargo_aircraft_uk<br />
+uk-caa.international-and-domestic-freight.freight_scheduled_passenger_aircraft_foreign_eu<br />
+uk-caa.international-and-domestic-freight.freight_scheduled_passenger_aircraft_foreign_eu1<br />
+uk-caa.international-and-domestic-freight.freight_scheduled_passenger_aircraft_foreign_non_eu<br />
+uk-caa.international-and-domestic-mail.mail_charter_cargo_aircraft_foreign_eu<br />
+uk-caa.international-and-domestic-mail.mail_charter_cargo_aircraft_foreign_non_eu<br />
+uk-caa.international-and-domestic-mail.mail_charter_cargo_aircraft_uk<br />
+uk-caa.international-and-domestic-mail.mail_charter_passenger_aircraft_foreign_eu<br />
+uk-caa.international-and-domestic-mail.mail_charter_passenger_aircraft_foreign_non_eu<br />
+uk-caa.international-and-domestic-mail.mail_charter_passenger_aircraft_uk<br />
+uk-caa.international-and-domestic-mail.mail_scheduled_cargo_aircraft_foreign_eu<br />
+uk-caa.international-and-domestic-mail.mail_scheduled_cargo_aircraft_foreign_non_eu<br />
+uk-caa.international-and-domestic-mail.mail_scheduled_cargo_aircraft_uk<br />
+uk-caa.international-and-domestic-mail.mail_scheduled_passenger_aircraft_foreign_eu<br />
+uk-caa.international-and-domestic-mail.mail_scheduled_passenger_aircraft_foreign_non_eu<br />
+uk-caa.international-and-domestic-mail.mail_scheduled_passenger_aircraft_uk<br />
+uk-caa.intl-air-pax-traffic-route-analysis.total_pax_charter_last_period<br />
+uk-caa.intl-air-pax-traffic-route-analysis.total_pax_charter_this_period<br />
+uk-caa.intl-air-pax-traffic-route-analysis.total_pax_last_period<br />
+uk-caa.intl-air-pax-traffic-route-analysis.total_pax_percent<br />
+uk-caa.intl-air-pax-traffic-route-analysis.total_pax_scheduled_last_period<br />
+uk-caa.intl-air-pax-traffic-route-analysis.total_pax_scheduled_this_period<br />
+uk-caa.intl-air-pax-traffic-route-analysis.total_pax_this_period<br />
+uk-caa.intl-and-domestic-freight.freight_charter_cargo_aircraft_foreign_eu<br />
+uk-caa.intl-and-domestic-freight.freight_charter_cargo_aircraft_foreign_non_eu<br />
+uk-caa.intl-and-domestic-freight.freight_charter_cargo_aircraft_uk<br />
+uk-caa.intl-and-domestic-freight.freight_charter_passenger_aircraft_foreign_non_eu<br />
+uk-caa.intl-and-domestic-freight.freight_charter_passenger_aircraft_uk<br />
+uk-caa.intl-and-domestic-freight.freight_passenger_aircraft_foreign_eu<br />
+uk-caa.intl-and-domestic-freight.freight_schedueld_passenger_aircraft_uk<br />
+uk-caa.intl-and-domestic-freight.freight_scheduled_cargo_aircraft_foreign_eu<br />
+uk-caa.intl-and-domestic-freight.freight_scheduled_cargo_aircraft_foreign_non_eu<br />
+uk-caa.intl-and-domestic-freight.freight_scheduled_cargo_aircraft_uk<br />
+uk-caa.intl-and-domestic-freight.freight_scheduled_passenger_aircraft_foreign_eu<br />
+uk-caa.intl-and-domestic-freight.freight_scheduled_passenger_aircraft_foreign_eu1<br />
+uk-caa.intl-and-domestic-mail.mail_charter_cargo_aircraft_foreign_eu<br />
+uk-caa.intl-and-domestic-mail.mail_charter_cargo_aircraft_foreign_non_eu<br />
+uk-caa.intl-and-domestic-mail.mail_charter_cargo_aircraft_uk<br />
+uk-caa.intl-and-domestic-mail.mail_charter_passenger_aircraft_foreign_eu<br />
+uk-caa.intl-and-domestic-mail.mail_charter_passenger_aircraft_foreign_non_eu<br />
+uk-caa.intl-and-domestic-mail.mail_charter_passenger_aircraft_uk<br />
+uk-caa.intl-and-domestic-mail.mail_scheduled_cargo_aircraft_foreign_eu<br />
+uk-caa.intl-and-domestic-mail.mail_scheduled_cargo_aircraft_foreign_non_eu<br />
+uk-caa.intl-and-domestic-mail.mail_scheduled_cargo_aircraft_uk<br />
+uk-caa.intl-and-domestic-mail.mail_scheduled_passenger_aircraft_foreign_eu<br />
+uk-caa.intl-and-domestic-mail.mail_scheduled_passenger_aircraft_foreign_non_eu<br />
+uk-caa.intl-and-domestic-mail.mail_scheduled_passenger_aircraft_uk<br />
+uk-caa.mail-by-aircraft-configuration.total_mail_cargo_aircraft_last_period<br />
+uk-caa.mail-by-aircraft-configuration.total_mail_cargo_aircraft_percent_change<br />
+uk-caa.mail-by-aircraft-configuration.total_mail_cargo_aircraft_this_period<br />
+uk-caa.mail-by-aircraft-configuration.total_mail_last_period<br />
+uk-caa.mail-by-aircraft-configuration.total_mail_passenger_aircraft_last_period<br />
+uk-caa.mail-by-aircraft-configuration.total_mail_passenger_aircraft_percent_change<br />
+uk-caa.mail-by-aircraft-configuration.total_mail_passenger_aircraft_this_period<br />
+uk-caa.mail-by-aircraft-configuration.total_mail_percent_change<br />
+uk-caa.mail-by-aircraft-configuration.total_mail_this_period<br />
+uk-caa.mail-by-type-and-nat-of-op.mail_picked_up_charter_foreign_eu<br />
+uk-caa.mail-by-type-and-nat-of-op.mail_picked_up_charter_foreign_non_eu<br />
+uk-caa.mail-by-type-and-nat-of-op.mail_picked_up_charter_uk<br />
+uk-caa.mail-by-type-and-nat-of-op.mail_picked_up_scheduled_foreign_eu<br />
+uk-caa.mail-by-type-and-nat-of-op.mail_picked_up_scheduled_foreign_non_eu<br />
+uk-caa.mail-by-type-and-nat-of-op.mail_picked_up_scheduled_uk<br />
+uk-caa.mail-by-type-and-nat-of-op.mail_set_down_charter_foreign_eu<br />
+uk-caa.mail-by-type-and-nat-of-op.mail_set_down_charter_foreign_non_eu<br />
+uk-caa.mail-by-type-and-nat-of-op.mail_set_down_charter_uk<br />
+uk-caa.mail-by-type-and-nat-of-op.mail_set_down_scheduled_foreign_eu<br />
+uk-caa.mail-by-type-and-nat-of-op.mail_set_down_scheduled_foreign_non_eu<br />
+uk-caa.mail-by-type-and-nat-of-op.mail_set_down_scheduled_uk<br />
+uk-caa.mail-by-type-and-nat-of-op.total_mail<br />
+uk-caa.mail-by-type-and-nationality.mail_picked_up_charter_foreign_eu<br />
+uk-caa.mail-by-type-and-nationality.mail_picked_up_charter_foreign_non_eu<br />
+uk-caa.mail-by-type-and-nationality.mail_picked_up_charter_uk<br />
+uk-caa.mail-by-type-and-nationality.mail_picked_up_scheduled_foreign_eu<br />
+uk-caa.mail-by-type-and-nationality.mail_picked_up_scheduled_foreign_non_eu<br />
+uk-caa.mail-by-type-and-nationality.mail_picked_up_scheduled_uk<br />
+uk-caa.mail-by-type-and-nationality.mail_set_down_charter_foreign_eu<br />
+uk-caa.mail-by-type-and-nationality.mail_set_down_charter_foreign_non_eu<br />
+uk-caa.mail-by-type-and-nationality.mail_set_down_charter_uk<br />
+uk-caa.mail-by-type-and-nationality.mail_set_down_scheduled_foreign_eu<br />
+uk-caa.mail-by-type-and-nationality.mail_set_down_scheduled_foreign_non_eu<br />
+uk-caa.mail-by-type-and-nationality.mail_set_down_scheduled_uk<br />
+uk-caa.mail-by-type-and-nationality.total_mail<br />
+uk-caa.pax-and-air-transport-movements-split-by-fixed-and-rotary-wing-aircraft.total_atms_fixed_wing_last_period<br />
+uk-caa.pax-and-air-transport-movements-split-by-fixed-and-rotary-wing-aircraft.total_atms_fixed_wing_percent_change<br />
+uk-caa.pax-and-air-transport-movements-split-by-fixed-and-rotary-wing-aircraft.total_atms_fixed_wing_this_period<br />
+uk-caa.pax-and-air-transport-movements-split-by-fixed-and-rotary-wing-aircraft.total_atms_rotary_wing_last_period<br />
+uk-caa.pax-and-air-transport-movements-split-by-fixed-and-rotary-wing-aircraft.total_atms_rotary_wing_percent_change<br />
+uk-caa.pax-and-air-transport-movements-split-by-fixed-and-rotary-wing-aircraft.total_atms_rotary_wing_this_period<br />
+uk-caa.pax-and-air-transport-movements-split-by-fixed-and-rotary-wing-aircraft.total_pax_fixed_wing_last_period<br />
+uk-caa.pax-and-air-transport-movements-split-by-fixed-and-rotary-wing-aircraft.total_pax_fixed_wing_percent_change<br />
+uk-caa.pax-and-air-transport-movements-split-by-fixed-and-rotary-wing-aircraft.total_pax_fixed_wing_this_period<br />
+uk-caa.pax-and-air-transport-movements-split-by-fixed-and-rotary-wing-aircraft.total_pax_rotary_wing_last_period<br />
+uk-caa.pax-and-air-transport-movements-split-by-fixed-and-rotary-wing-aircraft.total_pax_rotary_wing_percent_change<br />
+uk-caa.pax-and-air-transport-movements-split-by-fixed-and-rotary-wing-aircraft.total_pax_rotary_wing_this_period<br />
+uk-caa.pax-and-atm-by-fixed-rotary-wing-aircraft.total_atms_fixed_wing_last_period<br />
+uk-caa.pax-and-atm-by-fixed-rotary-wing-aircraft.total_atms_fixed_wing_percent_change<br />
+uk-caa.pax-and-atm-by-fixed-rotary-wing-aircraft.total_atms_fixed_wing_this_period<br />
+uk-caa.pax-and-atm-by-fixed-rotary-wing-aircraft.total_atms_rotary_wing_last_period<br />
+uk-caa.pax-and-atm-by-fixed-rotary-wing-aircraft.total_atms_rotary_wing_percent_change<br />
+uk-caa.pax-and-atm-by-fixed-rotary-wing-aircraft.total_atms_rotary_wing_this_period<br />
+uk-caa.pax-and-atm-by-fixed-rotary-wing-aircraft.total_pax_fixed_wing_last_period<br />
+uk-caa.pax-and-atm-by-fixed-rotary-wing-aircraft.total_pax_fixed_wing_percent_change<br />
+uk-caa.pax-and-atm-by-fixed-rotary-wing-aircraft.total_pax_fixed_wing_this_period<br />
+uk-caa.pax-and-atm-by-fixed-rotary-wing-aircraft.total_pax_rotary_wing_last_period<br />
+uk-caa.pax-and-atm-by-fixed-rotary-wing-aircraft.total_pax_rotary_wing_percent_change<br />
+uk-caa.pax-and-atm-by-fixed-rotary-wing-aircraft.total_pax_rotary_wing_this_period<br />
+uk-caa.size-of-uk-airports.last_year_pax<br />
+uk-caa.size-of-uk-airports.last_year_total_pax_uk_airports<br />
+uk-caa.size-of-uk-airports.this_year_pax<br />
+uk-caa.size-of-uk-airports.this_year_total_pax_uk_airports<br />
+uk-caa.size-of-uk-airportslast_year_pax<br />
+uk-caa.size-of-uk-airportslast_year_total_pax_uk_airports<br />
+uk-caa.size-of-uk-airportsthis_year_pax<br />
+uk-caa.size-of-uk-airportsthis_year_total_pax_uk_airports<br />
+uk-caa.summary-of-activity-at-uk-airports.atms_charter<br />
+uk-caa.summary-of-activity-at-uk-airports.atms_scheduled<br />
+uk-caa.summary-of-activity-at-uk-airports.charter_freight<br />
+uk-caa.summary-of-activity-at-uk-airports.charter_mail<br />
+uk-caa.summary-of-activity-at-uk-airports.scheduled_freight<br />
+uk-caa.summary-of-activity-at-uk-airports.scheduled_mail<br />
+uk-caa.summary-of-activity-at-uk-airports.terminal_charter_pax<br />
+uk-caa.summary-of-activity-at-uk-airports.terminal_scheduled_pax<br />
+uk-caa.summary-of-activity-at-uk-airports.transit_charter_pax<br />
+uk-caa.summary-of-activity-at-uk-airports.transit_scheduled_pax<br />
+uk-caa.terminal-and-transit-passengers.terminal_pax_last_period<br />
+uk-caa.terminal-and-transit-passengers.terminal_pax_percent<br />
+uk-caa.terminal-and-transit-passengers.terminal_pax_this_period<br />
+uk-caa.terminal-and-transit-passengers.total_pax_last_period<br />
+uk-caa.terminal-and-transit-passengers.total_pax_percent<br />
+uk-caa.terminal-and-transit-passengers.total_pax_this_period<br />
+uk-caa.terminal-and-transit-passengers.transit_pax_last_period<br />
+uk-caa.terminal-and-transit-passengers.transit_pax_percent<br />
+uk-caa.terminal-and-transit-passengers.transit_pax_this_period<br />
+uk-caa.terminal-and-transit-pax.terminal_pax_last_period<br />
+uk-caa.terminal-and-transit-pax.terminal_pax_percent<br />
+uk-caa.terminal-and-transit-pax.terminal_pax_this_period<br />
+uk-caa.terminal-and-transit-pax.total_pax_last_period<br />
+uk-caa.terminal-and-transit-pax.total_pax_percent<br />
+uk-caa.terminal-and-transit-pax.total_pax_this_period<br />
+uk-caa.terminal-and-transit-pax.transit_pax_last_period<br />
+uk-caa.terminal-and-transit-pax.transit_pax_percent<br />
+uk-caa.terminal-and-transit-pax.transit_pax_this_period<br />
+uk-caa.trans-move-by-type.airport_cluster<br />
+uk-caa.trans-move-by-type.atms_charter_foreign_eu_operator<br />
+uk-caa.trans-move-by-type.atms_charter_foreign_non_eu_operator<br />
+uk-caa.trans-move-by-type.atms_charter_uk_operator<br />
+uk-caa.trans-move-by-type.atms_scheduled_foreign_eu_operator<br />
+uk-caa.trans-move-by-type.atms_scheduled_foreign_non_eu_operator<br />
+uk-caa.trans-move-by-type.atms_scheduled_uk_operator<br />
+uk-caa.trans-move-by-type.rpt_apt_grp_cd<br />
+uk-caa.trans-move-by-type.total_atms<br />
+uk-caa.transport-movements-by-type.airport_cluster<br />
+uk-caa.transport-movements-by-type.atms_charter_foreign_eu_operator<br />
+uk-caa.transport-movements-by-type.atms_charter_foreign_non_eu_operator<br />
+uk-caa.transport-movements-by-type.atms_charter_uk_operator<br />
+uk-caa.transport-movements-by-type.atms_scheduled_foreign_eu_operator<br />
+uk-caa.transport-movements-by-type.atms_scheduled_foreign_non_eu_operator<br />
+uk-caa.transport-movements-by-type.atms_scheduled_uk_operator<br />
+uk-caa.transport-movements-by-type.rpt_apt_grp_cd<br />
+uk-caa.transport-movements-by-type.total_atms<br />
      
