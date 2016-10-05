@@ -58,7 +58,7 @@ Once you install ATSD, you **don't** have to:
 
 Rather, you can configure a scheduled job to retrieve the file from the specified endpoint and have ATSD parse it according to pre-defined rules. Once you have raw data in ATSD, creating and sharing reports with built-in widgets is fairly trivial. The reports will be continuously updated as new data comes in.
 
-Using the ATSD default portal for CAA metrics, the user has the ability to filter the CAA datasets to their liking. The first filter allows the user to sort by CAA metric. 228 different CAA airport aviation metrics can be filtered for. The figure below shows the first metric in the first dropdown: air passengers totals for January 2015 to February 2016. The second filter allows the user can filter between 55 different UK airports. In this case, all airports have been selected. The third filer allows the user to filter by airport groups (London area, other UK, or no UK reporting airports). In this case, all groups have been selected.  
+Using the ATSD default portal for CAA metrics, the user has the ability to filter the CAA datasets to their liking. The first filter allows the user to sort by CAA metric. 228 different CAA airport aviation metrics can be filtered for. The figure below shows the first metric in the first dropdown: air passengers totals for January 2015 to February 2016. The second filter allows the user to filter between 55 different UK airports. In this case, all airports have been selected. The third filer allows the user to filter by airport groups (London area, other UK, or no UK reporting airports). In this case, all groups have been selected.  
 
 ![Figure 4](Images/Figure4.png)
 
@@ -199,8 +199,8 @@ The default Chart Lab portal can be found here:
 16. Delete the lines **summarize-period = 1 month** and **color-range = blue**.
 17. Change from **starttime = 2015-01-01T00:00:00Z** to **starttime = current year**.
 18. Let us only display the top 15 airports. Enter **display = value > top(15)**.
-19. To display a legend with the figure, enter **legend-position = top**.
-20. To show numeric values with the figure, enter **series-labels = connected**.
+19. To show a legend with the figure, enter **legend-position = top**.
+20. To display numeric values with the figure, enter **series-labels = connected**.
 21. Enter **mode = ring**. 
 22. Change the title to **UK International Terminal Passenger Traffic: Top 15 Airports June 2016**.
 23. Press Run!
