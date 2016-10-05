@@ -88,7 +88,7 @@ We will walk through a brief example on how to customize the default portal to c
 
     ![Figure 5](Images/Figure5.png)
 
-2.  Next, we want to select the one **metric** which we would like to filter for. The first dropdown in Chart Lab only contains the shortened version of the **metric** names. Here is a text file which contains the full raw metric names: [uk-caa-metrics.txt]( uk-caa-metrics.txtMagnifier)
+2.  Next, we want to select the one **metric** which we would like to filter for. The first dropdown in Chart Lab only contains the shortened version of the **metric** names. Here is a text file which contains the full raw metric names: [uk-caa-metrics.txt](uk-caa-metrics.txtMagnifier). A complete list of metrics is also available in the [Appendix](https://github.com/axibase/atsd-use-cases/tree/master/UKAviation#appendix-caa-metric-list).
 
     ![Figure 21](Images/Figure21.png)
 
@@ -216,7 +216,7 @@ The default Chart Lab portal can be found here:
 ### Example 3
 -------------
 
-This is an advanced example using a graph Widget to show traffic distribution between different UK airports for a given time period. This figure shows a single base airport and all of the associated destination airports, which are connected by a dashed line. In the figure below, Heathrow is our base airport and we can see all the different flight paths to airports across the UK for June 2016. Additionally, the heavier the flight path lines, the heavier the traffic between the two associated airports. For example, Heathrow to Edinburgh is dark blue, which indicates heavy traffic, whereas Heathrow to Leeds Bradford and to Newcastle are light gray, which indicates very little traffic.
+This is an advanced example using a graph Widget to show traffic distribution between different UK airports for a given time period. This figure shows a single base airport and all of the associated destination airports, which are connected by dashed lines. In the figure below, Heathrow is our base airport and we can see all the different flight paths to airports across the UK for June 2016. Additionally, the heavier the flight path lines, the heavier the traffic between the two associated airports. For example, Heathrow to Edinburgh is dark blue, which indicates heavy traffic, whereas the lines Heathrow to Leeds Bradford and to Newcastle are light gray, which indicates very little traffic.
 
 You can explore this portal by clicking on the link below.     
 
@@ -241,7 +241,7 @@ After installing ATSD and scrolling though the list of CAA metrics, create your 
 If you require assistance in installing this software or have any questions, please feel free to [contact us](https://axibase.com/feedback/) and we would be happy to be of assistance!
 
     
-### Index: CAA Metric List
+### Appedix: CAA Metric List
 --------------------------
 
 uk-caa.air-pax-by-type-and-nat-of-op.pax_termial_scheduled_uk <br />
