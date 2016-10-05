@@ -12,7 +12,14 @@ What some are the busiest airports in the United Kingdom (UK)?
 
 How often do airplanes get delayed?
 
-To answer such questions, the Civil Aviation Authority (CAA) serves as an independent data specialist for the UK government. Established in 1972, the CAA collects and reports on key aviation metrics which summarize the level of activity at UK airports. According to their website, [caa.co.uk](https://www.caa.co.uk/Data-and-analysis/UK-aviation-market/Airports/Datasets/UK-Airport-data/Airport-data-2016-06/), the CAA collects statistics from more than 60 UK airports. Specific metrics are measured for items such as international and domestic mail shipped to and from UK airports (tons), international passenger traffic to and from UK airports, and terminal passenger totals at different UK airports, among many other metrics. CAA datasets are available in two separate formats: raw datasets and aviation trends.
+To answer such questions, the Civil Aviation Authority (CAA) serves as an independent data specialist for the UK government. Established in 1972, the CAA collects and reports on key aviation metrics which summarize the level of activity at UK airports. According to their website, [caa.co.uk](https://www.caa.co.uk/Data-and-analysis/UK-aviation-market/Airports/Datasets/UK-Airport-data/Airport-data-2016-06/), the CAA collects statistics from more than 60 UK airports. Specific metrics are measured for items such as:
+
+* International passenger traffic to and from UK airports
+* Terminal passenger totals at different UK airports
+* International and domestic mail shipped to and from UK airports (tons)
+* And many more! 
+
+CAA datasets are available in two separate formats: raw datasets and aviation trends.
 
 ### CAA Raw Datasets
 --------------------
@@ -58,7 +65,11 @@ Once you install ATSD, you **don't** have to:
 
 Rather, you can configure a scheduled job to retrieve the file from the specified endpoint and have ATSD parse it according to pre-defined rules. Once you have raw data in ATSD, creating and sharing reports with built-in widgets is fairly trivial. The reports will be continuously updated as new data comes in.
 
-Using the ATSD default portal for CAA metrics, the user has the ability to filter the CAA datasets to their liking. The first filter allows the user to sort by CAA metric. 228 different CAA airport aviation metrics can be filtered for. The figure below shows the first metric in the first dropdown: air passengers totals for January 2015 to February 2016. The second filter allows the user to filter between 55 different UK airports. In this case, all airports have been selected. The third filer allows the user to filter by airport groups (London area, other UK, or no UK reporting airports). In this case, all groups have been selected.  
+Using the ATSD default portal for CAA metrics, the user has the ability to filter the CAA datasets to their liking. The following three filters are applied to the default portal:
+
+* First filter: allows the user to sort by CAA metric. **228** different CAA airport aviation metrics can be filtered for. The figure below shows the first metric in the first dropdown: air passengers totals for January 2015 to February 2016. 
+* Second filter: allows the user to filter between 55 different UK airports. In this case, all airports have been selected. 
+* Third filer allows the user to filter by airport groups (London area, other UK, or no UK reporting airports). In this case, all groups have been selected.  
 
 ![Figure 4](Images/Figure4.png)
 
@@ -163,7 +174,7 @@ The default Chart Lab portal can be found here:
   
 4.  Change the entity name to **uk-caa** and the metric name to **uk-caa.eu-and-other-intl-passenger-traffic.total_pax_eu_last_period**, which was taken from the metric list in ATSD.
 5.  Since we want to display international passenger figures for all available UK airports, create a **[tags]** heading. Under this heading, enter in **airport_name** = * (* is shorthand for all). 
-6.  Under the **[configuration]** heading, enter **timezone = UTC**. 
+6.  In the **[configuration]** heading, enter **timezone = UTC**. 
 7.  Under the **[widget]** heading, delete the line **timespan = 3 hour**. 
 8.  To specific our new timespan, enter in **starttime = 2015-01-01T00:00:00z** and on the next line **endtime = current_month**.
 9.  Modify the **summarize-period** line from 10 minutes to 1 month.
