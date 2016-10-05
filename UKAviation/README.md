@@ -69,7 +69,7 @@ Using the ATSD default portal for CAA metrics, the user has the ability to filte
 
 * First filter: allows the user to sort by CAA metric. **228** different CAA airport aviation metrics can be filtered for. The figure below shows the first metric in the first dropdown: air passengers totals for January 2015 to February 2016. 
 * Second filter: allows the user to filter between 55 different UK airports. In this case, all airports have been selected. 
-* Third filer allows the user to filter by airport groups (London area, other UK, or no UK reporting airports). In this case, all groups have been selected.  
+* Third filter: allows the user to filter by airport groups (London area, other UK, or no UK reporting airports). In this case, all groups have been selected.  
 
 ![Figure 4](Images/Figure4.png)
 
