@@ -88,11 +88,11 @@ We will walk through a brief example on how to customize the default portal to c
 
     ![Figure 5](Images/Figure5.png)
 
-2.  Next, we want to select the one **metric** which we would like to filter for. The first dropdown in Chart Lab only contains the shortened version of the **metric** names. Below is a text file which contains the full raw metric names:
+2.  Next, we want to select the one **metric** which we would like to filter for. The first dropdown in Chart Lab only contains the shortened version of the **metric** names. Here is a text file which contains the full raw metric names: [uk-caa-metrics.txt]( uk-caa-metrics.txtMagnifier)
 
-    [uk-caa-metrics.txt]( uk-caa-metrics.txtMagnifier)
+    ![Figure 21](Images/Figure21.png)
 
-    If you have installed ATSD, you will want to navigate to the metric list to see the corresponding names. You will need to log into your [ATSD account](https://atsd_server:8443/) to view the full raw metric names, which must be used in the configuration. The image below contains the standard view after you have logged in. Press **Entities**. 
+    If you have installed ATSD, you will want to navigate to the metric list to see the corresponding names. You will need to log into your [ATSD account](https://atsd_server:8443/) to view the full raw metric names, which must be used in the configuration. The image below contains the standard view after you have logged in. Press **Entities**.
 
     ![Figure 6](Images/Figure6.png)
     
