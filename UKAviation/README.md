@@ -235,13 +235,23 @@ The default Chart Lab portal can be found here:
 ### Example 3
 -------------
 
-This is an advanced example using a graph Widget to show traffic distribution between different UK airports for a given time period. This figure shows a single base airport and all of the associated destination airports, which are connected by dashed lines. In the figure below, Heathrow is our base airport and we can see all the different flight paths to airports across the UK for June 2016. Additionally, the heavier the flight path lines, the heavier the traffic between the two associated airports. For example, Heathrow to Edinburgh is dark blue, which indicates heavy traffic, whereas the lines Heathrow to Leeds Bradford and to Newcastle are light gray, which indicates very little traffic.
+This is an advanced example using a graph Widget to show passenger traffic distribution between different UK airports for a given time period. This figure shows a single base airport and all of the associated destination airports, which are connected by flight path lines. These lines are drawn going from the base airport to aiport "x", and from airport "x" back to the base airport. Additionally, values from the dataset are projected onto their respective flight path lines. In the figure below, Heathrow is our base airport and we can see all the available flight paths to airports across the UK for May 2016. The heavier the flight path lines, the heavier the traffic between the two associated airports. The CAA dataset for this figure can be found [here](https://www.caa.co.uk/uploadedFiles/CAA/Content/Standard_Content/Data_and_analysis/Datasets/Airport_stats/Airport_data_2016_05/Table_12_3_Dom_Air_Pax_Route_Analysis_by_Each_Reporting_Airport_PDF.pdf).
+
+![Figure 22](Images/Figure22.png)
+
+The two connections between Heathrow and Edinburgh are dark blue, which indicates heavy traffic. We can observe that the total passengers in May 2016 from Heathrow to Edinburg was 95,569, and 92,342 for the trip from Edinburg to Heathrow. We can see 48,566 passengers travelled from Heathrow to Aberdeen, and that 48,577 passengers travelled back from Aberdeen to Heathrow. Additionally, observing the figure, the user can observe the fact that there was **no** passenger traffic from quite a number of airports, including Coventry Shoreham, Prestwick, Exeter, and Humberside to name a few. 
+
+The user can change the base airport quite easily by modifying the configuration. You simply need to change the **var baseAirport** from **HEATHROW** to any airport you would like to see air passenger totals and connectivity for. 
+
+![Figure 25](Images/Figure25.png)
+
+Let us change **var baseAirport** to **MANCHESTER**. Below is an image with passenger traffic distribution for Manchester to other UK airports for May 2016.
+
+![Figure 26](Images/Figure26.png)
 
 You can explore this portal by clicking on the link below.     
 
-[![](Images/button.png)](https://apps.axibase.com/chartlab/e6822a69/3/)
-
-![Figure 22](Images/Figure22.png)
+[![](Images/button.png)](https://apps.axibase.com/chartlab/e6822a69/5/)
 
 ### Action Items
 ----------------
