@@ -69,7 +69,7 @@ Rather, you can configure a scheduled job to retrieve the file from the specifie
 
 Using the ATSD default portal for CAA metrics, the user has the ability to filter the CAA datasets to their liking. The following three filters are applied to the default portal:
 
-* First filter: allows the user to sort by CAA metric. **228** different CAA airport aviation metrics can be filtered for. These metrics may be found in the [Appendix](https://github.com/axibase/atsd-use-cases/tree/master/UKAviation#appendix-caa-metric-list). The figure below shows the first metric in the first dropdown: terminal passengers totals for January 2015 to February 2016. 
+* First filter: allows the user to sort by CAA metric. **228** different CAA airport aviation metrics can be filtered for. These metrics may be found in the [Appendix](https://github.com/axibase/atsd-use-cases/blob/master/UKAviation/README.md#appendix-caa-metric-list). The figure below shows the first metric in the first dropdown: terminal passengers totals for January 2015 to February 2016. 
 * Second filter: allows the user to filter between 55 different UK airports. In this case, all airports have been selected. 
 * Third filter: allows the user to filter by airport groups (London area, other UK, or no UK reporting airports). In this case, all groups have been selected.  
 
@@ -101,7 +101,7 @@ We will walk through a brief example on how to customize the default portal to c
 
     ![Figure 5](Images/Figure5.png)
 
-2.  Next, we want to select the one **metric** which we would like to filter for. The first dropdown in Chart Lab only contains the shortened version of the **metric** names. Here is a text file which contains the full raw metric names: [uk-caa-metrics.txt](uk-caa-metrics.txtMagnifier). A complete list of metrics is also available in the [Appendix](https://github.com/axibase/atsd-use-cases/tree/master/UKAviation#appendix-caa-metric-list).
+2.  Next, we want to select the one **metric** which we would like to filter for. The first dropdown in Chart Lab only contains the shortened version of the **metric** names. Here is a text file which contains the full raw metric names: [uk-caa-metrics.txt](uk-caa-metrics.txtMagnifier). A complete list of metrics is also available in the [Appendix](https://github.com/axibase/atsd-use-cases/blob/master/UKAviation/README.md#appendix-caa-metric-list).
 
     ![Figure 21](Images/Figure21.png)
 
